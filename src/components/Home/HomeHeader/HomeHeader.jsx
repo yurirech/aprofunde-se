@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
-import headerBackground from  '../../../assets/img/travel-pin.jpg'
+import { Title, Content, SubTitle } from './HomeHeaderStyled'
+
+
 
 class HomeHeader extends Component {
   render() {
     return (
-      <div className='header'>
-        <img src={ headerBackground }
-             alt="travel-header"/>
-      </div>
+      <Content className='header'>
+        <Title>Aprofunde-se</Title>
+        <SubTitle> <span>Aprofunde-se</span> na expansão da sua própria percepção de mundo</SubTitle>
+      </Content>
     );
   }
 }
