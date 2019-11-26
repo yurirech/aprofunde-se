@@ -5,6 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import HomeCardsSection from "./HomeCardsSection/HomeCardsSection";
 import { cardContent } from "./HomeContent";
 import HomeAboutNetherlands from "./HomeAboutNetherlands/HomeAboutNetherlands";
+import HomeWhatWillYouSee from "./HomeWhatYouWillSee/HomeWhatWillYouSee";
+import HomeTours from "./HomeTours/HomeTours";
 
 class Home extends Component {
   render() {
@@ -24,6 +26,12 @@ class Home extends Component {
         { cardContentList }
         <Col lg={12}>
           <HomeAboutNetherlands />
+        </Col>
+        <Col lg={12}>
+          <HomeWhatWillYouSee />
+        </Col>
+        <Col lg={12}>
+          <HomeTours />
         </Col>
       </Row>
       </Container>
