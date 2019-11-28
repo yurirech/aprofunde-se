@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
 import { Card } from "react-bootstrap";
-
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { HomeCard } from "./HomeCardsSectionStyled";
 
 class HomeCardsSection extends Component {
   render() {
     return (
-      <Card>
-        <Card.Body>
+      <HomeCard>
+        <Card.Body className='card-body'>
           <Card.Title>
-            LALALALALA
+            <FontAwesomeIcon size='2x' icon={this.props.cardContent.icon}/>
           </Card.Title>
           <Card.Text >
-            {this.props.cardContent}
+            {this.props.cardContent.content}
           </Card.Text>
         </Card.Body>
-      </Card>
+      </HomeCard>
     );
   }
 }

@@ -1,18 +1,24 @@
 import styled from 'styled-components';
-import headerBackground from  '../../../assets/img/header-map.jpg';
+import headerBackground from  '../../../assets/img/header-nather.png';
 
 export const Title = styled.h1`
-  font-size: 2rem;
-  color: pink;
+  font-size: 3rem;
 `;
 
 export const Content = styled.div`
   background: url(${headerBackground});
-  height: 250px;
+  background-position-y: -5rem;
+  padding: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  h4, h1 {
+    color: white;
+    text-align: left;
+  }
 `;
 
 export const SubTitle = styled.h4`
-  span {
-    color: blue;
-  }
+  font-style: italic;
+  font-weight: lighter;
 `;

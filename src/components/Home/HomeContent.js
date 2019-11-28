@@ -3,10 +3,16 @@ export const headerContent = {
   subTitle: `na expansão da sua própria percepção de mundo`
 };
 
- export const cardContent = ['Para você que tem interesse em viajar mas acaba indo sempre aos mesmos destinos populares e cheios ' +
-'de turistas.\n',
-  'Para você que quer conhecer a fundo sobre a vida na Holanda, você que desconfia que existe mais neste país do que ' +
-  'somente Amsterdam.'];
+ export const cardContent = [{
+
+   icon: 'plane',
+   content: 'Para você que tem interesse em viajar mas acaba indo sempre aos mesmos destinos populares e cheios de turistas.'
+ },
+   {
+     icon: 'map-marked-alt',
+     content: 'Para você que quer conhecer a fundo sobre a vida na Holanda, você que desconfia que existe mais neste país do que somente Amsterdam.'
+   }
+  ];
 
 export const aboutNetherlandsContent = {
   title: 'Sobre a Holanda',

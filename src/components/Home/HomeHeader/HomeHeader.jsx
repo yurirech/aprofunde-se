@@ -8,7 +8,7 @@ class HomeHeader extends Component {
     return (
       <Content className='header'>
         <Title>{headerContent.title}</Title>
-        <SubTitle><span>{headerContent.title}</span> {headerContent.subTitle}</SubTitle>
+        <SubTitle>"{headerContent.title} {headerContent.subTitle}"</SubTitle>
       </Content>
     );
   }
