@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
-import headerBackground from  '../../../assets/img/travel-pin.jpg'
+import { Title, Content, SubTitle } from './HomeHeaderStyled'
+import { headerContent } from "../HomeContent";
+
 
 class HomeHeader extends Component {
   render() {
     return (
-      <div className='header'>
-        <img src={ headerBackground }
-             alt="travel-header"/>
-      </div>
+      <Content className='header'>
+        <Title>{headerContent.title}</Title>
+        <SubTitle>"{headerContent.title} {headerContent.subTitle}"</SubTitle>
+      </Content>
     );
   }
 }
