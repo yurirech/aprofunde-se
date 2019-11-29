@@ -3,6 +3,7 @@ import {Card} from "react-bootstrap";
 
 export const HomeCard = styled(Card)`
   height: 100%;
+  border-radius: 1rem!important;
   
   .card-body {
     display: flex;
@@ -19,6 +20,7 @@ export const HomeCard = styled(Card)`
         font-weight: bold;
         font-style: italic;
         text-align: left;
+        font-size: .85rem;
         color: var(--aprofunde-se-dark-green);
       }
   }

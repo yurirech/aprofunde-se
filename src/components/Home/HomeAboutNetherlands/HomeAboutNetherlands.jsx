@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import './HomeAboutNetherlandsStyled'
-import  {aboutNetherlandsContent } from "../HomeContent";
+import {Content} from "./HomeAboutNetherlandsStyled";
+import  { aboutNetherlandsContent } from "../HomeContent";
 
 class HomeAboutNetherlands extends Component {
   render() {
     return (
-      <div>
+      <Content>
         <h1>{aboutNetherlandsContent.title}</h1>
         <p> {aboutNetherlandsContent.subTitle}</p>
-      </div>
+      </Content>
     );
   }
 }

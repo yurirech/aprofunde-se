@@ -29,12 +29,12 @@ class Home extends Component {
           <Col lg={12} className='about-netherlands'>
             <HomeAboutNetherlands />
           </Col>
-          <Col lg={12} className='will-see'>
-            <HomeWhatWillYouSee />
-          </Col>
-          <Col lg={12} className='tours'>
-            <HomeTours />
-          </Col>
+            <Col lg={12} className='will-see'>
+              <HomeWhatWillYouSee />
+            </Col>
+            <Col lg={12} className='tours'>
+              <HomeTours />
+            </Col>
         </RowStyled>
       </Container>
     );

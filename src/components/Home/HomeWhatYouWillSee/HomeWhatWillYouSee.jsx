@@ -6,8 +6,8 @@ class HomeWhatWillYouSee extends Component {
   render() {
     return (
       <Content>
-        <div>
-          <h3>{whatWillYouSeeContent.title}</h3>
+        <div className="content-wrapper">
+          <h1>{whatWillYouSeeContent.title}</h1>
           <p>{whatWillYouSeeContent.mainText}</p>
         </div>
       </Content>
