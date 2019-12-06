@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed8b05b-d7ac-47e0-a443-bf4d3163f593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/header-nather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/HomeStyled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aprofunde-se.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aprofunde-se.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/housesTour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/millsTour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/new-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPicture.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPictureStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIconStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIcons.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSectionStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSectionStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CardWithIcon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSectionStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CarWithIconStyled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/HomeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeaderStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeaderStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeTours/HomeTours.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CentrilizedSection/CentralizedSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeTours/HomeToursStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CentrilizedSection/CentrilizedSectionStyled.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +57,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Rainbow Brackets" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\Home\HomeHeader" />
-      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\SharedComponents" />
+      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\Home\HomeHeader" />
+      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,6 +118,19 @@
       <workItem from="1574955675885" duration="1087000" />
       <workItem from="1574956811103" duration="5062000" />
       <workItem from="1574962297816" duration="332000" />
+      <workItem from="1575023659065" duration="489000" />
+      <workItem from="1575024609937" duration="5032000" />
+      <workItem from="1575044731798" duration="6170000" />
+      <workItem from="1575282858108" duration="22000" />
+      <workItem from="1575456396094" duration="5021000" />
+      <workItem from="1575464878435" duration="15000" />
+      <workItem from="1575479787819" duration="6027000" />
+      <workItem from="1575540337343" duration="25000" />
+      <workItem from="1575563847482" duration="5184000" />
+      <workItem from="1575625971858" duration="142000" />
+      <workItem from="1575632087486" duration="2012000" />
+      <workItem from="1575650062172" duration="3421000" />
+      <workItem from="1575654378991" duration="4751000" />
     </task>
     <servers />
   </component>
