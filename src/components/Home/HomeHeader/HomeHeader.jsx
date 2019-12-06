@@ -1,14 +1,18 @@
 import React, {Component} from 'react';
 import { Title, Content, SubTitle } from './HomeHeaderStyled'
-import { headerContent } from "../HomeContent";
 
 
 class HomeHeader extends Component {
+
+  subTitle;
+
   render() {
     return (
       <Content className='header'>
-        <Title>{headerContent.title}</Title>
-        <SubTitle>"{headerContent.title} {headerContent.subTitle}"</SubTitle>
+        <div className='br-1rem'>
+          <Title>{ this.props.title } </Title>
+          <SubTitle>{ this.props.subTitle }</SubTitle>
+        </div>
       </Content>
     );
   }

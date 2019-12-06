@@ -14,7 +14,22 @@
   //  color: #0f0 !important;
   //  outline: solid #f00 1px !important;
   //}
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .br-1rem {
+    border-radius: 1rem;
+  }
 }
+
 
 
 

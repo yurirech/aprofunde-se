@@ -2,9 +2,9 @@ import styled from "styled-components";
 import {Row} from "react-bootstrap";
 
 export const RowStyled = styled(Row)` 
-  h1 {
-    font-weight: bold;
-  }
+    h1 {
+      font-weight: bold;
+    }
   
   .header {
     position: relative;
@@ -22,6 +22,12 @@ export const RowStyled = styled(Row)`
       
     }
   }
+  
+  .tours {
+    padding: 7% 15% !important;
+    
+  }
+  
   .web-body {
     
   }

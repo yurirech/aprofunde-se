@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed8b05b-d7ac-47e0-a443-bf4d3163f593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/the-hague.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/housesTour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/millsTour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/new-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPicture.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPictureStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIconStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIcons.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/header-nather.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header-nather.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeAboutNetherlands/HomeAboutNetherlands.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeAboutNetherlands/HomeAboutNetherlands.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeAboutNetherlands/HomeAboutNetherlandsStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeAboutNetherlands/HomeAboutNetherlandsStyled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSectionStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSectionStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CardWithIcon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSectionStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CarWithIconStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeaderStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeaderStyled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/HomeStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeStyled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeWhatYouWillSee/HomeWhatWillYouSee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeWhatYouWillSee/HomeWhatWillYouSee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeWhatYouWillSee/HomeWhatWillYouSeeStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeWhatYouWillSee/HomeWhatWillYouSeeStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeTours/HomeTours.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CentrilizedSection/CentralizedSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeTours/HomeToursStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CentrilizedSection/CentrilizedSectionStyled.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +65,7 @@
       <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\SharedComponents" />
       <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\Home\HomeHeader" />
       <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components" />
     </key>
@@ -111,7 +120,17 @@
       <workItem from="1574962297816" duration="332000" />
       <workItem from="1575023659065" duration="489000" />
       <workItem from="1575024609937" duration="5032000" />
-      <workItem from="1575044731798" duration="4861000" />
+      <workItem from="1575044731798" duration="6170000" />
+      <workItem from="1575282858108" duration="22000" />
+      <workItem from="1575456396094" duration="5021000" />
+      <workItem from="1575464878435" duration="15000" />
+      <workItem from="1575479787819" duration="6027000" />
+      <workItem from="1575540337343" duration="25000" />
+      <workItem from="1575563847482" duration="5184000" />
+      <workItem from="1575625971858" duration="142000" />
+      <workItem from="1575632087486" duration="2012000" />
+      <workItem from="1575650062172" duration="3421000" />
+      <workItem from="1575654378991" duration="4751000" />
     </task>
     <servers />
   </component>
