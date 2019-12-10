@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: "Poppins", serif;
+  //font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 
   --aprofunde-se-black: #05030C;
   --aprofunde-se-green: #09814A;
@@ -23,6 +24,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .flex-col {
+    flex-direction: column;
   }
 
   .br-1rem {

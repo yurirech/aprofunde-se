@@ -6,7 +6,7 @@ class AvatarPicture extends Component {
   avatarImg;
   render() {
     return (
-      <Avatar>
+      <Avatar className='flex-center'>
         <ImageFluid style={{background: 'url(' + this.props.avatarImg + ')', backgroundSize: 'cover',
           backgroundPosition: 'center' }} alt=''/>
       </Avatar>

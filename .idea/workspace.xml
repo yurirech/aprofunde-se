@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed8b05b-d7ac-47e0-a443-bf4d3163f593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/housesTour.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/millsTour.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/new-header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPicture.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPictureStyled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIconStyled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIcons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/adventure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/arrow-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/culture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/nature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/relaxe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/technology.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CardWithIcon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeCardsSection/HomeCardsSectionStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CarWithIconStyled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/HomeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeaderStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeHeader/HomeHeaderStyled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/HomeStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeStyled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeTours/HomeTours.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CentrilizedSection/CentralizedSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeTours/HomeToursStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/CentrilizedSection/CentrilizedSectionStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/TourCard/TourCardStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/TourCard/TourCardStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPicture.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPicture.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPictureStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPictureStyled.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +57,14 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\assets\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\Home\HomeContactForm" />
       <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\SharedComponents" />
       <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components\Home\HomeHeader" />
       <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yuri\WebstormProjects\untitled1\src\assets\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,6 +128,15 @@
       <workItem from="1575632087486" duration="2012000" />
       <workItem from="1575650062172" duration="3421000" />
       <workItem from="1575654378991" duration="4751000" />
+      <workItem from="1575719143264" duration="12412000" />
+      <workItem from="1575809354578" duration="2149000" />
+      <workItem from="1575811790878" duration="1602000" />
+      <workItem from="1575886680475" duration="145000" />
+      <workItem from="1575908984387" duration="1017000" />
+      <workItem from="1575910585786" duration="876000" />
+      <workItem from="1575911707873" duration="2350000" />
+      <workItem from="1575972845327" duration="33000" />
+      <workItem from="1575995035719" duration="6614000" />
     </task>
     <servers />
   </component>
