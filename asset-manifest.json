@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/aprofunde-se/static/css/main.69066c75.chunk.css",
+    "main.js": "/aprofunde-se/static/js/main.5ff17b91.chunk.js",
+    "main.js.map": "/aprofunde-se/static/js/main.5ff17b91.chunk.js.map",
+    "runtime-main.js": "/aprofunde-se/static/js/runtime-main.301e9a01.js",
+    "runtime-main.js.map": "/aprofunde-se/static/js/runtime-main.301e9a01.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "/aprofunde-se/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.b2e859cf.chunk.js": "/aprofunde-se/static/js/2.b2e859cf.chunk.js",
+    "static/js/2.b2e859cf.chunk.js.map": "/aprofunde-se/static/js/2.b2e859cf.chunk.js.map",
+    "index.html": "/aprofunde-se/index.html",
+    "precache-manifest.7a3e1dbd564c4ea6d5bbf6feba3aa054.js": "/aprofunde-se/precache-manifest.7a3e1dbd564c4ea6d5bbf6feba3aa054.js",
+    "service-worker.js": "/aprofunde-se/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "/aprofunde-se/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.69066c75.chunk.css.map": "/aprofunde-se/static/css/main.69066c75.chunk.css.map",
+    "static/media/adventure.jpg": "/aprofunde-se/static/media/adventure.85154f6f.jpg",
+    "static/media/arrow-left.png": "/aprofunde-se/static/media/arrow-left.a3c3f497.png",
+    "static/media/arrow-right.png": "/aprofunde-se/static/media/arrow-right.03b57546.png",
+    "static/media/culture.jpg": "/aprofunde-se/static/media/culture.4e13ecd3.jpg",
+    "static/media/header-map.jpg": "/aprofunde-se/static/media/header-map.18426685.jpg",
+    "static/media/housesTour.jpg": "/aprofunde-se/static/media/housesTour.efee5359.jpg",
+    "static/media/millsTour.jpg": "/aprofunde-se/static/media/millsTour.36e3dc04.jpg",
+    "static/media/nature.jpg": "/aprofunde-se/static/media/nature.68c4db86.jpg",
+    "static/media/new-header.jpg": "/aprofunde-se/static/media/new-header.a99d5bee.jpg",
+    "static/media/relaxe.jpg": "/aprofunde-se/static/media/relaxe.d8f68b99.jpg",
+    "static/media/technology.jpg": "/aprofunde-se/static/media/technology.e624a339.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.301e9a01.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.b2e859cf.chunk.js",
+    "static/css/main.69066c75.chunk.css",
+    "static/js/main.5ff17b91.chunk.js"
+  ]
+}
