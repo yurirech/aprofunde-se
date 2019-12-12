@@ -6,8 +6,6 @@ import aventureSe from '../../assets/img/adventure.jpg';
 import naturezeSe from '../../assets/img/nature.jpg';
 import relaxeSe from '../../assets/img/relaxe.jpg';
 import tecnologieSe from '../../assets/img/technology.jpg';
-import {Form} from "react-bootstrap";
-import React from "react";
 
 export const headerContent = {
   title: 'Organize a sua próxima viagem com o Aprofunde-se',
@@ -25,18 +23,18 @@ export const headerContent = {
  //   }
  //  ];
 
-export const aboutNetherlandsContent = {
-  title: 'Sobre a Holanda',
-  subTitle: 'A Holanda, ou Países Baixos, é um dos centros culturais e econômicos de maior importância no mundo e ' +
-    'costuma estar sempre a frente no estabelecimento de regras sociais modernas e legislação liberal, ditando tendências. '
-};
-
-
-export const whatWillYouSeeContent = {
-  title: 'Sobre o que vamos falar?',
-  mainText: 'Discutiremos Arte, Turismo, Sustentabilidade, Estilos de vida e curiosidades em geral, enquanto ' +
-    'proporcionamos tours personalizados, confortáveis e pessoais\n'
-};
+// export const aboutNetherlandsContent = {
+//   title: 'Sobre a Holanda',
+//   subTitle: 'A Holanda, ou Países Baixos, é um dos centros culturais e econômicos de maior importância no mundo e ' +
+//     'costuma estar sempre a frente no estabelecimento de regras sociais modernas e legislação liberal, ditando tendências. '
+// };
+//
+//
+// export const whatWillYouSeeContent = {
+//   title: 'Sobre o que vamos falar?',
+//   mainText: 'Discutiremos Arte, Turismo, Sustentabilidade, Estilos de vida e curiosidades em geral, enquanto ' +
+//     'proporcionamos tours personalizados, confortáveis e pessoais\n'
+// };
 
 export const homeTours = {
   title: 'Tours',
@@ -155,26 +153,26 @@ export const formNumberOfNights = [
   {
     type: 'radio',
     label:'5 diárias',
-    name: 'five-nights',
-    id: '1'
+    name: 'number-of-nights',
+    id: 'five-nights'
   },
   {
     type: 'radio',
     label:'7 diárias',
-    name: 'seven-nights',
-    id: '2'
+    name: 'number-of-nights',
+    id: 'seven-nights'
   },
   {
     type: 'radio',
     label:'9 diárias',
-    name: 'nine-nights',
-    id: '3'
+    name: 'number-of-nights',
+    id: 'nine-nights'
   },
   {
     type: 'radio',
     label:'NDA',
-    name: 'none',
-    id: '4'
+    name: 'number-of-nights',
+    id: 'none'
   }
 ];
 
@@ -183,31 +181,31 @@ export const formTypeofTrip = [
     type: 'checkbox',
     label:'Relaxe-se',
     name: 'relax',
-    id: '1'
+    id: 'relax'
   },
   {
     type: 'checkbox',
     label:'Aventure-se',
     name: 'adventure',
-    id: '2'
+    id: 'adventure'
   },
   {
     type: 'checkbox',
     label:'Natureze-se',
     name: 'nature',
-    id: '3'
+    id: 'nature'
   },
   {
     type: 'checkbox',
     label:'Culture-se',
     name: 'culture',
-    id: '4'
+    id: 'culture'
   },
   {
     type: 'checkbox',
     label:'Tecnoligie-se',
     name: 'technology',
-    id: '5'
+    id: 'technology'
   }
 ];
 
@@ -217,37 +215,37 @@ export const formTypeOfAccomodation = [
     type: 'checkbox',
     label:'Hotel 5*',
     name: 'five-star',
-    id: '1'
+    id: 'five-star'
   },
   {
     type: 'checkbox',
     label:'Hotel 4*',
     name: 'four-star',
-    id: '2'
+    id: 'four-star'
   },
   {
     type: 'checkbox',
     label:'Acomodações especiais únicas',
     name: 'unique',
-    id: '3'
+    id: 'unique'
   },
   {
     type: 'checkbox',
     label:'Fora da cidade',
     name: 'outside-city',
-    id: '4'
+    id: 'outside-city'
   },
   {
     type: 'checkbox',
     label:'Dentro da cidade',
     name: 'inside-city',
-    id: '5'
+    id: 'inside-city'
   },
   {
     type: 'checkbox',
     label:'Não me importo',
-    name: 'none',
-    id: '6'
+    name: 'dont-care',
+    id: 'dont-care'
   }
 ];
 

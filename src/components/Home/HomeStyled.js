@@ -32,6 +32,7 @@ export const RowStyled = styled(Row)`
   }
   
   .contact {
+    margin-top: 5rem;
     background-color: var(--aprofunde-se-orange);
   }
 `;

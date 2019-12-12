@@ -8,7 +8,7 @@ import ListWithIcons from "../SharedComponents/ListWithIcon/ListWithIcons";
 import TourCard from "./TourCard/TourCard";
 import AvatarPicture from "../SharedComponents/AvatarPicture/AvatarPicture";
 import CarouselWithArrows from "../SharedComponents/CarouselWithArrows/CarouselWithArrows";
-import HomeContactForm from "./HomeContactForm/HomeContactForm";
+import ContactForm from "../ContactForm/ContactForm";
 
 
 
@@ -51,8 +51,8 @@ class Home extends Component {
                 <CarouselWithArrows />
               </Col>
             </Row>
-            <Col lg={{span: 8, offset: 2}} noGutters={true} className='contact'>
-              <HomeContactForm />
+            <Col lg={12} className='contact'>
+              <ContactForm />
             </Col>
         </RowStyled>
       </Container>

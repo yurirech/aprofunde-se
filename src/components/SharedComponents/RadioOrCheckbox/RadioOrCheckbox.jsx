@@ -5,6 +5,7 @@ class RadioOrCheckbox extends Component {
   render() {
     return (
       <Form.Check
+        custom
         type={this.props.type}
         label={this.props.label}
         name={this.props.name}
