@@ -23,12 +23,16 @@ export const RowStyled = styled(Row)`
     }
   }
   
-  .tours {
-    padding: 7% 15% !important;
-    
+  .tours, .dayTours {
+    padding: 7% 15% !important;    
+  }
+
+  .tourCards {
+    padding: 1rem 4rem;
   }
   
-  .web-body {
-    
+  .contact {
+    margin-top: 5rem;
+    background-color: var(--aprofunde-se-orange);
   }
 `;

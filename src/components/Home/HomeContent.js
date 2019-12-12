@@ -1,6 +1,11 @@
 import embrenhaSe from '../../assets/img/housesTour.jpg';
 import entranheSe from '../../assets/img/millsTour.jpg';
 import entregueSe from '../../assets/img/header-map.jpg';
+import cultureSe from '../../assets/img/culture.jpg';
+import aventureSe from '../../assets/img/adventure.jpg';
+import naturezeSe from '../../assets/img/nature.jpg';
+import relaxeSe from '../../assets/img/relaxe.jpg';
+import tecnologieSe from '../../assets/img/technology.jpg';
 
 export const headerContent = {
   title: 'Organize a sua próxima viagem com o Aprofunde-se',
@@ -18,18 +23,18 @@ export const headerContent = {
  //   }
  //  ];
 
-export const aboutNetherlandsContent = {
-  title: 'Sobre a Holanda',
-  subTitle: 'A Holanda, ou Países Baixos, é um dos centros culturais e econômicos de maior importância no mundo e ' +
-    'costuma estar sempre a frente no estabelecimento de regras sociais modernas e legislação liberal, ditando tendências. '
-};
-
-
-export const whatWillYouSeeContent = {
-  title: 'Sobre o que vamos falar?',
-  mainText: 'Discutiremos Arte, Turismo, Sustentabilidade, Estilos de vida e curiosidades em geral, enquanto ' +
-    'proporcionamos tours personalizados, confortáveis e pessoais\n'
-};
+// export const aboutNetherlandsContent = {
+//   title: 'Sobre a Holanda',
+//   subTitle: 'A Holanda, ou Países Baixos, é um dos centros culturais e econômicos de maior importância no mundo e ' +
+//     'costuma estar sempre a frente no estabelecimento de regras sociais modernas e legislação liberal, ditando tendências. '
+// };
+//
+//
+// export const whatWillYouSeeContent = {
+//   title: 'Sobre o que vamos falar?',
+//   mainText: 'Discutiremos Arte, Turismo, Sustentabilidade, Estilos de vida e curiosidades em geral, enquanto ' +
+//     'proporcionamos tours personalizados, confortáveis e pessoais\n'
+// };
 
 export const homeTours = {
   title: 'Tours',
@@ -96,5 +101,152 @@ export const toursCard = [
   }
   ];
 
+export const dayTours = {
+  title: 'Passeios',
+  mainText: 'Nos comprometemos em providenciar todas as informações e ferramentas necessárias para a viagem perfeita. ' +
+    'Veja abaixo as ofertas de serviços, personalizadas de acordo com as necessidades de cada cliente. Fique à vontade ' +
+    'para entrar em contato diretamente se tiver perguntas.',
+
+  carousel: [
+    {
+      carouselTitle: 'Relaxe-se',
+      carouselImage: relaxeSe
+    },
+    {
+      carouselTitle: 'Culture-se',
+      carouselImage: cultureSe
+    },
+    {
+      carouselTitle: 'Aventure-se',
+      carouselImage: aventureSe
+    },
+    {
+      carouselTitle: 'Natureze-se',
+      carouselImage: naturezeSe
+    },
+    {
+      carouselTitle: 'Tecnologie-se',
+      carouselImage: tecnologieSe
+    }
+  ]
+};
+
+export const contactForm = [
+  {
+    controlId: 'email',
+    type: 'email',
+    placeholder: 'E-mail'
+  },
+  {
+    controlId: 'nome',
+    type: 'text',
+    placeholder: 'Nome'
+  },
+  {
+    controlId: 'preferences',
+    type: 'text',
+    placeholder: 'Quantos viajantes e quantos quartos deseja?'
+  }
+  ];
+
+export const formNumberOfNights = [
+  {
+    type: 'radio',
+    label:'5 diárias',
+    name: 'number-of-nights',
+    id: 'five-nights'
+  },
+  {
+    type: 'radio',
+    label:'7 diárias',
+    name: 'number-of-nights',
+    id: 'seven-nights'
+  },
+  {
+    type: 'radio',
+    label:'9 diárias',
+    name: 'number-of-nights',
+    id: 'nine-nights'
+  },
+  {
+    type: 'radio',
+    label:'NDA',
+    name: 'number-of-nights',
+    id: 'none'
+  }
+];
+
+export const formTypeofTrip = [
+  {
+    type: 'checkbox',
+    label:'Relaxe-se',
+    name: 'relax',
+    id: 'relax'
+  },
+  {
+    type: 'checkbox',
+    label:'Aventure-se',
+    name: 'adventure',
+    id: 'adventure'
+  },
+  {
+    type: 'checkbox',
+    label:'Natureze-se',
+    name: 'nature',
+    id: 'nature'
+  },
+  {
+    type: 'checkbox',
+    label:'Culture-se',
+    name: 'culture',
+    id: 'culture'
+  },
+  {
+    type: 'checkbox',
+    label:'Tecnoligie-se',
+    name: 'technology',
+    id: 'technology'
+  }
+];
+
+
+export const formTypeOfAccomodation = [
+  {
+    type: 'checkbox',
+    label:'Hotel 5*',
+    name: 'five-star',
+    id: 'five-star'
+  },
+  {
+    type: 'checkbox',
+    label:'Hotel 4*',
+    name: 'four-star',
+    id: 'four-star'
+  },
+  {
+    type: 'checkbox',
+    label:'Acomodações especiais únicas',
+    name: 'unique',
+    id: 'unique'
+  },
+  {
+    type: 'checkbox',
+    label:'Fora da cidade',
+    name: 'outside-city',
+    id: 'outside-city'
+  },
+  {
+    type: 'checkbox',
+    label:'Dentro da cidade',
+    name: 'inside-city',
+    id: 'inside-city'
+  },
+  {
+    type: 'checkbox',
+    label:'Não me importo',
+    name: 'dont-care',
+    id: 'dont-care'
+  }
+];
 
 
