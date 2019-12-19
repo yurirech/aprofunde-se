@@ -7,11 +7,11 @@ class CarouselWithArrows extends Component {
   render() {
 
     let carouselItem = dayTours.carousel.map((content, i) =>
-      <Carousel.Item>
-        <div style={{ color: 'var(--aprofunde-se-orange)' }} className='flex align-items-center'>
-          <h5>{content.carouselTitle}</h5>
+      <Carousel.Item key={i}>
+        <div key={i} style={{ color: 'var(--aprofunde-se-orange)' }} className='flex align-items-center'>
+          <h5 key={i}>{content.carouselTitle}</h5>
           <img
-            style={{ marginLeft: 'auto'}}
+            key={content.id}
             className="carousel-img"
             src={content.carouselImage}
             alt=""

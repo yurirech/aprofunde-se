@@ -25,7 +25,7 @@ class ContactForm extends Component {
      );
 
     return (
-        <Col lg={{span: 8, offset: 2}}>
+        <Col lg={{span: 8, offset: 2}} >
           <ContactFormWrapper>
             <h1>Entre em contato</h1>
             { inputField }

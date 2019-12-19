@@ -22,6 +22,7 @@ export const Content = styled.div`
 
 .carousel-img {
   width: 40%;
+  margin-left: auto;
 }
 
 .carousel-control-next-icon {
@@ -34,5 +35,32 @@ export const Content = styled.div`
   background-image: url('${leftArrow}');
   width: 30%;
   height: 15%;
+}
+
+@media(max-width: 768px) {
+
+   h5 {
+    font-size: 2.25rem;
+    line-height: 2.2;
+   }
+  
+  .flex {
+  flex-direction: column;
+  }
+  
+  .carousel-img {
+    border-radius: 50%;
+    width: 80%;
+    margin-left: unset;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-control-next {
+  display: none;
+}
+
+.carousel-control-prev {
+  display: none;
+}
 }
 `;

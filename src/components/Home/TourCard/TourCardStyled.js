@@ -34,5 +34,13 @@ export const Content = styled.div`
     line-height: 2.2rem;
     font-weight: bold;
   }
+  
+  @media(max-width: 768px) {
+    p {
+      font-size: 1rem;
+      max-height: unset;
+      padding: unset;
+    }
+  }
 `;
 

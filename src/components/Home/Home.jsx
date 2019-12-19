@@ -10,9 +10,6 @@ import AvatarPicture from "../SharedComponents/AvatarPicture/AvatarPicture";
 import CarouselWithArrows from "../SharedComponents/CarouselWithArrows/CarouselWithArrows";
 import ContactForm from "../ContactForm/ContactForm";
 
-
-
-
 class Home extends Component {
   render() {
 
