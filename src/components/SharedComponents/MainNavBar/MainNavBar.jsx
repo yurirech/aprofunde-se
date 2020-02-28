@@ -15,10 +15,10 @@ const MainNavBar = ({onRouteChange}) => {
           <Nav className="ml-auto">
             <Nav.Link onClick={() => onRouteChange('home') }>Início</Nav.Link>
             <Nav.Link onClick={() => onRouteChange('about') }>Sobre</Nav.Link>
-            <NavDropdown title="Tours" id="tours">
-              <NavDropdown.Item href="#action/3.1">Embrenhe-se</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Entranha-se</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Entregue-se</NavDropdown.Item>
+            <NavDropdown  title="Tours" id="tours">
+              <NavDropdown.Item  onClick={() => onRouteChange('embrenhe-se') }>Embrenhe-se</NavDropdown.Item>
+              <NavDropdown.Item  onClick={() => onRouteChange('entranhe-se') }>Entranhe-se</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => onRouteChange('entregue-se') }>Entregue-se</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#day-tours">Passeios</Nav.Link>
             <Nav.Link href="#instagram">Instagram</Nav.Link>

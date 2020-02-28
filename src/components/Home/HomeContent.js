@@ -12,60 +12,10 @@ export const headerContent = {
   subTitle: 'Infinitas possibilidades de viagem'
 };
 
- // export const cardContent = [{
- //
- //   icon: 'plane',
- //   content: 'Para você que tem interesse em viajar mas acaba indo sempre aos mesmos destinos populares e cheios de turistas.'
- // },
- //   {
- //     icon: 'map-marked-alt',
- //     content: 'Para você que quer conhecer a fundo sobre a vida na Holanda, você que desconfia que existe mais neste país do que somente Amsterdam.'
- //   }
- //  ];
-
-// export const aboutNetherlandsContent = {
-//   title: 'Sobre a Holanda',
-//   subTitle: 'A Holanda, ou Países Baixos, é um dos centros culturais e econômicos de maior importância no mundo e ' +
-//     'costuma estar sempre a frente no estabelecimento de regras sociais modernas e legislação liberal, ditando tendências. '
-// };
-//
-//
-// export const whatWillYouSeeContent = {
-//   title: 'Sobre o que vamos falar?',
-//   mainText: 'Discutiremos Arte, Turismo, Sustentabilidade, Estilos de vida e curiosidades em geral, enquanto ' +
-//     'proporcionamos tours personalizados, confortáveis e pessoais\n'
-// };
-
 export const homeTours = {
   title: 'Tours',
   mainText: 'Nosso amplo conhecimento sobre o mundo das viagens e sobre a Holanda nos permite oferecer as melhores ofertas ' +
-    'para os nossos clientes de acordo com seus gostos pessoais e solicitações.  Nossos tours ocorrerão de Abril à Setembro ' +
-    'já que muitos parques ficam fechados no inverno e muitas atividades ocorrem apenas no verão. Veja as ofertas disponíveis ' +
-    'no momento e nos mande uma mensagem dizendo a quantidade de dias que você gostaria de ficar e que tipo de viajante és, para fazer sua reserva.',
-
-  subTitle: 'O que está incluso no nosso tour?',
-  whatIsIncluded: [
-    {
-      icon: 'home',
-      content: 'Hospedagem com café da manhã'
-    },
-    {
-      icon: 'utensils',
-      content: 'Jantar ou almoço'
-    },
-    {
-      icon: 'biking',
-      content: 'Dois passeios por dia'
-    },
-    {
-      icon: 'car',
-      content: 'Traslado aeroporto/hotel/aeroporto'
-    },
-    {
-      icon: 'language',
-      content: 'Guia em português'
-    }
-  ]
+    'para os nossos clientes de acordo com seus gostos pessoais e solicitações.',
 };
 
 export const toursCard = [

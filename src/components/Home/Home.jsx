@@ -4,7 +4,6 @@ import {Container, Col, Row} from "react-bootstrap";
 import {dayTours, headerContent, homeTours, toursCard} from "./HomeContent";
 import CentralizedSection from "../SharedComponents/CentrilizedSection/CentralizedSection";
 import {RowStyled} from "./HomeStyled";
-import ListWithIcons from "../SharedComponents/ListWithIcon/ListWithIcons";
 import TourCard from "./TourCard/TourCard";
 import AvatarPicture from "../SharedComponents/AvatarPicture/AvatarPicture";
 import CarouselWithArrows from "../SharedComponents/CarouselWithArrows/CarouselWithArrows";
@@ -12,10 +11,6 @@ import ContactForm from "../ContactForm/ContactForm";
 
 class Home extends Component {
   render() {
-
-    let listWithIcons = homeTours.whatIsIncluded.map((content, i) =>
-      <ListWithIcons key={i} listItem={content.content} icon={content.icon} />
-    );
 
     let tourCard = toursCard.map((content, i) =>
       <Col key={i} lg={4}>
@@ -35,7 +30,6 @@ class Home extends Component {
               <Col lg={12} className='tours'>
                 <CentralizedSection title={homeTours.title} mainText={homeTours.mainText} />
                 <h5 style={{ margin: "2rem 0"}}>{homeTours.subTitle}</h5>
-                { listWithIcons }
               </Col>
             <Row noGutters={true} className='tourCards'>
               { tourCard }

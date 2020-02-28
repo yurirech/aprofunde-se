@@ -16,6 +16,8 @@ import {
 import Footer from "./components/SharedComponents/Footer/Footer";
 import MainNavBar from "./components/SharedComponents/MainNavBar/MainNavBar";
 import About from "./components/About/About";
+import Tours from "./components/Tours/Tours";
+import Tour from "./components/Tour/Tour";
 
 library.add(fab, faPlane, faMapMarkedAlt, faHome, faUtensils, faBiking, faBus, faCar, faLanguage);
 
@@ -29,8 +31,8 @@ class App extends Component {
   }
 
   onRouteChange = (route) => {
-    console.log(this.state);
     this.setState({route: route});
+    console.log(this.state)
   };
 
 
@@ -38,17 +40,21 @@ class App extends Component {
     let body;
 
     if(this.state.route === 'home') {
-      body = <Home/>
+      body = <Home />
+    } else if (this.state.route === 'about') {
+      body = <About />
+    } else if (this.state.route === 'embrenhe-se' || this.state.route === 'entranhe-se' || this.state.route === 'entregue-se') {
+      body = <Tour route={this.state.route} />
     } else {
-      body = <About/>
+      body = <Tours />
     }
 
     return (
-      <div className="App">
-        <MainNavBar onRouteChange={this.onRouteChange}/>
-        {body}
-        <Footer onRouteChange={this.onRouteChange} />
-      </div>
+        <div className="App">
+          <MainNavBar onRouteChange={this.onRouteChange}/>
+          {body}
+          <Footer onRouteChange={this.onRouteChange} />
+        </div>
     );
   }
 }

@@ -4,7 +4,6 @@ import {HomeFooter} from "./FooterStyled";
 
 class Footer extends Component {
   render() {
-    // const {onRouteChange} = this.props;
 
     return (
       <HomeFooter>

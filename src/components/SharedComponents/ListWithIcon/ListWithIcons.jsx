@@ -7,7 +7,7 @@ class ListWithIcons extends Component {
   render() {
 
     return (
-      <Content>
+      <Content className='list-with-icons'>
         <ul>
           <li>
             <FontAwesomeIcon icon={this.props.icon}/> &nbsp;

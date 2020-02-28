@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const Header = styled.div`
   padding: 1.25rem 1.5rem;
+  
+  //.dropdown:hover .dropdown-menu {
+  //  display: block;
+  //}
  
  
  @media (max-width: 768px) { 
