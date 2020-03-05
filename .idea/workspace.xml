@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed8b05b-d7ac-47e0-a443-bf4d3163f593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about-canal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about-flowers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about-houses.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about-mills.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/about-planes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/day-bus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/day-trip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/shopping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/About/AboutContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/CarouselWithoutArrows/CarouselWithoutArrows.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ItineraryTable/ItineraryTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithPhoto/ListWithPhoto.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tour/Tour.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/Tours.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/ToursContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tours/ToursStyled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/HomeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/HomeContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIcons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/ListWithIcon/ListWithIcons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/MainNavBar/MainNavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/MainNavBar/MainNavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/MainNavBar/MainNavBarStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/MainNavBar/MainNavBarStyled.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +139,10 @@
       <workItem from="1582544848160" duration="2265000" />
       <workItem from="1582630311401" duration="6586000" />
       <workItem from="1582709312096" duration="8920000" />
-      <workItem from="1582881370838" duration="16124000" />
+      <workItem from="1582881370838" duration="17008000" />
+      <workItem from="1583141182105" duration="215000" />
+      <workItem from="1583249305856" duration="2059000" />
+      <workItem from="1583308199546" duration="468000" />
     </task>
     <servers />
   </component>
