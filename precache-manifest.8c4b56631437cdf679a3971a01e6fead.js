@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2936243deeadd4972ccb5501d941faf3",
+    "revision": "14941d9b0a4a7d7f71b48f96fe80e53f",
     "url": "/aprofunde-se/index.html"
   },
   {
-    "revision": "0b41cf0e6ed1c9e21b90",
-    "url": "/aprofunde-se/static/css/2.b0bb7f2c.chunk.css"
+    "revision": "af6680d69ee29ab92a18",
+    "url": "/aprofunde-se/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "111cb876c35cf8b6ee5f",
-    "url": "/aprofunde-se/static/css/main.69066c75.chunk.css"
+    "revision": "bcb9c134cf3eade550bc",
+    "url": "/aprofunde-se/static/css/main.86a5fd77.chunk.css"
   },
   {
-    "revision": "0b41cf0e6ed1c9e21b90",
-    "url": "/aprofunde-se/static/js/2.9d4a4b4c.chunk.js"
+    "revision": "af6680d69ee29ab92a18",
+    "url": "/aprofunde-se/static/js/2.79b6070c.chunk.js"
   },
   {
-    "revision": "111cb876c35cf8b6ee5f",
-    "url": "/aprofunde-se/static/js/main.ab09799f.chunk.js"
+    "revision": "bcb9c134cf3eade550bc",
+    "url": "/aprofunde-se/static/js/main.e756c009.chunk.js"
   },
   {
     "revision": "7c48acd76ddb571e76b1",
@@ -36,8 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aprofunde-se/static/media/arrow-right.03b57546.png"
   },
   {
+    "revision": "cdd68bface5ac5d297ee8dc7e49d12d6",
+    "url": "/aprofunde-se/static/media/bg-main.cdd68bfa.jpg"
+  },
+  {
     "revision": "4e13ecd3d60ed1529b88644465bfd0b0",
     "url": "/aprofunde-se/static/media/culture.4e13ecd3.jpg"
+  },
+  {
+    "revision": "59f26fe315c2272b7ec6caff0fb99d5c",
+    "url": "/aprofunde-se/static/media/day-bus.59f26fe3.jpg"
+  },
+  {
+    "revision": "c2ec42217de48d2ebec5274cf1cf7b99",
+    "url": "/aprofunde-se/static/media/day-trip.c2ec4221.jpg"
   },
   {
     "revision": "184266855d8ad101303f0b934aee8944",
@@ -56,12 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aprofunde-se/static/media/nature.68c4db86.jpg"
   },
   {
-    "revision": "a99d5beeeff2333f1036b0a2a2b7b32c",
-    "url": "/aprofunde-se/static/media/new-header.a99d5bee.jpg"
+    "revision": "a48c70d73b0194896252d49fa5700de5",
+    "url": "/aprofunde-se/static/media/nether-street.a48c70d7.jpg"
   },
   {
     "revision": "d8f68b99f023adaf70abc979034ed509",
     "url": "/aprofunde-se/static/media/relaxe.d8f68b99.jpg"
+  },
+  {
+    "revision": "9c4a51c514bd67a2a2d1ae855d75d8f2",
+    "url": "/aprofunde-se/static/media/shopping.9c4a51c5.jpg"
   },
   {
     "revision": "e624a3392b02639ddf87a3aeabf557f1",
