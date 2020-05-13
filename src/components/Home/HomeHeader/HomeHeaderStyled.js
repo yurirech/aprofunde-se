@@ -1,20 +1,14 @@
 import styled from 'styled-components';
-import headerBackground from  '../../../assets/img/new-header.jpg';
-
-export const Title = styled.h1`
-  font-size: 3rem;
-  
-   @media(max-width: 768px) {
-    font-size: 2.5rem;
- }
-`;
+import headerBackground from  '../../../assets/img/bg-main.jpg';
+import { colors } from "../../../_variables";
 
 export const Content = styled.div`
-  background: url(${headerBackground});
-  background-repeat: no-repeat;
+  background: url(${headerBackground}) no-repeat top center fixed;
   background-size: cover;
-  height: 100%;
-  padding: 10%;
+  background-position-y: -4rem;
+  height: 100vh;
+  text-align: left;
+  padding: 15% 13%;
   
  div {
    background-color: #00000045;
@@ -25,12 +19,12 @@ export const Content = styled.div`
    font-weight: bold !important;
    }
    
-   h4 {
+   h5 {
    font-size: 1.25rem;
    margin-top: 1rem;
    }
    
-   h4, h1 {
+   h5, h1 {
     color: white;
     text-align: left;
   }
@@ -46,11 +40,11 @@ export const Content = styled.div`
   div {
     width: 100%;
     
-    h4 {
+    h5 {
       font-size: 1.1rem;
     }
     
-    h1, h4 {
+    h1, h5 {
     text-align: center;
     }
   }
@@ -58,7 +52,20 @@ export const Content = styled.div`
   
 `;
 
-export const SubTitle = styled.h4`
-  font-style: italic;
-  font-weight: lighter;
+export const Title = styled.h1`
+  font-family: var(--font-logo);
+  color: ${colors.aprofundeSeOrange};
+  font-size: 6.5rem;
+  letter-spacing: 0.05em;
+   
+  @media(max-width: 768px) {
+    font-size: 2.5rem;
+ }
+`;
+
+export const SubTitle = styled.h5`
+  color: #844918e0;
+  max-width: 46%;
+  margin-top: 1.5rem;
+  line-height: 1.85rem;
 `;

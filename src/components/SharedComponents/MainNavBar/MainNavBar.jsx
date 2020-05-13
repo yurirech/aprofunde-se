@@ -2,10 +2,10 @@ import React from 'react';
 import {Header} from "./MainNavBarStyled";
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 
-const MainNavBar = ({onRouteChange}) => {
+const MainNavBar = ({onRouteChange, route}) => {
 
     return (
-      <Header>
+      <Header headerAbsolute={route === 'home' ? 'absolute' : null} >
         <Navbar>
           <div className='nav-header'>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

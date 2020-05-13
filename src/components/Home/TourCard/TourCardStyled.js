@@ -1,16 +1,17 @@
 import styled from "styled-components";
+import { colors } from "../../../_variables";
 
 export const Content = styled.div`
- color: var(--aprofunde-se-orange);
+ color: ${colors.aprofundeSeOrange};
   
   .btn-outline-primary {
-    color: var(--aprofunde-se-orange);
-    border-color: var(--aprofunde-se-orange);
+    color: ${colors.aprofundeSeOrange};
+    border-color: ${colors.aprofundeSeOrange};
     
     &:hover {
       color: white;
       border-color: white;
-      background: var(--aprofunde-se-orange);
+      background: ${colors.aprofundeSeOrange};
     }
   }
   

@@ -1,19 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Content} from "./TourCardStyled";
 import {Button} from "react-bootstrap";
 
-class TourCard extends Component {
-  render() {
-    return (
+const TourCard = ({children, numberOfDays, title, subTitle, mainText, buttonText}) =>
+     (
       <Content>
-        {this.props.children}
-        <h1> {this.props.title} <br/> {this.props.numberOfDays} </h1>
-        <label>{this.props.subTitle}</label>
-        <p>{this.props.mainText}</p>
-        <Button variant="outline-primary">{this.props.buttonText}</Button>
+        {children}
+        <h1> {title} <br/> {numberOfDays} </h1>
+        <label>{subTitle}</label>
+        <p>{mainText}</p>
+        <Button variant="outline-primary">{buttonText}</Button>
       </Content>
     );
-  }
-}
 
 export default TourCard;

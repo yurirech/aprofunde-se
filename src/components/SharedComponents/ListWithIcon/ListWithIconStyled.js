@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { colors } from '../../../_variables';
 
 export const Content = styled.div`
    
@@ -10,7 +11,7 @@ export const Content = styled.div`
         font-size: 1.1rem;
         
         svg { 
-         color: var(--aprofunde-se-orange);      
+         color: ${colors.aprofundeSeOrange};      
      } 
     }
    }

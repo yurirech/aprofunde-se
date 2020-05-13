@@ -1,9 +1,11 @@
 import styled from "styled-components";
 import {Form} from "react-bootstrap";
+import { colors } from "../../_variables";
+
 
 export const ContactFormWrapper = styled(Form)`
     margin-top: 3rem;
-    background-color: var(--aprofunde-se-orange);
+    background-color: ${colors.aprofundeSeOrange};
     color: white;
     text-align: left;
     margin-bottom: 4rem;
@@ -29,12 +31,12 @@ export const ContactFormWrapper = styled(Form)`
       
       &:hover {
         color: white;
-        background-color: var(--aprofunde-se-orange);
+        background-color: ${colors.aprofundeSeOrange};
         border-color: white;
       }
       
       &:not(:disabled):not(.disabled):active {
-        color: var(--aprofunde-se-orange);
+        color: ${colors.aprofundeSeOrange};
         background-color: white;
         border-color: white;
       }
@@ -42,12 +44,12 @@ export const ContactFormWrapper = styled(Form)`
       
     .form-control {
       color: #fbfdff;
-      background-color: var(--aprofunde-se-orange);
+      background-color: ${colors.aprofundeSeOrange};
       border: 1px solid #ffffff;
       
       &:focus {
         color: #ffffff;
-        background-color: var(--aprofunde-se-orange);
+        background-color: ${colors.aprofundeSeOrange};
         border-color: #ffffff;
         box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.87);;
       }

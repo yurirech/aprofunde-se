@@ -6,7 +6,7 @@ class CentralizedSection extends Component {
   render() {
 
     return (
-      <Content>
+      <Content textColor={this.props.textColor}>
         <h1>{ this.props.title }</h1>
         <p> {this.props.mainText} </p>
       </Content>

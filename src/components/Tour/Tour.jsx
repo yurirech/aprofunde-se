@@ -5,6 +5,7 @@ import imgTest from "../../assets/img/day-trip.jpg"
 import ItineraryTable from "../SharedComponents/ItineraryTable/ItineraryTable";
 import CentralizedSection from "../SharedComponents/CentrilizedSection/CentralizedSection";
 import ListWithIcons from "../SharedComponents/ListWithIcon/ListWithIcons";
+import { colors } from '../../_variables';
 
 const Content = styled.div`
   ul {
@@ -21,7 +22,7 @@ const Content = styled.div`
     h2 {
       margin-bottom: 2rem;
       font-weight: bold;
-      color: var(--aprofunde-se-orange);
+      color: ${colors.aprofundeSeOrange};
     }
   }
   

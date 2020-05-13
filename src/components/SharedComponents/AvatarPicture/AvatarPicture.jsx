@@ -1,17 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Avatar, ImageFluid} from "./AvatarPictureStyled";
 
 
-class AvatarPicture extends Component {
-  avatarImg;
-  render() {
-    return (
+const AvatarPicture = ({avatarImg}) => 
+    (
       <Avatar className='flex-center'>
-        <ImageFluid style={{background: 'url(' + this.props.avatarImg + ')', backgroundSize: 'cover',
+        <ImageFluid style={{background: 'url(' + avatarImg + ')', backgroundSize: 'cover',
           backgroundPosition: 'center' }} alt=''/>
       </Avatar>
     );
-  }
-}
 
 export default AvatarPicture;

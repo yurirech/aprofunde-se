@@ -1,21 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Title, Content, SubTitle } from './HomeHeaderStyled'
 
 
-class HomeHeader extends Component {
+  const HomeHeader = ({title, subTitle}) => {
 
-  subTitle;
 
-  render() {
     return (
       <Content className='header'>
-        <div className='br-1rem'>
-          <Title>{ this.props.title } </Title>
-          <SubTitle>{ this.props.subTitle }</SubTitle>
-        </div>
+          <Title>{ title } </Title>
+          <SubTitle>{ subTitle }</SubTitle>
       </Content>
     );
   }
-}
 
 export default HomeHeader;

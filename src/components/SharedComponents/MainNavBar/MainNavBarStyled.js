@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
+  position: ${props => props.headerAbsolute || 'unset' };
+  z-index: 99;
+  width: 100%;
   padding: 1.25rem 1.5rem;
   
-  //.dropdown:hover .dropdown-menu {
-  //  display: block;
-  //}
+  /* .dropdown:hover .dropdown-menu {
+    display: block;
+  } */
  
  
  @media (max-width: 768px) { 

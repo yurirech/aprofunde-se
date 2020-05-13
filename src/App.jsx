@@ -32,26 +32,26 @@ class App extends Component {
 
   onRouteChange = (route) => {
     this.setState({route: route});
-    console.log(this.state)
   };
 
 
   render() {
     let body;
+    const { route } = this.state
 
-    if(this.state.route === 'home') {
+    if(route === 'home') {
       body = <Home />
-    } else if (this.state.route === 'about') {
+    } else if (route === 'about') {
       body = <About />
-    } else if (this.state.route === 'embrenhe-se' || this.state.route === 'entranhe-se' || this.state.route === 'entregue-se') {
-      body = <Tour route={this.state.route} />
+    } else if (route === 'embrenhe-se' || route === 'entranhe-se' || route === 'entregue-se') {
+      body = <Tour route={ route } />
     } else {
       body = <Tours />
     }
 
     return (
         <div className="App">
-          <MainNavBar onRouteChange={this.onRouteChange}/>
+          <MainNavBar route={route} onRouteChange={this.onRouteChange}/>
           {body}
           <Footer onRouteChange={this.onRouteChange} />
         </div>

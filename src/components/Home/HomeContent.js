@@ -6,16 +6,26 @@ import aventureSe from '../../assets/img/adventure.jpg';
 import naturezeSe from '../../assets/img/nature.jpg';
 import relaxeSe from '../../assets/img/relaxe.jpg';
 import tecnologieSe from '../../assets/img/technology.jpg';
+import Kroller from '../../assets/img/Kroller.jpg';
+import Haarlem from '../../assets/img/Haarlem.jpg';
+import Giethoorn from '../../assets/img/Giethoorn.jpg';
 
 export const headerContent = {
-  title: 'Organize a sua próxima viagem com o Aprofunde-se',
-  subTitle: 'Infinitas possibilidades de viagem'
+  title: 'Aprofunde-se',
+  subTitle: 'Aprofunde a sua percepção de mundo e deixa que nós cuidamos de tudo'
 };
 
+export const aboutNetherlands = {
+  text: `A Holanda, ou Países Baixos, é um dos centros culturais e econômicos de maior importância no mundo e costuma estar sempre a frente no estabelecimento de regras sociais modernas e legislação liberal, ditando tendências. 
+  Nas nossas midias sociais discutiremos Arte, Turismo, Sustentabilidade, Estilos de vida e curiosidades em geral, enquanto proporcionamos tours personalizadas, confortáveis e pessoais.
+  Deixe o planejamento de suas férias por nossa conta! O Aprofunde-se está aqui para fazer da sua experiência na Holanda a mais fácil, agradável e única possível.  Levamos muito a sério todas as suas solicitações 
+  e nos comprometemos em providenciar todas as informações e ferramentas necessárias para a viagem perfeita. Veja abaixo as ofertas de serviços personalizados e fique à vontade para entrar em contato diretamente se tiver perguntas.`
+}
+
 export const homeTours = {
-  title: 'Tours',
-  mainText: 'Nosso amplo conhecimento sobre o mundo das viagens e sobre a Holanda nos permite oferecer as melhores ofertas ' +
-    'para os nossos clientes de acordo com seus gostos pessoais e solicitações.',
+  title: 'Day tours',
+  mainText: `Está com viagem marcada pra Holanda mas não sabe o que fazer fora passear em Amsterdam? Independentemente do tipo de viagem que você procura, 
+  somos seus guias em todas as etapas. Dá uma olhada nos passeios que a gente montou pra você aproveitar ao máximo seu tempo no país das maravilhas.`,
 };
 
 export const toursCard = [
@@ -198,5 +208,20 @@ export const formTypeOfAccomodation = [
     id: 'dont-care'
   }
 ];
+
+export const tourOptions = [
+  {
+    name: 'Haarlem & Praia de Bicicleta',
+    tourImage: Haarlem
+  },
+  {
+    name: 'Giethoorn & Dolmen',
+    tourImage: Giethoorn
+  },
+  {
+    name: 'Museu Kroller Müller & Amersfoort',
+    tourImage: Kroller
+  }
+]
 
 
