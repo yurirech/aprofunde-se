@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14941d9b0a4a7d7f71b48f96fe80e53f",
+    "revision": "e6f709822312f73da53904d5379961a1",
     "url": "/aprofunde-se/index.html"
   },
   {
-    "revision": "af6680d69ee29ab92a18",
+    "revision": "91f90d297b87c1c5e409",
     "url": "/aprofunde-se/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "bcb9c134cf3eade550bc",
+    "revision": "af8cfa1feb0e5eae80a1",
     "url": "/aprofunde-se/static/css/main.86a5fd77.chunk.css"
   },
   {
-    "revision": "af6680d69ee29ab92a18",
-    "url": "/aprofunde-se/static/js/2.79b6070c.chunk.js"
+    "revision": "91f90d297b87c1c5e409",
+    "url": "/aprofunde-se/static/js/2.c7482a5c.chunk.js"
   },
   {
-    "revision": "bcb9c134cf3eade550bc",
-    "url": "/aprofunde-se/static/js/main.e756c009.chunk.js"
+    "revision": "af8cfa1feb0e5eae80a1",
+    "url": "/aprofunde-se/static/js/main.8a52b85d.chunk.js"
   },
   {
     "revision": "7c48acd76ddb571e76b1",
     "url": "/aprofunde-se/static/js/runtime-main.301e9a01.js"
+  },
+  {
+    "revision": "f488e8128791d4615ee07455d18bd510",
+    "url": "/aprofunde-se/static/media/Giethoorn.f488e812.jpg"
+  },
+  {
+    "revision": "06de7d1d272aea1ff62d3bacfc1a9f01",
+    "url": "/aprofunde-se/static/media/Haarlem.06de7d1d.jpg"
+  },
+  {
+    "revision": "af0ad7ca97c08390e4ca650b7efa73cc",
+    "url": "/aprofunde-se/static/media/Kroller.af0ad7ca.jpg"
   },
   {
     "revision": "85154f6f051e8a4dce5ecd081070c356",
@@ -38,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cdd68bface5ac5d297ee8dc7e49d12d6",
     "url": "/aprofunde-se/static/media/bg-main.cdd68bfa.jpg"
+  },
+  {
+    "revision": "d84861aadc0d579ea3f898444a8cdbe2",
+    "url": "/aprofunde-se/static/media/canal-landing.d84861aa.jpg"
   },
   {
     "revision": "4e13ecd3d60ed1529b88644465bfd0b0",
@@ -68,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aprofunde-se/static/media/nature.68c4db86.jpg"
   },
   {
-    "revision": "a48c70d73b0194896252d49fa5700de5",
-    "url": "/aprofunde-se/static/media/nether-street.a48c70d7.jpg"
+    "revision": "9345a63f8197810ee5c9c855ff4d8ca5",
+    "url": "/aprofunde-se/static/media/netherlands-map.9345a63f.png"
   },
   {
     "revision": "d8f68b99f023adaf70abc979034ed509",
