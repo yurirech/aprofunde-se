@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../_variables";
+import { colors, fonts } from "../../../_variables";
 
 export const Content = styled.div`
  color: ${colors.aprofundeSeOrange};
@@ -26,14 +26,17 @@ export const Content = styled.div`
   p {
   font-size: 1.1vw;
   line-height: 2rem;
-  padding: 0 15%;
+  padding: 0 37%;
   max-height: 252px;
+  color: ${colors.aprofundeSeBlackText};
   }
   
   h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     line-height: 2.2rem;
     font-weight: bold;
+    font-family: ${fonts.caveat};
+    margin-bottom: 2.5rem;
   }
   
   @media(max-width: 768px) {

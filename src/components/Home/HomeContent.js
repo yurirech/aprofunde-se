@@ -3,12 +3,12 @@ import entranheSe from '../../assets/img/millsTour.jpg';
 import entregueSe from '../../assets/img/header-map.jpg';
 import cultureSe from '../../assets/img/culture.jpg';
 import aventureSe from '../../assets/img/adventure.jpg';
-import naturezeSe from '../../assets/img/nature.jpg';
 import relaxeSe from '../../assets/img/relaxe.jpg';
-import tecnologieSe from '../../assets/img/technology.jpg';
 import Kroller from '../../assets/img/Kroller.jpg';
 import Haarlem from '../../assets/img/Haarlem.jpg';
 import Giethoorn from '../../assets/img/Giethoorn.jpg';
+
+//TODO: AT THE END OF PROJECT CHANGE VARIABLES CAROUSEL
 
 export const headerContent = {
   title: 'Aprofunde-se',
@@ -69,24 +69,19 @@ export const dayTours = {
 
   carousel: [
     {
-      carouselTitle: 'Relaxe-se',
+      carouselTitle: 'Embrenha-se',
+      carouselSubtitle: '6 dias 5 noites',
       carouselImage: relaxeSe
     },
     {
-      carouselTitle: 'Culture-se',
+      carouselTitle: 'Entranhe-se',
+      carouselSubtitle: '8 dias 7 noites',
       carouselImage: cultureSe
     },
     {
-      carouselTitle: 'Aventure-se',
+      carouselTitle: 'Entregue-se',
+      carouselSubtitle: '10 dias 9 noites',
       carouselImage: aventureSe
-    },
-    {
-      carouselTitle: 'Natureze-se',
-      carouselImage: naturezeSe
-    },
-    {
-      carouselTitle: 'Tecnologie-se',
-      carouselImage: tecnologieSe
     }
   ]
 };

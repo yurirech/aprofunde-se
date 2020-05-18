@@ -1,34 +1,33 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Content} from "./CarouselWithArrowsStyled";
 import {Carousel} from "react-bootstrap";
 import {dayTours} from "../../Home/HomeContent";
 import { colors } from '../../../_variables';
 
-class CarouselWithArrows extends Component {
-  render() {
-
-    let carouselItem = dayTours.carousel.map((content, i) =>
-      <Carousel.Item key={i}>
-        <div key={i} style={{ color: colors.aprofundeSeOrange }} className='flex align-items-center'>
-          <h5 key={i}>{content.carouselTitle}</h5>
-          <img
-            key={content.id}
-            className="carousel-img"
-            src={content.carouselImage}
-            alt=""
-          />
-        </div>
-      </Carousel.Item>
-
-    );
+const CarouselWithArrows = () => {
     return (
       <Content>
         <Carousel>
-          {carouselItem}
+          {dayTours.carousel.map(({carouselTitle,carouselSubtitle,carouselImage}, i) =>
+              <Carousel.Item key={i}>
+                <div style={{ color: colors.aprofundeSeOrange }} className='flex align-items-center'>
+                 <div class='header'>
+                    <h5>{carouselTitle}</h5>
+                    <small>{carouselSubtitle}</small>
+                 </div>
+                  <img
+                    className="carousel-img"
+                    src={carouselImage}
+                    alt=""
+                  />
+                </div>
+            </Carousel.Item>
+
+          )
+          }
         </Carousel>
       </Content>
     );
-  }
 }
 
 export default CarouselWithArrows;

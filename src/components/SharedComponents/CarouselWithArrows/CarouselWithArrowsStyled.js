@@ -1,8 +1,17 @@
 import styled from "styled-components";
 import rightArrow from '../../../assets/img/arrow-right.png'
 import leftArrow from '../../../assets/img/arrow-left.png'
+import {colors} from '../../../_variables'
 
 export const Content = styled.div`
+
+.header {
+  text-align: left;
+  
+  small {
+    color: ${colors.aprofundeSeBlackText};
+  }
+}
 
   .carousel-control-prev {
     left: -12rem;
