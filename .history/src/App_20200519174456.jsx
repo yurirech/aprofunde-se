@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.scss';
-import Home from "./pages/Home/Home";
+import Home from "./components/Home/Home";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -16,7 +16,7 @@ import {
 import Footer from "./components/SharedComponents/Footer/Footer";
 import MainNavBar from "./components/SharedComponents/MainNavBar/MainNavBar";
 import About from "./pages/About/About";
-import Tours from "./pages/Tours/Tours";
+import Tours from "./components/Tours/Tours";
 import Tour from "./components/Tour/Tour";
 
 library.add(fab, faPlane, faMapMarkedAlt, faHome, faUtensils, faBiking, faBus, faCar, faLanguage);

@@ -51,7 +51,7 @@ class App extends Component {
 
     return (
         <div className="App">
-          <MainNavBar route={route} onRouteChange={this.onRouteChange}/>
+          {/* <MainNavBar route={route} onRouteChange={this.onRouteChange}/> */}
           {body}
           <Footer onRouteChange={this.onRouteChange} />
         </div>

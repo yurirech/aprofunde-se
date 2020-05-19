@@ -1,7 +1,7 @@
 import React from 'react';
 import {Content} from "./CarouselWithArrowsStyled";
 import {Carousel} from "react-bootstrap";
-import {dayTours} from "../../../pages/Home/HomeContent";
+import {dayTours} from "../../Home/HomeContent";
 import { colors } from '../../../_variables';
 
 const CarouselWithArrows = () => {

@@ -48,7 +48,7 @@ export const Content = styled.div`
 }
 
 @media(max-width: 768px) {
-  padding: unset;
+  padding: 0 9%;
 
    h5 {
     font-size: 2.25rem;
