@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9541a15242c58a093e637cfaf1cd0534",
+    "revision": "9e5f61a1d800e8074a97b23b36f80069",
     "url": "/aprofunde-se/index.html"
   },
   {
-    "revision": "87b6264d02aecdd01a35",
+    "revision": "6f29b2e70dc36e26b141",
     "url": "/aprofunde-se/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "99a44bfcf49cbb183404",
+    "revision": "d71d97615c716c54dcbf",
     "url": "/aprofunde-se/static/css/main.86a5fd77.chunk.css"
   },
   {
-    "revision": "87b6264d02aecdd01a35",
-    "url": "/aprofunde-se/static/js/2.0241b9c7.chunk.js"
+    "revision": "6f29b2e70dc36e26b141",
+    "url": "/aprofunde-se/static/js/2.e2d361b5.chunk.js"
   },
   {
-    "revision": "99a44bfcf49cbb183404",
-    "url": "/aprofunde-se/static/js/main.12e0882e.chunk.js"
+    "revision": "d71d97615c716c54dcbf",
+    "url": "/aprofunde-se/static/js/main.19fa5022.chunk.js"
   },
   {
     "revision": "7c48acd76ddb571e76b1",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03b575462922cf95b2d098650e06e319",
     "url": "/aprofunde-se/static/media/arrow-right.03b57546.png"
+  },
+  {
+    "revision": "512794373d2267b891039cf15e434692",
+    "url": "/aprofunde-se/static/media/bg-main-mobile.51279437.jpg"
   },
   {
     "revision": "cdd68bface5ac5d297ee8dc7e49d12d6",
