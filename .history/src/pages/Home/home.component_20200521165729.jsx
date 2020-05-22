@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import HomeHeader from "./home-header/home-header.component";
 import {Container, Col} from "react-bootstrap";
-import {dayTours, headerContent, homeTours, aboutNetherlands, tourOptions} from "./HomeContent";
+import {dayTours, headerContent, homeTours, aboutNetherlands, tourOptions} from "./home.data";
 import CentralizedSection from "../../components/SharedComponents/CentrilizedSection/CentralizedSection";
-import {RowStyled, ExtendedRowStyled} from "./HomeStyled";
+import {RowStyled, ExtendedRowStyled} from "./home.styles";
 import CarouselWithArrows from "../../components/SharedComponents/CarouselWithArrows/CarouselWithArrows";
 import Button from "../../components/SharedComponents/button/button.component"
 import { colors } from '../../_variables';
@@ -36,11 +36,9 @@ class Home extends Component {
               <Button text='Saiba mais' />
               <TourOption tourOptions={tourOptions} />
             </Col>
-          <ExtendedRowStyled noGutters={true} className='justify-content-center' >
             <Col lg={12} className='dayTours'>
               <CentralizedSection title={dayTours.title} mainText={dayTours.mainText} />
             </Col>
-          </ExtendedRowStyled>
           <Col lg={12}>
               <CarouselWithArrows />
           </Col>
