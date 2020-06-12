@@ -1,0 +1,20 @@
+import styled from "styled-components";
+import { colors, device } from '../../_variables';
+
+export const Content = styled.div`
+  padding-bottom: 3rem;
+  
+  h2 {
+    font-weight: semi-bold;
+    margin-top: 7rem;
+    font-size: 2.25rem;
+    color: ${colors.aprofundeSeOrange}
+  }
+
+  @media ${device.laptop} {
+
+    h2 {
+      margin-top: 3rem;
+    }
+  }
+`;
