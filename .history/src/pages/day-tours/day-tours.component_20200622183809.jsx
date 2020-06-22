@@ -40,13 +40,13 @@ const DayTours = () => (
           {
             cards1.map(card => (
               <div>
-                <CustomCardWithBackground backgroundImage={card.image}
-                                          title={card.title} 
-                                          description={card.description} 
+                <CustomCardWithBackground backgroundImage={card.image} 
+                                         
                                           route={card.route} 
                                           buttonBackgroungColor={colors.aprofundeSeOrange}
                                           contentPadding='22% 0 22% 0'
                                           hideOverlay >
+                                            <h3>Haarlem & Praia de bicicleta</h3>
                                           </CustomCardWithBackground>
                 <p></p>
             </div>

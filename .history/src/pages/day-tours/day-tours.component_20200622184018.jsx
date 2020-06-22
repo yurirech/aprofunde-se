@@ -40,8 +40,7 @@ const DayTours = () => (
           {
             cards1.map(card => (
               <div>
-                <CustomCardWithBackground backgroundImage={card.image}
-                                          title={card.title} 
+                <CustomCardWithBackground backgroundImage={card.image} 
                                           description={card.description} 
                                           route={card.route} 
                                           buttonBackgroungColor={colors.aprofundeSeOrange}

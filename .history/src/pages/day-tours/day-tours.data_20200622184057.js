@@ -1,5 +1,3 @@
-import React from 'react';
-
 import delft from '../../assets/img/day-tours/delft.jpg'
 import delta from '../../assets/img/day-tours/delta.jpg'
 import denHaag from '../../assets/img/day-tours/den-haag.jpg'
@@ -23,9 +21,9 @@ export const header = {
 
 export const cards1 = [{
   image: haarlem,
-  title: 'Haarlem & Praia de bicicleta',
-  description: <small>Conheça a charmosa cidade de Haarlem, viste o museu local e vá de bicicleta à 
-  praia curtir o por do sol, tudo acompanhado de um guia turístico. <br/> Duração: 8 horas</small>,
+  title: '',
+  description: 'Haarlem & Praia de bicicleta',
+
 },
 {
   image: delft,

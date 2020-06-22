@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {cards1} from './day-tours.data';
+import {} './day-tours.data';
 
 import {Content} from  './day-tours.styles';
 import {FlexContainer} from '../../_styles';
@@ -38,16 +38,14 @@ const DayTours = () => (
         <FlexContainer  justify='space-between' margin='4rem 5%'>
           <FlexContainer column width='46%' margin='0'>
           {
-            cards1.map(card => (
+            cards.map(card => (
               <div>
-                <CustomCardWithBackground backgroundImage={card.image}
-                                          title={card.title} 
+                <CustomCardWithBackground backgroundImage={card.image} 
                                           description={card.description} 
                                           route={card.route} 
                                           buttonBackgroungColor={colors.aprofundeSeOrange}
                                           contentPadding='22% 0 22% 0'
-                                          hideOverlay >
-                                          </CustomCardWithBackground>
+                                          hideOverlay />
                 <p></p>
             </div>
             ))

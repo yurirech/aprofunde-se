@@ -24,8 +24,8 @@ export const header = {
 export const cards1 = [{
   image: haarlem,
   title: 'Haarlem & Praia de bicicleta',
-  description: <small>Conheça a charmosa cidade de Haarlem, viste o museu local e vá de bicicleta à 
-  praia curtir o por do sol, tudo acompanhado de um guia turístico. <br/> Duração: 8 horas</small>,
+  description: `Conheça a charmosa cidade de Haarlem, viste o museu local e vá de bicicleta à 
+  praia curtir o por do sol, tudo acompanhado de um guia turístico. Duração: 8 horas`,
 },
 {
   image: delft,
