@@ -22,6 +22,7 @@ export const FlexContainer = styled.div`
   align-items: ${({align}) => align || null };
   margin : ${({margin}) => margin || `4rem ${paddings.paddingWeb}` };
   width:  ${({width}) => width || null };
+  min-width:  ${({width}) => width || null };
 
   @media ${device.tablet} {
     flex-direction: ${({columnMd}) => columnMd ? 'column' : null};
@@ -36,4 +37,14 @@ export const Image = styled.div`
      background-repeat: no-repeat;
      height: ${({height}) => height || '100%'};
      width: ${({width}) => width || '100%'};
+`;
+
+export const Overlay = styled.div`
+  height: ${({height}) => height || '52%'};
+  width: 100%;
+  background-color: ${({color}) => color || '#fff'};
+  opacity: ${({opacity}) => opacity || '.5'};
+  position: absolute;
+  bottom: 0;
+  z-index: 1
 `;

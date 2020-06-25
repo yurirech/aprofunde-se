@@ -1,23 +1,22 @@
 import React from 'react';
 
-import {Container, ImageExtended, Overlay} from './custom-card-with-background.styles'
+import {Container, ImageExtended} from './custom-card-with-background.styles'
 import {Link} from 'react-router-dom';
 
 import Button from '../SharedComponents/button/button.component';
 
 const CustomCardWithBackground = (
   { contentPadding, 
-    hideOverlay, 
     backgroundImage, 
     title, 
     description, 
     route, 
     buttonBackgroungColor,
-    overlayColor,
-    overlayHeight
+    marginBottom,
+    children
   }) => (
   
-  <Container>
+  <Container marginBottom={marginBottom}>
     <ImageExtended contentPadding={contentPadding} bg={backgroundImage} >
       <div>
         {title ? <h3>{title}</h3> : null }
@@ -26,7 +25,7 @@ const CustomCardWithBackground = (
         <Button bgColor={buttonBackgroungColor} text='Saiba mais' />
         </Link>
       </div>
-     {hideOverlay ? null : <Overlay overlayColor={overlayColor} overlayHeight={overlayHeight} ></Overlay>}
+     {children}
     </ImageExtended>
   </Container>
 );
