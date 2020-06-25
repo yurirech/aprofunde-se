@@ -4,6 +4,7 @@ import { device } from '../../_variables';
 
 export const Container = styled.div`
   width: 100%;
+  margin-bottom: ${({marginBottom}) => marginBottom ? '4rem' : null };
 
   @media ${device.tablet} {
     width: unset;
@@ -34,14 +35,4 @@ export const ImageExtended = styled(Image)`
     min-width: 340px;
     margin-bottom: 1rem;
   }
-`;
-
-export const Overlay = styled.div`
-  height: ${({overlayHeight}) => overlayHeight || '52%'};
-  width: 100%;
-  background-color: ${({overlayColor}) => overlayColor || '#fff'};
-  opacity: .5;
-  position: absolute;
-  bottom: 0;
-  z-index: 1
 `;

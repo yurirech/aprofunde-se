@@ -3,7 +3,7 @@ import React from 'react';
 import {cardsLeft, cardsRight} from './day-tours.data';
 
 import {Content, FlexContainerExtended} from  './day-tours.styles';
-import {FlexContainer} from '../../_styles';
+import {FlexContainer, Overlay} from '../../_styles';
 import {colors} from '../../_variables';
 import { header } from './day-tours.data';
 import {v4 as uuid} from 'uuid';
@@ -21,9 +21,11 @@ const DayTours = () => {
                                 route={card.route} 
                                 buttonBackgroungColor={colors.aprofundeSeOrange}
                                 contentPadding='22% 0 22% 0'
-                                overlayHeight='100%'
-                                overlayColor='black'
-                                key={uuid()} />
+                                marginBottom='4rem'
+                                key={uuid()} >
+        <Overlay color='black' opacity='.2' height='100%' />
+      </CustomCardWithBackground>
+                                
   )); 
 
   // Looping through cards of right column
@@ -34,9 +36,10 @@ const DayTours = () => {
                                 route={card.route} 
                                 buttonBackgroungColor={colors.aprofundeSeOrange}
                                 contentPadding='22% 0 22% 0'
-                                overlayHeight='100%'
-                                overlayColor='black'
-                                key={uuid()} />
+                                marginBottom='4rem'
+                                key={uuid()} >
+        <Overlay color='black'  opacity='.2' height='100%' />
+      </CustomCardWithBackground>  
     ));
   
   return (
@@ -46,11 +49,11 @@ const DayTours = () => {
           <label>{header.subtitle}</label>
         </CentralizedSection>
       </FlexContainer>
-      <FlexContainerExtended  justify='space-between' margin='4rem 5%'>
-        <FlexContainer column width='46%' margin='0'>
+      <FlexContainerExtended wrap='wrap' justify='space-between' min-width='530px' margin='4rem 5%'>
+        <FlexContainer column width='47%' margin='0'>
           { leftColumn }
         </FlexContainer>
-        <FlexContainer column width='46%' margin='0'>
+        <FlexContainer className='right-column' column width='47%' min-width='530px' margin='0'>
           { rightColumn }
         </FlexContainer>
       </FlexContainerExtended>  

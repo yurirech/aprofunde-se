@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import { withRouter } from 'react-router-dom';
 
 import {homeTours, ourSevices, packageDetails, itineraryTables, packageCard} from "./packages.data";
-import { FlexContainer } from '../../_styles';
+import { FlexContainer, Overlay } from '../../_styles';
 import { Content } from './packages.styles';
+
 import {v4 as uuid} from 'uuid';
 
 import CentralizedSection from "../../components/SharedComponents/centrilized-section/centrilized-section.component";
@@ -25,7 +26,9 @@ class Packages extends Component {
     let packagesCards = packageCard.map(({...otherProps}) => (
       <CustomCardWithBackground {...otherProps} 
                                 buttonBackgroungColor='#000' 
-                                key={uuid()}  />
+                                key={uuid()} >
+        <Overlay />
+      </CustomCardWithBackground>
     ));
 
     if(location.pathname === '/packages') {

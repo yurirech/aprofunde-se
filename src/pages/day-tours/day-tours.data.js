@@ -22,6 +22,13 @@ export const header = {
 }
 
 export const cardsLeft = [{
+  image: goudaRotterdam,
+  title: 'Gouda & Rotterdam',
+  description: <small>Visite o mercado de queijo de Gouda pela manhã e vislumbre o estilo arquitetônico 
+  da cidade de Rotterdam, com direito a tour guiado e tempo para compras. <br/> Duração: 8 horas</small>,
+  route: 'wehee'
+},
+{
   image: haarlem,
   title: 'Haarlem & Praia de bicicleta',
   description: <small>Conheça a charmosa cidade de Haarlem, viste o museu local e vá de bicicleta à 
@@ -33,14 +40,6 @@ export const cardsLeft = [{
   description: <small>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido   
   pelos últimos desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma das fazendas  
   sustentáveis da Holanda.  <br/> Duração: 8 horas</small>,
-  route: 'wehee'
-
-},
-{
-  image: goudaRotterdam,
-  title: 'Gouda & Rotterdam',
-  description: <small>Visite o mercado de queijo de Gouda pela manhã e vislumbre o estilo arquitetônico 
-  da cidade de Rotterdam, com direito a tour guiado e tempo para compras. <br/> Duração: 8 horas</small>,
   route: 'wehee'
 
 },
