@@ -31,8 +31,7 @@ export const ImageExtended = styled(Image)`
   }
 
   @media ${device.tablet} {
-    width: 50%;
-    min-width: 340px;
+    min-width: 320px;
     margin-bottom: 1rem;
   }
 `;

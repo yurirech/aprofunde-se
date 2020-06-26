@@ -49,11 +49,11 @@ const DayTours = () => {
           <label>{header.subtitle}</label>
         </CentralizedSection>
       </FlexContainer>
-      <FlexContainerExtended wrap='wrap' justify='space-between' min-width='530px' margin='4rem 5%'>
-        <FlexContainer column width='47%' margin='0'>
+      <FlexContainerExtended wrap='wrap' justify='space-between' margin='9rem 5% 3rem 5%'>
+        <FlexContainer column width='47%' margin='0' widthLg='100%'>
           { leftColumn }
         </FlexContainer>
-        <FlexContainer className='right-column' column width='47%' min-width='530px' margin='0'>
+        <FlexContainer className='right-column' column width='47%' margin='0' widthLg='100%'>
           { rightColumn }
         </FlexContainer>
       </FlexContainerExtended>  

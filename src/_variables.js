@@ -33,7 +33,8 @@ export const paddings = {
 export const colors = {
   aprofundeSeOrange: `#f4681b`,
   aprofundeSeBlack: `#05030C`,
-  aprofundeSeBlackText: `#000000cc`
+  aprofundeSeBlackText: `#000000cc`,
+  aprofundeSePurple: `#4F25D0`
 }
 
 export const fonts = {
