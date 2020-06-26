@@ -28,10 +28,10 @@ export const Content = styled.div`
     .right-column {
     margin: 0rem 0 3rem 0;
    
-  }
-  }
+  } }
 `;
 
 export const FlexContainerExtended = styled(FlexContainer) `
   color: white;
+  /* min-width: 50%; */
 `
