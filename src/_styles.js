@@ -22,7 +22,11 @@ export const FlexContainer = styled.div`
   align-items: ${({align}) => align || null };
   margin : ${({margin}) => margin || `4rem ${paddings.paddingWeb}` };
   width:  ${({width}) => width || null };
-  min-width:  ${({width}) => width || null };
+  min-width:  ${({minWidth}) => minWidth || null };
+
+  @media ${device.laptop}  {
+    width:  ${({widthLg}) => widthLg || null };
+  }
 
   @media ${device.tablet} {
     flex-direction: ${({columnMd}) => columnMd ? 'column' : null};
