@@ -31,9 +31,9 @@ const MainNavBar = ({location}) => {
             <div className='dropdown'>
               <Link to='/packages'>Pacotes</Link>
               <div className='dropdown-items'>
-                <Link to='/packages/embrenhe-se'>Embrenhe-se</Link>
-                <Link to='/packages/entranhe-se'>Entranhe-se</Link>
-                <Link to='/packages/entregue-se'>Entregue-se</Link>
+                <Link to='/packages/embrenha'>Embrenhe-se</Link>
+                <Link to='/packages/entranhe'>Entranhe-se</Link>
+                <Link to='/packages/entregue'>Entregue-se</Link>
               </div>
             </div>
             <Link to='/'>Inspire-se</Link>

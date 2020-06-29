@@ -14,6 +14,22 @@ import CustomCardWithBackground from '../../components/custom-card-with-backgrou
 
 class Packages extends Component {
   
+  getPackages(packageTour) {
+    let pathName = this.props.location.pathname;
+    if(pathName === packageTour) {
+      console.log(packageTour.split('/')[2]);
+      console.log(`packageDetails.${packageTour.split('/')[2]}`);
+      let pack = packageDetails;
+      console.log(pack);
+      return (
+        <Package packageDetails={pack} 
+                 ourServices={ourSevices.embrenha} 
+                 itineraryTables={itineraryTables.embrenha} />
+      );
+    }
+  };
+
+
   render() {
     const {location} = this.props;
     
@@ -48,22 +64,26 @@ class Packages extends Component {
         </Content>
       );
 
-    } else if(location.pathname === '/packages/embrenhe-se') {
-      return <Package packageDetails={packageDetails.embrenhaSe} 
-                      ourServices={ourSevices.embrenhaSe} 
-                      itineraryTables={itineraryTables.embrenhaSe} />
-    
-    } else if (location.pathname === '/packages/entranhe-se') {
-      return <Package packageDetails={packageDetails.entranheSe} 
-                      ourServices={ourSevices.entranheSe} 
-                      itineraryTables={itineraryTables.entranheSe} />
-    
     } else {
-      return <Package packageDetails={packageDetails.entregueSe} 
-                      ourServices={ourSevices.entregueSe} 
-                      itineraryTables={itineraryTables.entregueSe} />
-    
+       return this.getPackages(location.pathname);
     }
+    
+    // else if(location.pathname === '/packages/embrenhe-se') {
+    //   return <Package packageDetails={packageDetails.embrenhaSe} 
+    //                   ourServices={ourSevices.embrenhaSe} 
+    //                   itineraryTables={itineraryTables.embrenhaSe} />
+    
+    // } else if (location.pathname === '/packages/entranhe-se') {
+    //   return <Package packageDetails={packageDetails.entranheSe} 
+    //                   ourServices={ourSevices.entranheSe} 
+    //                   itineraryTables={itineraryTables.entranheSe} />
+    
+    // } else {
+    //   return <Package packageDetails={packageDetails.entregueSe} 
+    //                   ourServices={ourSevices.entregueSe} 
+    //                   itineraryTables={itineraryTables.entregueSe} />
+    
+    // }
   }
 }
 
