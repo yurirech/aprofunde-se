@@ -51,17 +51,17 @@ export const packageCard = [
   {
     backgroundImage: embrenhaSe,
     description: <span>Embrenha-se <br/>6 dias <br/> 5 noites</span>,
-    route: '/packages/embrenha-se'
+    route: '/packages/embrenha'
   },
   {
     backgroundImage: entranheSe,
     description: <span>Entranhe-se <br/>8 dias <br/> 7 noites</span>,
-    route: '/packages/entranhe-se'
+    route: '/packages/entranhe'
   },
   {
     backgroundImage: entregueSe,
     description: <span>Entregue-se <br/>10 dias <br/> 9 noites</span>,
-    route: '/packages/entregue-se'
+    route: '/packages/entregue'
   }
 ];
 
@@ -110,7 +110,7 @@ export const ourSevices = {
 ]
 }
 
-export const packageDetails = {
+export const tourDetails = {
   embrenha: {
     title: 'Embrenha-se',
     subtitle: '6 dias 5 noites',

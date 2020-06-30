@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 export const FlexContainer = styled.div`
   background-color: ${({color}) => color || null };
   display: flex;
-  flex-direction: ${({column}) => column ? 'column' : null};
+  flex-direction: ${({column, direction}) => column ? 'column' : direction};
   flex-wrap: ${({wrap}) => wrap || null};
   justify-content: ${({justify}) => justify || null};
   align-items: ${({align}) => align || null };

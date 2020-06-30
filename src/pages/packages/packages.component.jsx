@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { withRouter } from 'react-router-dom';
 
-import {homeTours, ourSevices, packageDetails, itineraryTables, packageCard} from "./packages.data";
+import {homeTours, ourSevices, tourDetails, itineraryTables, packageCard} from "./packages.data";
 import { FlexContainer, Overlay } from '../../_styles';
 import { Content } from './packages.styles';
 
@@ -14,28 +14,27 @@ import CustomCardWithBackground from '../../components/custom-card-with-backgrou
 
 class Packages extends Component {
   
+
+  // Get packages items to show in view
   getPackages(packageTour) {
-    let pathName = this.props.location.pathname;
-    if(pathName === packageTour) {
-      console.log(packageTour.split('/')[2]);
-      console.log(`packageDetails.${packageTour.split('/')[2]}`);
-      let pack = packageDetails;
-      console.log(pack);
+    if(this.props.location.pathname === packageTour) {
+      let currentTour = packageTour.split('/')[2];
       return (
-        <Package packageDetails={pack} 
-                 ourServices={ourSevices.embrenha} 
-                 itineraryTables={itineraryTables.embrenha} />
+        <Package tourDetails={tourDetails[currentTour]} 
+                 ourServices={ourSevices[currentTour]} 
+                 itineraryTables={itineraryTables[currentTour]} />
       );
     }
   };
-
 
   render() {
     const {location} = this.props;
     
     // Mapping through list of icons
     let whatIsIncluded = homeTours.whatIsIncluded.map((content) =>
-      <ListWithIcons key={uuid()} listItem={content.content} icon={content.icon} />
+      <ListWithIcons key={uuid()} 
+                     listItem={content.content} 
+                     icon={content.icon} />
     );
 
     // Mapping through custom card with background
@@ -46,7 +45,7 @@ class Packages extends Component {
         <Overlay />
       </CustomCardWithBackground>
     ));
-
+    
     if(location.pathname === '/packages') {
       return (
         <Content>
@@ -67,23 +66,6 @@ class Packages extends Component {
     } else {
        return this.getPackages(location.pathname);
     }
-    
-    // else if(location.pathname === '/packages/embrenhe-se') {
-    //   return <Package packageDetails={packageDetails.embrenhaSe} 
-    //                   ourServices={ourSevices.embrenhaSe} 
-    //                   itineraryTables={itineraryTables.embrenhaSe} />
-    
-    // } else if (location.pathname === '/packages/entranhe-se') {
-    //   return <Package packageDetails={packageDetails.entranheSe} 
-    //                   ourServices={ourSevices.entranheSe} 
-    //                   itineraryTables={itineraryTables.entranheSe} />
-    
-    // } else {
-    //   return <Package packageDetails={packageDetails.entregueSe} 
-    //                   ourServices={ourSevices.entregueSe} 
-    //                   itineraryTables={itineraryTables.entregueSe} />
-    
-    // }
   }
 }
 
