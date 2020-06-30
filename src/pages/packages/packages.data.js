@@ -51,22 +51,22 @@ export const packageCard = [
   {
     backgroundImage: embrenhaSe,
     description: <span>Embrenha-se <br/>6 dias <br/> 5 noites</span>,
-    route: '/packages/embrenha-se'
+    route: '/packages/embrenha'
   },
   {
     backgroundImage: entranheSe,
     description: <span>Entranhe-se <br/>8 dias <br/> 7 noites</span>,
-    route: '/packages/entranhe-se'
+    route: '/packages/entranhe'
   },
   {
     backgroundImage: entregueSe,
     description: <span>Entregue-se <br/>10 dias <br/> 9 noites</span>,
-    route: '/packages/entregue-se'
+    route: '/packages/entregue'
   }
 ];
 
 export const ourSevices = {
-  embrenhaSe: [
+  embrenha: [
   {
     title: `Transporte`,
     description: `Translado do Aeroporto para o Hotel em Amsterdam. Uma atividade a tarde e a noite esta incluso um jantar no barco pelos canais de Amsterdam.` 
@@ -80,7 +80,7 @@ export const ourSevices = {
     description: `Dois passeios por dia incluindo entrada de museus, bicicleta, passeios de barco, petiscos. Um almoço ou jantar por dia. Acompanhamento de guia em português ou inglês durante a viagem. Surpresas durante a viagem.` 
   }
 ],
-  entranheSe: [
+  entranhe: [
   {
     title: `Transporte`,
     description: `Translado Aeroporto - Hotel - Aeroporto. Transporte por todo o circuito em van, carro ou trem, de acordo com o número de passageiros e partes do roteiro` 
@@ -94,7 +94,7 @@ export const ourSevices = {
     description: `Dois passeios por dia incluindo entrada de museus, bicicleta, passeios de barco, petiscos. Um almoço ou jantar por dia. Acompanhamento de guia em português ou inglês durante a viagem. Surpresas durante a viagem.` 
   }
 ],
-  entregueSe: [
+  entregue: [
   {
     title: `Transporte`,
     description: `Translado Aeroporto - Hotel - Aeroporto. Transporte por todo o circuito em van, carro ou trem, de acordo com o número de passageiros e partes do roteiro` 
@@ -110,8 +110,8 @@ export const ourSevices = {
 ]
 }
 
-export const packageDetails = {
-  embrenhaSe: {
+export const tourDetails = {
+  embrenha: {
     title: 'Embrenha-se',
     subtitle: '6 dias 5 noites',
     image: embrenhaSe,
@@ -120,7 +120,7 @@ export const packageDetails = {
     é possível visitar as principais cidades do país: Amsterdam, Giethoorn, Otterlo, Amersfoort, Utrecht, 
     Rotterdam, Den Haag e Haarlem.`
   },
-  entranheSe: {
+  entranhe: {
     title: 'Entranhe-se',
     subtitle: '8 dias 7 noites',
     image: entranheSe,
@@ -129,7 +129,7 @@ export const packageDetails = {
     mas ainda sim muito especiais, como: Amsterdam, Giethoorn, Zaanse Schans, Gouda, Otterlo, Amersfoort, 
     Utrecht, Rotterdam, Den Haag e Haarlem.`
   },
-  entregueSe: {
+  entregue: {
     title: 'Entregue-se',
     subtitle: '10 dias 9 noites',
     image: entregueSe,
@@ -141,7 +141,7 @@ export const packageDetails = {
 }
 
 export const itineraryTables = {
-  embrenhaSe: [
+  embrenha: [
   {
     day: `1o dia`,
     city: `Amsterdam`,
@@ -179,7 +179,7 @@ export const itineraryTables = {
     description: `Café da manhã hotel Amsterdam. Translado hotel - aeroporto.` 
   }
 ],
-  entranheSe: [
+  entranhe: [
   {
     day: `1o dia`,
     city: `Amsterdam`,
@@ -229,7 +229,7 @@ export const itineraryTables = {
     description: `Café da manhã hotel Amsterdam. Translado hotel - aeroporto.` 
   },
 ],
-  entregueSe: [
+  entregue: [
   {
     day: `1o dia`,
     city: `Amsterdam`,
