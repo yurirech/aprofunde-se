@@ -21,7 +21,8 @@ export const FlexContainerExtended = styled(FlexContainer)`
   }
 
   p {
-    line-height: 30px;
+    width: ${({paragraphWidth}) => paragraphWidth || null };
+    line-height: ${({paragraphLineHeight}) => paragraphLineHeight || '30px'};
     font-size: .85rem;
   }
 
@@ -30,13 +31,17 @@ export const FlexContainerExtended = styled(FlexContainer)`
     width: 100%;
     text-align: center;
     min-width: unset;
+
+    p {
+      width: unset;
+    }
   }  
 `;
 
 export const ImageWrapper = styled.div`
-    height: 425px;
+    height: ${({imageWrapperHeight}) => imageWrapperHeight || '425px' };
     width: 370px;
-    box-shadow: -14px 14px 4px 3px #6e6e6e3d;
+    box-shadow: ${({imageWrapperBoxShadow}) => imageWrapperBoxShadow || '-14px 14px 4px 3px #6e6e6e3d' };
       /* maybe #8364dd3d */
      
 
