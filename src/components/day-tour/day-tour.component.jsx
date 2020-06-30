@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import {Content} from './day-tour.styles';
 
+import "react-datepicker/dist/react-datepicker.css";
+
+import DatePicker from "react-datepicker";
 import test from '../../assets/img/day-tours/delta.jpg'
 import ToursDetails from '../tours-details/tours-details.component';
 import OurServicesCard from '../our-services-card/our-services-card.component';
+import CustomSelect from '../custom-select/custom-select.component';
+import Button from '../SharedComponents/button/button.component';
+import { FlexContainer } from '../../_styles';
 
 const dummy = {
   title: 'Haarlem & Praia de bicicleta',
@@ -16,28 +22,87 @@ const dummy = {
   image: test,
   arr: [
     {
-      title: 'la',
-      description: 'la',
+      title: 'Nulla et ligula arcu',
+      description: `Cras tristique scelerisque mi, a maximus elit tincidunt vel. Vivamus id nibh nisi. Morbi laoreet dui et neque tristique tristique. Proin pulvinar interdum dui eget imperdiet.`,
     },
     {
-      title: 'la',
-      description: 'la',
+      title: 'Nulla et ligula arcu',
+      description: `Cras tristique scelerisque mi, a maximus elit tincidunt vel. Vivamus id nibh nisi. Morbi laoreet dui et neque tristique tristique. Proin pulvinar interdum dui eget imperdiet.`,
     },
     {
-      title: 'la',
-      description: 'la',
+      title: 'Nulla et ligula arcu',
+      description: `Cras tristique scelerisque mi, a maximus elit tincidunt vel. Vivamus id nibh nisi. Morbi laoreet dui et neque tristique tristique. Proin pulvinar interdum dui eget imperdiet.`,
     }
   ]
 }
 
-const DayTour = () => (
+const hour = [
+  {
+    value: '06:15',
+    option: '06:15'
+  },
+  {
+    value: '08:15',
+    option: '08:15'
+  },
+  {
+    value: '10:15',
+    option: '10:15'
+  },
+  {
+    value: '16:15',
+    option: '16:15'
+  },
+]
+
+const people = [
+  {
+    value: '1',
+    option: '1 pessoa'
+  },
+  {
+    value: '2',
+    option: '2 pessoas'
+  },
+  {
+    value: '3',
+    option: '3 pessoas'
+  },
+  {
+    value: '4',
+    option: '4 pessoas'
+  },
+  {
+    value: '5',
+    option: '5 pessoas'
+  },
+]
+
+const DayTour = ({handleChange}) => { 
+  const [date, setDate] = useState(new Date());
+
+  handleChange = date => setDate(date);
+
+
+  return (
     <Content>
+      <FlexContainer margin='0 5rem'>
+        <Button text='<-' />
+      </FlexContainer>
       <ToursDetails title={dummy.title} 
                     description={dummy.description} 
                     image={dummy.image} 
-                    direction='row-reverse'/>
+                    direction='row-reverse'/>      
       <OurServicesCard ourServices={dummy.arr} />
+      <h2>Ver Disponibilidade</h2>
+      <form>
+        <DatePicker selected={date} onChange={handleChange} dateFormat="dd/MM/yyyy"/>
+        <CustomSelect options={hour} />
+        <CustomSelect options={people} />
+        <Button text='Enviar' />
+      </form>
     </Content>
-);
+  )
+};
 
 export default DayTour;

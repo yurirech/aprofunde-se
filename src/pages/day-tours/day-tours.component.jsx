@@ -15,7 +15,6 @@ import CustomCardWithBackground from '../../components/custom-card-with-backgrou
 
 const DayTours = ({location}) => {
   
-  console.log(location);
   // Looping through cards of left column
     const leftColumn = cardsLeft.map(card => (
       <CustomCardWithBackground backgroundImage={card.image}
