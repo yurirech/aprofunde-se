@@ -15,11 +15,29 @@ export const FlexContainerExtended = styled(FlexContainer)`
     margin-bottom: .75rem;
   }
 
+<<<<<<< HEAD
+=======
+  h1 {
+    color: ${colors.aprofundeSeOrange};
+    font-weight: bold;
+  }
+
+  p {
+    width: ${({paragraphWidth}) => paragraphWidth || null };
+    line-height: ${({paragraphLineHeight}) => paragraphLineHeight || '30px'};
+    font-size: .85rem;
+  }
+
+>>>>>>> master
   @media ${device.laptop} {
     margin: 4rem 0 0 0;
     width: 100%;
     text-align: center;
     min-width: unset;
+
+    p {
+      width: unset;
+    }
   }  
 `;
 
@@ -41,9 +59,15 @@ export const Paragraph = styled.p`
 
 
 export const ImageWrapper = styled.div`
+<<<<<<< HEAD
     height: ${({dayTourStyles}) => dayTourStyles ? 'auto' : '425px' };
     width: 370px;
     box-shadow: ${({dayTourStyles}) => dayTourStyles ? '14px 14px 4px 3px #6e6e6e3d'  : '-14px 14px 4px 3px #6e6e6e3d' };
+=======
+    height: ${({imageWrapperHeight}) => imageWrapperHeight || '425px' };
+    width: 370px;
+    box-shadow: ${({imageWrapperBoxShadow}) => imageWrapperBoxShadow || '-14px 14px 4px 3px #6e6e6e3d' };
+>>>>>>> master
       /* maybe #8364dd3d */
      
 
