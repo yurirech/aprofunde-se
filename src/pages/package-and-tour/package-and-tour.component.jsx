@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import DatePicker from "react-datepicker";
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 import "react-datepicker/dist/react-datepicker.css";
 
-import { Content, TourForm, Spacing, DayToursBackButton } from './package-and-tour.styles';
+import { Content, TourForm, Spacing, DayToursBackButton, LinkDayToursBackButton } from './package-and-tour.styles';
 import { FlexContainer } from '../../_styles';
 
 
@@ -72,22 +72,21 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
   const {image, title, description, subtitle} = tourDetails;
  
   return (
-        <Content>
-          <FlexContainer display={!isDayTour ? 'none' : null} margin='0 7rem' style={{position: 'relative'}}>
-           <Link to='/day-tours'>
-            <DayToursBackButton>
-              <FontAwesomeIcon icon='arrow-left' />
-            </DayToursBackButton>
-           </Link>
-          </FlexContainer>
+        <Content>  
           <TourDetails  image={image} 
                         title={title} 
                         description={description} 
                         subtitle={subtitle}
-                        direction= {isDayTour ? 'row-reverse' : null}
-                        dayTourStyles={isDayTour ? true : false}  
-                        />
-          
+                        style={{position: 'relative'}}
+                        direction= {!isDayTour ? 'row-reverse' : null}
+                        dayTourStyles={isDayTour ? true : false} >
+            <LinkDayToursBackButton as={Link} to='/day-tours' display={isDayTour ? true : false} >
+              <DayToursBackButton>
+                <FontAwesomeIcon icon='arrow-left' />
+              </DayToursBackButton>
+            </LinkDayToursBackButton>
+          </TourDetails>
+
           {
             !isDayTour ? <h2>Nossos serviços</h2> : <Spacing></Spacing>
           }

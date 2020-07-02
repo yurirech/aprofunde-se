@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { colors, device } from '../../_variables';
 import { CustomButton } from '../../components/SharedComponents/button/button.styles'
 
+
 export const Content = styled.div`
   padding-bottom: 3rem;
   
@@ -17,14 +18,21 @@ export const Content = styled.div`
   }
 `;
 
-export const DayToursBackButton = styled(CustomButton)`
-  border-radius: .5rem;
+export const LinkDayToursBackButton = styled.a`
+  display: ${({display}) => !display ? 'none' : display};
   position: absolute;
   left: 8.5rem;
+ 
+ @media ${device.laptop} {
+    left: 0.5rem;
+  }
+`; 
+
+export const DayToursBackButton = styled(CustomButton)`
+  border-radius: .5rem;
   padding: .5rem;
   color: black;
   background: white;
-
 `;
 
 export const Spacing = styled.div`
