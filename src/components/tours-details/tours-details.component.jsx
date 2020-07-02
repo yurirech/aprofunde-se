@@ -10,11 +10,7 @@ const ToursDetails = ({title, subtitle, description, image, direction, ...otherP
       <Image bg={image} ></Image>
     </ImageWrapper>
     <FlexContainerExtended justify='center' column {...otherProps}>
-<<<<<<< HEAD
       <Title {...otherProps}>{title}</Title>
-=======
-      <h1>{title}</h1>
->>>>>>> master
       { subtitle ? <label>{subtitle}</label> : null }
       <Paragraph {...otherProps}>{description}</Paragraph>
     </FlexContainerExtended>
