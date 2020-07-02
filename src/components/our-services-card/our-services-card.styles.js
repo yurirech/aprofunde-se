@@ -3,6 +3,7 @@ import { FlexContainer } from '../../_styles';
 import {device} from '../../_variables';
 
 export const Content = styled.div`
+  background-color: ${({contentBgColor}) => contentBgColor || null };
   padding: 5%;
   text-align: left;
   width: 30%;
