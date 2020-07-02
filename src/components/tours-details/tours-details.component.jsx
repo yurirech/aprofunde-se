@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FlexContainerExtended, ImageWrapper } from './tours-details.styles';
+import { FlexContainerExtended, ImageWrapper, Paragraph, Title } from './tours-details.styles';
 
 import { FlexContainer, Image } from '../../_styles';
 
@@ -10,9 +10,9 @@ const ToursDetails = ({title, subtitle, description, image, direction, ...otherP
       <Image bg={image} ></Image>
     </ImageWrapper>
     <FlexContainerExtended justify='center' column {...otherProps}>
-      <h1>{title}</h1>
+      <Title {...otherProps}>{title}</Title>
       { subtitle ? <label>{subtitle}</label> : null }
-      <p>{description}</p>
+      <Paragraph {...otherProps}>{description}</Paragraph>
     </FlexContainerExtended>
   </FlexContainer>
 );

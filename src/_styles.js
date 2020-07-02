@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const FlexContainer = styled.div`
   background-color: ${({color}) => color || null };
-  display: flex;
+  display: ${({display}) => display ||  'flex' };
   flex-direction: ${({column, direction}) => column ? 'column' : direction};
   flex-wrap: ${({wrap}) => wrap || null};
   justify-content: ${({justify}) => justify || null};
@@ -23,6 +23,7 @@ export const FlexContainer = styled.div`
   margin : ${({margin}) => margin || `4rem ${paddings.paddingWeb}` };
   width:  ${({width}) => width || null };
   min-width:  ${({minWidth}) => minWidth || null };
+  
 
   @media ${device.laptop}  {
     width:  ${({widthLg}) => widthLg || null };

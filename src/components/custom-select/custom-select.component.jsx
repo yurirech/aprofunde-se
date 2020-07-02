@@ -1,13 +1,15 @@
 import React from 'react';
 
+import { Select } from "./custom-select.styles";
+
 const CustomSelect = ({options}) => (
-  <select name="" id="">
+  <Select name="" id="">
     {
       options.map(option => (
         <option value={option.value}>{option.option}</option>
       ))
     }
-  </select>
+  </Select>
 );
 
 export default CustomSelect;

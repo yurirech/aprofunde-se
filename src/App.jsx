@@ -14,7 +14,8 @@ import {
   faBus,
   faCar,
   faLanguage,
-  faGift
+  faGift,
+  faArrowLeft
 } from '@fortawesome/free-solid-svg-icons';
 import Footer from "./components/SharedComponents/Footer/Footer";
 import MainNavBar from "./components/SharedComponents/main-navbar/main-navbar.component";
@@ -22,7 +23,7 @@ import About from "./pages/about/about.component";
 import Packages from "./pages/packages/packages.component";
 import DayTours from './pages/day-tours/day-tours.component';
 
-library.add(fab, faPlane, faMapMarkedAlt, faHome, faUtensils, faBiking, faBus, faCar, faLanguage, faGift);
+library.add(fab, faPlane, faMapMarkedAlt, faHome, faUtensils, faBiking, faBus, faCar, faLanguage, faGift, faArrowLeft);
 
 
 class App extends Component {

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
-const Content = styled.div`
-  
+export const Select = styled.select`
+  margin-bottom: .5rem;
+  padding: .5rem;
 `;

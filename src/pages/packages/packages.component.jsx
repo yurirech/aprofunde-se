@@ -9,7 +9,7 @@ import {v4 as uuid} from 'uuid';
 
 import CentralizedSection from "../../components/SharedComponents/centrilized-section/centrilized-section.component";
 import ListWithIcons from "../../components/SharedComponents/list-with-icons/list-with-icons.component";
-import Package from '../../components/package/package'
+import PackageAndTour from '../package-and-tour/package-and-tour.component'
 import CustomCardWithBackground from '../../components/custom-card-with-background/custom-card-with-background.component';
 
 class Packages extends Component {
@@ -20,9 +20,9 @@ class Packages extends Component {
     if(this.props.location.pathname === packageTour) {
       let currentTour = packageTour.split('/')[2];
       return (
-        <Package tourDetails={tourDetails[currentTour]} 
-                 ourServices={ourSevices[currentTour]} 
-                 itineraryTables={itineraryTables[currentTour]} />
+        <PackageAndTour tourDetails={tourDetails[currentTour]} 
+                        ourServices={ourSevices[currentTour]} 
+                        itineraryTables={itineraryTables[currentTour]} />
       );
     }
   };
