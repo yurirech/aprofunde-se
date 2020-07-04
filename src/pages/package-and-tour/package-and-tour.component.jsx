@@ -1,11 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import DatePicker from "react-datepicker";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 
 import "react-datepicker/dist/react-datepicker.css";
 
-import { Content, TourForm, Spacing, DayToursBackButton, LinkDayToursBackButton } from './package-and-tour.styles';
+import { Content, TourForm, Spacing } from './package-and-tour.styles';
 import { FlexContainer } from '../../_styles';
 
 
@@ -77,14 +75,9 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
                         title={title} 
                         description={description} 
                         subtitle={subtitle}
-                        style={{position: 'relative'}}
                         direction= {!isDayTour ? 'row-reverse' : null}
                         dayTourStyles={isDayTour ? true : false} >
-            <LinkDayToursBackButton as={Link} to='/day-tours' display={isDayTour ? true : false} >
-              <DayToursBackButton>
-                <FontAwesomeIcon icon='arrow-left' />
-              </DayToursBackButton>
-            </LinkDayToursBackButton>
+           
           </TourDetails>
 
           {
@@ -106,6 +99,7 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
             : 
             <TourForm>
               <FlexContainer column justify='center' width='490px' margin='2rem' >
+                <h2 style={{marginBottom: '3rem', marginTop: '-1.5rem', fontSize: '1.90rem'}}>Ver disponibilidade</h2>
                 <DatePicker selected={date} onChange={handleChange} dateFormat="dd/MM/yyyy"/>
                 <CustomSelect options={hour} />
                 <CustomSelect options={people} />
