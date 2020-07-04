@@ -4,7 +4,7 @@ import {device} from '../../_variables';
 
 export const Content = styled.div`
   background-color: ${({contentBgColor}) => contentBgColor || null };
-  padding: 5%;
+  padding: 2rem;
   text-align: left;
   width: 30%;
   min-width: 18rem;
@@ -17,16 +17,13 @@ export const Content = styled.div`
 
   @media ${device.laptop} {
     width: 100%;
-  }
-
-  @media ${device.tablet} {
-    width: 75%;
+    margin-bottom: 1rem;
   }
 `;
 
 export const FlexContainerExtended = styled(FlexContainer)`
    @media ${device.tablet} {
-    padding: 2rem 0
+    /* padding: 2rem 0 */
   }
 `;
 

@@ -33,6 +33,7 @@ export const cardsLeft = [{
   title: 'Haarlem & Praia de bicicleta',
   description: <small>Conheça a charmosa cidade de Haarlem, viste o museu local e vá de bicicleta à 
   praia curtir o por do sol, tudo acompanhado de um guia turístico. <br/> Duração: 8 horas</small>,
+  route: 'wehee'
 },
 {
   image: delft,
@@ -68,6 +69,7 @@ export const cardsRight = [{
   title: 'Utrecht & Castelo',
   description: <small> Conheça um dos maiores castelos da Holanda, o De Haar, famoso por séculos e ponto de encontro de celebridades 
   do século passado. Depois passeie pelas ruas de Utrecht e se apaixone. <br/> Duração: 8 horas</small>,
+  route: 'wehee'
 },
 {
   image: denHaag,

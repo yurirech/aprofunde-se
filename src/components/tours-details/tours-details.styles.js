@@ -5,7 +5,7 @@ import { FlexContainer } from '../../_styles';
 import { colors, device } from '../../_variables';
 
 export const FlexContainerExtended = styled(FlexContainer)`
-  margin: 0 0 0 2rem;
+  margin:  ${({dayTourStyles}) => dayTourStyles ? '0' : ' 0 0 0 2rem' };
   text-align: left;
   width: 45%;
   min-width: 25rem;
@@ -26,7 +26,6 @@ export const FlexContainerExtended = styled(FlexContainer)`
 `;
 
 export const LinkDayToursBackButton = styled.a`
-  display: ${({dayTourStyles}) => dayTourStyles ?  null : 'none'};
   position: absolute;
   left: 0;
   top: -2rem;
@@ -41,11 +40,15 @@ export const LinkDayToursBackButton = styled.a`
 
 export const DayToursBackButton = styled(CustomButton)`
   border-radius: .5rem;
-  padding: .5rem;
+  padding: .25rem;
   color: black;
   background: white;
   margin-top: 0;
   margin-bottom: 0;
+
+  svg {
+    margin: 0;
+  }
 `;
 
 export const Title = styled.h1`
