@@ -12,11 +12,13 @@ const ToursDetails = ({title, subtitle, description, image, direction, ...otherP
   
   <FlexContainer wrap='wrap' justify='center' direction={direction}>
     <FlexContainerExtended justify='center' column {...otherProps}>
-      <LinkDayToursBackButton as={Link} to='/day-tours' {...otherProps}>
+     { !subtitle ?
+      <LinkDayToursBackButton as={Link} to='/day-tours'>
         <DayToursBackButton>
           <FontAwesomeIcon icon='arrow-left' />
         </DayToursBackButton>
-      </LinkDayToursBackButton>
+      </LinkDayToursBackButton> : null
+     }
       <Title {...otherProps}>{title}</Title>
       { subtitle ? <label>{subtitle}</label> : null }
       <Paragraph {...otherProps}>{description}</Paragraph>

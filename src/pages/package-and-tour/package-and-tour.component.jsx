@@ -6,15 +6,11 @@ import "react-datepicker/dist/react-datepicker.css";
 import { Content, TourForm, Spacing } from './package-and-tour.styles';
 import { FlexContainer } from '../../_styles';
 
-
-
 import ItineraryTable from "../../components/SharedComponents/itinerary-table/itinerary-table.component";
 import OurServicesCard from '../../components/our-services-card/our-services-card.component';
 import TourDetails from '../../components/tours-details/tours-details.component';
 import Button from '../../components/SharedComponents/button/button.component';
 import CustomSelect from '../../components/custom-select/custom-select.component';
-
-
 
 const hour = [
   {
@@ -76,8 +72,10 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
                         description={description} 
                         subtitle={subtitle}
                         direction= {!isDayTour ? 'row-reverse' : null}
-                        dayTourStyles={isDayTour ? true : false} >
-           
+                        dayTourStyles={isDayTour ? true : false} 
+                        isDayTour={isDayTour}
+                        >
+                        
           </TourDetails>
 
           {
@@ -103,7 +101,7 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
                 <DatePicker selected={date} onChange={handleChange} dateFormat="dd/MM/yyyy"/>
                 <CustomSelect options={hour} />
                 <CustomSelect options={people} />
-                <Button text='Enviar' bgColor='black' />
+                <Button text='Enviar' bgColor='#6e5f9e' />
               </FlexContainer>
             </TourForm>
             

@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { colors, device } from '../../_variables';
 
-
-
 export const Content = styled.div`
   padding-bottom: 3rem;
   
@@ -13,9 +11,6 @@ export const Content = styled.div`
     color: ${colors.aprofundeSeOrange}
   }
 
-  @media ${device.laptop} {
-
-  }
 `;
 
 
@@ -40,6 +35,13 @@ export const TourForm = styled.form`
   input {
     padding: .5rem;
     margin-bottom: .5rem;
+  }
+}
+
+@media ${device.tablet} {
+  select, input {
+    background: white;
+    border: 1px solid rgb(195, 195, 195);
   }
 }
     
