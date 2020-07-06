@@ -4,5 +4,6 @@
     "*.jsx": "javascriptreact",
     "*.ts": "typescript",
     "*.tsx": "typescriptreact",
-  }
+  },
+  "git.ignoreLimitWarning": true
 }
