@@ -1,45 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {v4 as uuid} from 'uuid';
 import {withRouter} from 'react-router-dom';
 
-import {cardsLeft, cardsRight} from './day-tours.data';
+import {header, cardsLeft, cardsRight, dayTours} from './day-tours.data';
 import {Content, FlexContainerExtended} from  './day-tours.styles';
 import {FlexContainer, Overlay} from '../../_styles';
 import {colors} from '../../_variables';
-import { header } from './day-tours.data';
 
 
 import CentralizedSection from '../../components/SharedComponents/centrilized-section/centrilized-section.component';
 import CustomCardWithBackground from '../../components/custom-card-with-background/custom-card-with-background.component'
 import PackageAndTour from '../package-and-tour/package-and-tour.component';
-import test from '../../assets/img/day-tours/delta.jpg'
 
-
-const dummy = {
-  title: 'Haarlem & Praia de bicicleta',
-  description: <span>Conheça a charmosa cidade de Haarlem que fica localizada a 20 minutos de trem de Amsterdam. Devido a proximidade, se você estiver em Amsterdam, nós iremos até Haarlem de trem, mas pode deixar que a gente te encontra no seu Hotel. <br/>
-  Chegando em Haarlem, voce escutará histórias e fatos locais do nosso guia, e conhecerá um museu de sua escolha - arte moderna ou clássica. Você pode escolher se quer almoçar em Haarlem ou na praia. <br/>
-  Depois de pegar a bicicleta você terá a experiência local de pedalar pela cidade e ir até a praia, 20 - 30 minutos. <br/>
-  Chegando lá você terá uma uma porção e uma cadeira de sol reservada em um dos melhores bares te esperando, então tudo que você tem que fazer é relaxar e deixar com a gente! <br/>
-  Se você quiser ficar na praia até a noite ao invés de voltar no horário do fim do tour não tem problema nenhum, tudo pode ser esquematizado.</span>,
-  image: test,
-  arr: [
-    {
-      title: 'Nulla et ligula arcu',
-      description: `Cras tristique scelerisque mi, a maximus elit tincidunt vel. Vivamus id nibh nisi. Morbi laoreet dui et neque tristique tristique. Proin pulvinar interdum dui eget imperdiet.`,
-    },
-    {
-      title: 'Nulla et ligula arcu',
-      description: `Cras tristique scelerisque mi, a maximus elit tincidunt vel. Vivamus id nibh nisi. Morbi laoreet dui et neque tristique tristique. Proin pulvinar interdum dui eget imperdiet.`,
-    },
-    {
-      title: 'Nulla et ligula arcu',
-      description: `Cras tristique scelerisque mi, a maximus elit tincidunt vel. Vivamus id nibh nisi. Morbi laoreet dui et neque tristique tristique. Proin pulvinar interdum dui eget imperdiet.`,
-    }
-  ]
-}
 
 const DayTours = ({location}) => {
+
+ const getDayTours = (packageTour) => {
+    if(location.pathname === packageTour) {
+      let currentTour = packageTour.split('/')[2];
+      return (
+       <PackageAndTour isDayTour 
+                       tourDetails={dayTours.haarlem} 
+                       ourServices={dayTours.haarlem.services}  />
+      )
+    } else {
+      return <div>404 PAGE NOT FOUND</div>;
+    }
+  };
   
   // Looping through cards of left column
     const leftColumn = cardsLeft.map(card => (
@@ -89,7 +76,7 @@ const DayTours = ({location}) => {
       </Content>
     )
   } else {
-    return <PackageAndTour tourDetails={dummy} ourServices={dummy.arr} isDayTour />
+    return getDayTours(location.pathname);
   }
 };
 

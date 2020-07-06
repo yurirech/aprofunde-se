@@ -11,6 +11,8 @@ import park from '../../assets/img/day-tours/park.jpg'
 import utrech from '../../assets/img/day-tours/utrecht.jpg'
 import zaanseSchans from '../../assets/img/day-tours/zaanse-schans.jpg'
 
+import test from '../../assets/img/day-tours/delta.jpg'
+
 
 export const header = {
   title: `Day Tours`,
@@ -104,3 +106,378 @@ export const cardsRight = [{
   route: 'wehee'
 
 }];
+
+const whatIsIncluded = 'O que está incluso?';
+const price = 'Preço';
+const info = 'Informação';
+const moreInfo =  ['Duração total: 8 horas',
+                    'Horário de encontro: 9:00',
+                    'Horário de retorno: 17:00',
+                    'Local de encontro: Depende da cidade que você estiver.',
+                    'Experiência customizada para suas preferências.',
+                    'Perguntas? Entre em contato'];
+
+export const dayTours = {
+ haarlem: {
+  title: 'Haarlem & Praia de bicicleta',
+  description: <span>Conheça a charmosa cidade de Haarlem que fica localizada a 20 minutos de trem de Amsterdam. Devido a proximidade, se você estiver em Amsterdam, nós iremos até Haarlem de trem, mas pode deixar que a gente te encontra no seu Hotel. <br/>
+  Chegando em Haarlem, voce escutará histórias e fatos locais do nosso guia, e conhecerá um museu de sua escolha - arte moderna ou clássica. Você pode escolher se quer almoçar em Haarlem ou na praia. <br/>
+  Depois de pegar a bicicleta você terá a experiência local de pedalar pela cidade e ir até a praia, 20 - 30 minutos. <br/>
+  Chegando lá você terá uma uma porção e uma cadeira de sol reservada em um dos melhores bares te esperando, então tudo que você tem que fazer é relaxar e deixar com a gente! <br/>
+  Se você quiser ficar na praia até a noite ao invés de voltar no horário do fim do tour não tem problema nenhum, tudo pode ser esquematizado.</span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Bicicleta',
+                        'Aperitivos',
+                        'Cadeira reservada pra deitar na praia',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €190',
+                    '2 pessoas €160 p.p.',
+                    '3 pessoas €130 p.p.',
+                    '4 pessoas  €90 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]
+},
+ utrecht: {
+  title: 'Utrecht & Castelo',
+  description: <span>Conheça um dos maiores castelos da Holanda, o De Haar, famoso por séculos e ponto de suntuosos encontros da high society, 
+  incluindo visitantes frequentes como Coco Chanel, Maria Callas, Gregory Peck, Yves Saint Laurent, and Brigitte Bardot. <br/>
+  Depois passeie pelas ruas de Utrecht, alguns dizem que é como Amsterdam mas sem turista, e se apaixone pelos canais, ruas e parques da cidade 
+  que voce conhecera de barco, bicicleta e a pé.</span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Bicicleta',
+                        'Barco',
+                        'Aperitivos',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €190',
+                    '2 pessoas €160 p.p.',
+                    '3 pessoas €130 p.p.',
+                    '4 pessoas  €90 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]
+   
+},
+ delft: {
+  title: 'T.U. Delft & Fazenda',
+  description: <span>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido pelos últimos 
+                desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma fazenda sustentáveis e 
+                descubra as novas tendências e inovações da agricultura na Holanda. </span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Tour na Faculdade',
+                        'Aperitivos',
+                        'Entrada Fazenda',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €190',
+                    '2 pessoas €160 p.p.',
+                    '3 pessoas €130 p.p.',
+                    '4 pessoas  €90 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]
+   
+},
+ haag: {
+  title: 'Den Haag & Museu Voorlinden',
+  description: <span>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido pelos últimos 
+                desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma fazenda sustentáveis e 
+                descubra as novas tendências e inovações da agricultura na Holanda. </span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Entrada para Palácio da paz',
+                        'Bicicleta',
+                        'Aperitivos',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €200',
+                    '2 pessoas €170 p.p.',
+                    '3 pessoas €140 p.p.',
+                    '4 pessoas  €100 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]  
+},
+ gouda: {
+  title: 'Gouda & Rotterdam',
+  description: <span>Visite o mercado de queijo de Gouda pela manhã, um mercado que funciona desde 1395 e que junta os melhores 
+               produtores de queijo do país. <br/> Saindo de Gouda, almoço em Rotterdam, e um tour pela cidade mostrando as principais 
+               atrações e uma visita ao museu. Vislumbre o estilo arquitetônico da cidade e no final do passeio sera dado tempo para 
+               compras, porém se quiser optar por outra atividade te damos um leque de opções para escolher.</span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Barco',
+                        'Aperitivos',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €200',
+                    '2 pessoas €170 p.p.',
+                    '3 pessoas €140 p.p.',
+                    '4 pessoas  €100 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]  
+},
+ kroller: {
+  title: 'Museu Kroller Müller & Amersfoort',
+  description: <span>Esse passeio é para os amantes de arte contemporânea, da natureza e de arquitetura. O museu Kroller Müller 
+               fica localizado dentro de um belíssimo parque onde faremos um piquenique após admirarmos os maravilhosos quadros 
+               e  esculturas do museu.  <br/> Em seguida iremos para Amersfoort onde você vai conhecer a cultura local e provar 
+               deliciosos doces holandeses. </span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Bicicleta',
+                        'Aperitivos',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €200',
+                    '2 pessoas €170 p.p.',
+                    '3 pessoas €140 p.p.',
+                    '4 pessoas  €100 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]  
+},
+ giethoorn: {
+  title: 'Giethoorn & Dolmen',
+  description: <span>Sinta-se em um conto de fadas ao passear de barco pelos canais de Giethoorn, a famosa cidade sem ruas. 
+               Depois do passeio você vai almoçar em um charmoso restaurante para apreciar mais a cidade. Seguiremos depois 
+               para o norte, para conhecermos as misteriosas dolmens, túmulos de pedras mais antigas que as pirâmides do Egito.
+               <br/> Você vai se encantar com essa parte pouco visitada da Holanda.</span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Passeio de barco',
+                        'Aperitivos',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €200',
+                    '2 pessoas €170 p.p.',
+                    '3 pessoas €140 p.p.',
+                    '4 pessoas  €100 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]  
+},
+ zaanse: {
+  title: 'Zaanse Schans & Volendam',
+  description: <span>Passe o dia admirando a paisagem dos históricos moinhos de vento de Zaanse Schans, descubra sobre 
+               a fabricação de queijos, caminhe com tamancos madeira, explore o interior de um moinho e encante-se com a natureza e as casas. 
+               <br/> Na parte da tarde experimente os delicioso frutos do mar da vila dos pescadores da Holanda, Volendam, e se apaixone 
+               pela arquitetura única desse lugar.</span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Passeio de barco',
+                        'Aperitivos',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €200',
+                    '2 pessoas €170 p.p.',
+                    '3 pessoas €140 p.p.',
+                    '4 pessoas  €100 p.p.']
+    },
+    {
+      title: info,
+      description: moreInfo
+    }
+  ]  
+},
+ delta: {
+  title: 'Delta Works & Middelburg',
+  description: <span>Se você é fascinado por engenharia não pode deixar de conhecer as maiores barragens do mundo. Iremos descer para o 
+               sul do país de carro, e passar por todas as barragens na área. Em um ponto no meio disso tudo tem um museu muito interessante 
+               que faremos uma parada para conhecer.
+               <br/> Após aproveitar essa passagem hipnotizante, conheça Middelburg, uma cidade medieval pouco conhecida por turistas.
+               Para terminar o dia perfeito, curta uma sauna com massagem e jantar incluso, e ao terminar o guia estará te esperando 
+               do lado de fora para te levar embora.</span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para Museu',
+                        'Entrada para Sauna',
+                        'Massagem 50 minutos',
+                        'Jantar',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €350',
+                    '2 pessoas €320 p.p.',
+                    '3 pessoas €290 p.p.',
+                    '4 pessoas  €250 p.p.']
+    },
+    {
+      title: info,
+      description: ['Duração total: 12 horas',
+                    'Horário de encontro: 8:00',
+                    'Horário de retorno: 20:00',
+                    'Local de encontro: Depende da cidade que você estiver.',
+                    'Experiência customizada para suas preferências.',
+                    'Perguntas? Entre em contato']
+    }
+  ]  
+},
+ park: {
+  title: 'Delta Works & Middelburg',
+  description: <span>Os apaixonados por adrenalina que se segurem! Nessa excursão você será levado da porta da sua acomodação ao fantástico 
+               parque de diversões Efteling pelo nosso guia, que pelo caminho ira te mostrar e contar coisas interessantíssimas.  
+               <br/> Após um longo dia de muita energia gasta, nosso guia ira te levar a uma das mais bonitas saunas da Holanda, onde você 
+               irá tirar todas as tensões construídas ao longo da viagem com uma deliciosa massagem relaxante e um saboroso jantar.
+               <br/> Quando estiverem satisfeitos, nosso motorista estará te esperando do lado de fora da Sauna pra te levar de volta ao seu hotel. </span>,
+  image: test,
+  services: [
+    {
+      title: whatIsIncluded,
+      description:   [  'Entrada para para o parque',
+                        'Entrada para Sauna',
+                        'Massagem 50 minutos',
+                        'Jantar',
+                        'Transporte',
+                        'Guia Turístico acompanha o passeio inteiro']
+                  
+    },
+    {
+      title: price,
+      description: ['1 pessoa €400',
+                    '2 pessoas €370 p.p.',
+                    '3 pessoas €340 p.p.',
+                    '4 pessoas  €300 p.p.']
+    },
+    {
+      title: info,
+      description: ['Duração total: 14 horas',
+                    'Horário de encontro: 8:00',
+                    'Horário de retorno: 20:00',
+                    'Local de encontro: Depende da cidade que você estiver.',
+                    'Experiência customizada para suas preferências.',
+                    'Perguntas? Entre em contato']
+    }
+  ]  
+},
+}
+
+
+export const serviceHours = [
+  {
+    value: '06:15',
+    option: '06:15'
+  },
+  {
+    value: '08:15',
+    option: '08:15'
+  },
+  {
+    value: '10:15',
+    option: '10:15'
+  },
+  {
+    value: '16:15',
+    option: '16:15'
+  },
+]
+
+export const numberOfPeople = [
+  {
+    value: '1',
+    option: '1 pessoa'
+  },
+  {
+    value: '2',
+    option: '2 pessoas'
+  },
+  {
+    value: '3',
+    option: '3 pessoas'
+  },
+  {
+    value: '4',
+    option: '4 pessoas'
+  },
+  {
+    value: '5',
+    option: '5 pessoas ou mais'
+  },
+]
