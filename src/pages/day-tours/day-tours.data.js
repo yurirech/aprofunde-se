@@ -12,6 +12,7 @@ import utrech from '../../assets/img/day-tours/utrecht.jpg'
 import zaanseSchans from '../../assets/img/day-tours/zaanse-schans.jpg'
 
 import test from '../../assets/img/day-tours/delta.jpg'
+import { Link } from 'react-router-dom';
 
 
 export const header = {
@@ -115,7 +116,9 @@ const moreInfo =  ['Duração total: 8 horas',
                     'Horário de retorno: 17:00',
                     'Local de encontro: Depende da cidade que você estiver.',
                     'Experiência customizada para suas preferências.',
-                    `Perguntas? Entre em contato`];
+                    <span>Perguntas? Entre em &nbsp;
+                      <Link to='/contact-us'><u>contato</u></Link>
+                    </span>];
 
 export const dayTours = {
  haarlem: {
@@ -396,7 +399,9 @@ export const dayTours = {
                     'Horário de retorno: 20:00',
                     'Local de encontro: Depende da cidade que você estiver.',
                     'Experiência customizada para suas preferências.',
-                    `Perguntas? Entre em contato`]
+                    <span>Perguntas? Entre em &nbsp;
+                      <Link to='/contact-us'><u>contato</u></Link>
+                    </span>]
     }
   ]  
 },
@@ -433,7 +438,9 @@ export const dayTours = {
                     'Horário de retorno: 20:00',
                     'Local de encontro: Depende da cidade que você estiver.',
                     'Experiência customizada para suas preferências.',
-                    'Perguntas? Entre em contato']
+                    <span>Perguntas? Entre em &nbsp;
+                     <Link to='/contact-us'><u>contato</u></Link>
+                    </span>]
     }
   ]  
 },
