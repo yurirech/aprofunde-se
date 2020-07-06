@@ -60,7 +60,6 @@ export const Title = styled.h1`
 export const Paragraph = styled.p`
     width: ${({dayTourStyles}) => dayTourStyles ? '84%' : null };
     line-height: ${({dayTourStyles}) => dayTourStyles ? '33px' : '30px'};
-    font-size: .85rem;
 
     @media ${device.laptop} {
       width: unset;
@@ -70,6 +69,7 @@ export const Paragraph = styled.p`
 
 export const ImageWrapper = styled.div`
     height: ${({dayTourStyles}) => dayTourStyles ? 'auto' : '425px' };
+    min-height: ${({dayTourStyles}) => dayTourStyles ? '620px' : null }; ;
     width: 370px;
     box-shadow: ${({dayTourStyles}) => dayTourStyles ? '14px 14px 4px 3px #6e6e6e3d'  : '-14px 14px 4px 3px #6e6e6e3d' };
     
@@ -78,6 +78,7 @@ export const ImageWrapper = styled.div`
 
 @media ${device.laptop} {
     height: 400px;
+    min-height: unset;
     width: 80%;
     min-width: 310px;
     box-shadow: 0px 0px 6px 4px #6e6e6e3d;

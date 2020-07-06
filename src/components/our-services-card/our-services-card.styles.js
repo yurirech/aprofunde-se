@@ -13,6 +13,7 @@ export const Content = styled.div`
     color: #666666;
     margin-bottom: 1rem;
     font-weight: bold;
+    text-align: ${({isDayTour}) => isDayTour ? 'center' : null};
   }
 
   @media ${device.laptop} {

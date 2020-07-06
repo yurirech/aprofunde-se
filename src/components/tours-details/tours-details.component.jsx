@@ -27,7 +27,6 @@ const ToursDetails = ({title, subtitle, description, image, direction, ...otherP
       <Image bg={image} ></Image>
     </ImageWrapper>
   </FlexContainer>
-
 );
 
 export default ToursDetails;

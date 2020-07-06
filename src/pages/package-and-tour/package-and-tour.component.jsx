@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import DatePicker from "react-datepicker";
+import React, {useEffect} from 'react';
 
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -12,17 +11,14 @@ import OurServicesCard from '../../components/our-services-card/our-services-car
 import TourDetails from '../../components/tours-details/tours-details.component';
 import Button from '../../components/SharedComponents/button/button.component';
 import CustomSelect from '../../components/custom-select/custom-select.component';
+import DayToursDatePicker from '../../components/date-picker/date-picker';
 
 
 const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...otherProps}) => {
 
-  const [date, setDate] = useState(new Date());
-
   useEffect(() => {
     window.scrollTo(0, 0)
   });
-
-  handleChange = date => setDate(date);
 
   const {image, title, description, subtitle} = tourDetails;
  
@@ -59,7 +55,8 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
             <TourForm>
               <FlexContainer column justify='center' width='490px' margin='2rem' >
                 <h2 style={{marginBottom: '3rem', marginTop: '-1.5rem', fontSize: '1.90rem'}}>Ver disponibilidade</h2>
-                <DatePicker selected={date} onChange={handleChange} dateFormat="dd/MM/yyyy"/>
+                {/* <DatePicker selected={date} onChange={handleChange} dateFormat="dd/MM/yyyy"/> */}
+                <DayToursDatePicker />
                 <CustomSelect options={serviceHours} />
                 <CustomSelect options={numberOfPeople} />
                 <Button text='Enviar' bgColor='#6e5f9e' />
