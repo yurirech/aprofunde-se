@@ -23,9 +23,16 @@ const MainNavBar = ({location}) => {
             <div className='dropdown'>
               <Link to='/day-tours'>Day Tours</Link>
               <div className='dropdown-items'>
-                <Link to='/'>1</Link>
-                <Link to='/'>2</Link>
-                <Link to='/'>3</Link>
+                <Link to='/day-tours/gouda'>Gouda & Rotterdam</Link>
+                <Link to='/day-tours/haarlem'>Haarlem & Praia de bicicleta</Link>
+                <Link to='/day-tours/delft'>T.U. Delft & Fazenda</Link>
+                <Link to='/day-tours/giethoorn'>Giethoorn & Dolmen</Link>
+                <Link to='/day-tours/delta'>Delta Works & Middelburg</Link>
+                <Link to='/day-tours/utrecht'>Utrecht & Castelo</Link>
+                <Link to='/day-tours/haag'>Den Haag & Museu Voorlinden</Link>
+                <Link to='/day-tours/kroller'>Museu Kroller Müller & Amersfoort</Link>
+                <Link to='/day-tours/zaanse'>Zaanse Schans & Volendam</Link>
+                <Link to='/day-tours/park'>Parque de diversões & Sauna</Link>
               </div>
             </div>
             <div className='dropdown'>

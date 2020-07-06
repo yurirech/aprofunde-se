@@ -40,22 +40,15 @@ export const LinkDayToursBackButton = styled.a`
 
 export const DayToursBackButton = styled(CustomButton)`
   border-radius: .5rem;
-<<<<<<< HEAD
   padding: .25rem;
-=======
-  padding: .5rem;
->>>>>>> master
   color: black;
   background: white;
   margin-top: 0;
   margin-bottom: 0;
-<<<<<<< HEAD
 
   svg {
     margin: 0;
   }
-=======
->>>>>>> master
 `;
 
 export const Title = styled.h1`
