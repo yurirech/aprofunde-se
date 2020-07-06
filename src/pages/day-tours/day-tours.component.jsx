@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {v4 as uuid} from 'uuid';
 import {withRouter} from 'react-router-dom';
 
@@ -18,10 +18,11 @@ const DayTours = ({location}) => {
  const getDayTours = (packageTour) => {
     if(location.pathname === packageTour) {
       let currentTour = packageTour.split('/')[2];
+      console.log(currentTour);
       return (
        <PackageAndTour isDayTour 
-                       tourDetails={dayTours.haarlem} 
-                       ourServices={dayTours.haarlem.services}  />
+                       tourDetails={dayTours[currentTour]} 
+                       ourServices={dayTours[currentTour].services}  />
       )
     } else {
       return <div>404 PAGE NOT FOUND</div>;

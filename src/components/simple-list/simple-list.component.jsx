@@ -2,15 +2,13 @@ import React from 'react';
 import {v4 as uuid} from 'uuid';
 
 const SimpleList = ({listItems}) => (
-  <div>
+  <ul>
     {
       listItems.map(item => (
-        <ul key={uuid()}>
-        <li>{item}</li>
-        </ul>
+        <li style={{lineHeight: '2.5rem', listStyleType: 'square', color: '#666666'}} key={uuid()}>{item}</li>
       ))
     } 
-  </div>
+  </ul>
 );
 
 export default SimpleList;

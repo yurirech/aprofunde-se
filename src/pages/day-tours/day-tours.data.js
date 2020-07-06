@@ -28,14 +28,14 @@ export const cardsLeft = [{
   title: 'Gouda & Rotterdam',
   description: <small>Visite o mercado de queijo de Gouda pela manhã e vislumbre o estilo arquitetônico 
   da cidade de Rotterdam, com direito a tour guiado e tempo para compras. <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/gouda'
 },
 {
   image: haarlem,
   title: 'Haarlem & Praia de bicicleta',
   description: <small>Conheça a charmosa cidade de Haarlem, viste o museu local e vá de bicicleta à 
   praia curtir o por do sol, tudo acompanhado de um guia turístico. <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/haarlem'
 },
 {
   image: delft,
@@ -43,7 +43,7 @@ export const cardsLeft = [{
   description: <small>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido   
   pelos últimos desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma das fazendas  
   sustentáveis da Holanda.  <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/delft'
 
 },
 {
@@ -52,7 +52,7 @@ export const cardsLeft = [{
   description: <small>Sinta-se em um conto de fadas ao passear pelos canais de Giethoorn, a cidade sem ruas. 
   Conheça também as misteriosas dolmen, túmulos de pedras mais antigas que as pirâmides do Egito. 
   <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/giethoorn'
 
 },
 {
@@ -61,7 +61,7 @@ export const cardsLeft = [{
   description: <small>Se você é fascinado por engenharia não pode deixar de conhecer as maiores barragens do mundo. 
   Após aproveitar essa passagem hipnotizante, aproveite um delicioso almoço em Middelburg e termine o dia curtindo uma sauna. 
   <br/> Duração: 12 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/delta'
 
 }];
 
@@ -71,14 +71,14 @@ export const cardsRight = [{
   title: 'Utrecht & Castelo',
   description: <small> Conheça um dos maiores castelos da Holanda, o De Haar, famoso por séculos e ponto de encontro de celebridades 
   do século passado. Depois passeie pelas ruas de Utrecht e se apaixone. <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/utrecht'
 },
 {
   image: denHaag,
   title: 'Den Haag & Museu Voorlinden',
   description: <small>Passeie pela sede governamental da Holanda e da Europa, a cidade de Den Haag, e depois do tour vá de bicicleta 
   ao museu Voorlinden, onde ira se encantar com um dos museus mais únicos da Holanda <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/haag'
 
 },
 {
@@ -87,7 +87,7 @@ export const cardsRight = [{
   description: <small>Esse passeio é para os amantes de arte contemporânea, da natureza e de arquitetura. Admire os belos quadros e  
   esculturas e aproveite um piquenique no belíssimo parque ao redor do museu. Depois conheça Amersfoort, a cidade natal de Mondriaan. 
   <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/kroller'
 
 },
 {
@@ -95,7 +95,7 @@ export const cardsRight = [{
   title: 'Zaanse Schans & Volendam',
   description: <small>Passe o dia admirando a paisagem dos moinhos do Zaanse Schans e depois experimente os delicioso frutos do mar 
   da vila dos pescadores da Holanda, Volendam. <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/zaanse'
 
 },
 {
@@ -103,7 +103,7 @@ export const cardsRight = [{
   title: 'Parque de diversões & Sauna',
   description: <small>Amante de adrenalina? Que tal passar o dia em um dos mais famosos e mais antigos parques do mundo? e de pois 
   de um dia de aventura nada melhor que relaxar com uma massagem em uma sauna. <br/> Duração: 8 horas</small>,
-  route: 'wehee'
+  route: '/day-tours/park'
 
 }];
 
@@ -115,7 +115,7 @@ const moreInfo =  ['Duração total: 8 horas',
                     'Horário de retorno: 17:00',
                     'Local de encontro: Depende da cidade que você estiver.',
                     'Experiência customizada para suas preferências.',
-                    'Perguntas? Entre em contato'];
+                    `Perguntas? Entre em contato`];
 
 export const dayTours = {
  haarlem: {
@@ -396,12 +396,12 @@ export const dayTours = {
                     'Horário de retorno: 20:00',
                     'Local de encontro: Depende da cidade que você estiver.',
                     'Experiência customizada para suas preferências.',
-                    'Perguntas? Entre em contato']
+                    `Perguntas? Entre em contato`]
     }
   ]  
 },
  park: {
-  title: 'Delta Works & Middelburg',
+  title: 'Parque de diversões & Sauna',
   description: <span>Os apaixonados por adrenalina que se segurem! Nessa excursão você será levado da porta da sua acomodação ao fantástico 
                parque de diversões Efteling pelo nosso guia, que pelo caminho ira te mostrar e contar coisas interessantíssimas.  
                <br/> Após um longo dia de muita energia gasta, nosso guia ira te levar a uma das mais bonitas saunas da Holanda, onde você 
