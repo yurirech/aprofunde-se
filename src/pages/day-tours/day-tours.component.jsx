@@ -15,6 +15,7 @@ import PackageAndTour from '../package-and-tour/package-and-tour.component';
 
 const DayTours = ({location}) => {
 
+  // Get packages items to show in view
  const getDayTours = (packageTour) => {
     if(location.pathname === packageTour) {
       let currentTour = packageTour.split('/')[2];
