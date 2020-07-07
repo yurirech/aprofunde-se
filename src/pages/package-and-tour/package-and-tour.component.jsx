@@ -61,8 +61,7 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
                 <CustomSelect options={numberOfPeople} />
                 <Button text='Enviar' bgColor='#6e5f9e' />
               </FlexContainer>
-            </TourForm>
-            
+            </TourForm> 
           }
         </Content>
       );

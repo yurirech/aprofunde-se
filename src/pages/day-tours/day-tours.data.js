@@ -11,7 +11,18 @@ import park from '../../assets/img/day-tours/park.jpg'
 import utrech from '../../assets/img/day-tours/utrecht.jpg'
 import zaanseSchans from '../../assets/img/day-tours/zaanse-schans.jpg'
 
-import test from '../../assets/img/day-tours/delta.jpg'
+
+import delftPage from '../../assets/img/day-tour-items/delft.jpg'
+import deltaPage from '../../assets/img/day-tour-items/delta.jpg'
+import denHaagPage from '../../assets/img/day-tour-items/den-haag.jpg'
+import giethoornPage from '../../assets/img/day-tour-items/giethoorn.jpg'
+import goudaRotterdamPage from '../../assets/img/day-tour-items/gouda-rotterdam.jpg'
+import haarlemPage from '../../assets/img/day-tour-items/haarlem.jpg'
+import krollerPage from '../../assets/img/day-tour-items/kroller.jpg'
+import parkPage from '../../assets/img/day-tour-items/park.jpg'
+import utrechPage from '../../assets/img/day-tour-items/utrecht.jpg'
+import zaanseSchansPage from '../../assets/img/day-tour-items/zaanse-schans.jpg'
+
 import { Link } from 'react-router-dom';
 
 
@@ -126,9 +137,8 @@ export const dayTours = {
   description: <span>Conheça a charmosa cidade de Haarlem que fica localizada a 20 minutos de trem de Amsterdam. Devido a proximidade, se você estiver em Amsterdam, nós iremos até Haarlem de trem, mas pode deixar que a gente te encontra no seu Hotel. <br/>
   Chegando em Haarlem, voce escutará histórias e fatos locais do nosso guia, e conhecerá um museu de sua escolha - arte moderna ou clássica. Você pode escolher se quer almoçar em Haarlem ou na praia. <br/>
   Depois de pegar a bicicleta você terá a experiência local de pedalar pela cidade e ir até a praia, 20 - 30 minutos. <br/>
-  Chegando lá você terá uma uma porção e uma cadeira de sol reservada em um dos melhores bares te esperando, então tudo que você tem que fazer é relaxar e deixar com a gente! <br/>
-  Se você quiser ficar na praia até a noite ao invés de voltar no horário do fim do tour não tem problema nenhum, tudo pode ser esquematizado.</span>,
-  image: test,
+  Chegando lá você terá uma uma porção e uma cadeira de sol reservada em um dos melhores bares te esperando, então tudo que você tem que fazer é relaxar e deixar com a gente!</span>,
+  image: haarlemPage,
   services: [
     {
       title: whatIsIncluded,
@@ -159,7 +169,7 @@ export const dayTours = {
   incluindo visitantes frequentes como Coco Chanel, Maria Callas, Gregory Peck, Yves Saint Laurent, and Brigitte Bardot. <br/>
   Depois passeie pelas ruas de Utrecht, alguns dizem que é como Amsterdam mas sem turista, e se apaixone pelos canais, ruas e parques da cidade 
   que voce conhecera de barco, bicicleta e a pé.</span>,
-  image: test,
+  image: utrechPage,
   services: [
     {
       title: whatIsIncluded,
@@ -190,7 +200,7 @@ export const dayTours = {
   description: <span>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido pelos últimos 
                 desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma fazenda sustentáveis e 
                 descubra as novas tendências e inovações da agricultura na Holanda. </span>,
-  image: test,
+  image: delftPage,
   services: [
     {
       title: whatIsIncluded,
@@ -220,7 +230,7 @@ export const dayTours = {
   description: <span>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido pelos últimos 
                 desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma fazenda sustentáveis e 
                 descubra as novas tendências e inovações da agricultura na Holanda. </span>,
-  image: test,
+  image: denHaagPage,
   services: [
     {
       title: whatIsIncluded,
@@ -251,7 +261,7 @@ export const dayTours = {
                produtores de queijo do país. <br/> Saindo de Gouda, almoço em Rotterdam, e um tour pela cidade mostrando as principais 
                atrações e uma visita ao museu. Vislumbre o estilo arquitetônico da cidade e no final do passeio sera dado tempo para 
                compras, porém se quiser optar por outra atividade te damos um leque de opções para escolher.</span>,
-  image: test,
+  image: goudaRotterdamPage,
   services: [
     {
       title: whatIsIncluded,
@@ -281,7 +291,7 @@ export const dayTours = {
                fica localizado dentro de um belíssimo parque onde faremos um piquenique após admirarmos os maravilhosos quadros 
                e  esculturas do museu.  <br/> Em seguida iremos para Amersfoort onde você vai conhecer a cultura local e provar 
                deliciosos doces holandeses. </span>,
-  image: test,
+  image: krollerPage,
   services: [
     {
       title: whatIsIncluded,
@@ -311,7 +321,7 @@ export const dayTours = {
                Depois do passeio você vai almoçar em um charmoso restaurante para apreciar mais a cidade. Seguiremos depois 
                para o norte, para conhecermos as misteriosas dolmens, túmulos de pedras mais antigas que as pirâmides do Egito.
                <br/> Você vai se encantar com essa parte pouco visitada da Holanda.</span>,
-  image: test,
+  image: giethoornPage,
   services: [
     {
       title: whatIsIncluded,
@@ -341,7 +351,7 @@ export const dayTours = {
                a fabricação de queijos, caminhe com tamancos madeira, explore o interior de um moinho e encante-se com a natureza e as casas. 
                <br/> Na parte da tarde experimente os delicioso frutos do mar da vila dos pescadores da Holanda, Volendam, e se apaixone 
                pela arquitetura única desse lugar.</span>,
-  image: test,
+  image: zaanseSchansPage,
   services: [
     {
       title: whatIsIncluded,
@@ -373,7 +383,7 @@ export const dayTours = {
                <br/> Após aproveitar essa passagem hipnotizante, conheça Middelburg, uma cidade medieval pouco conhecida por turistas.
                Para terminar o dia perfeito, curta uma sauna com massagem e jantar incluso, e ao terminar o guia estará te esperando 
                do lado de fora para te levar embora.</span>,
-  image: test,
+  image: deltaPage,
   services: [
     {
       title: whatIsIncluded,
@@ -412,7 +422,7 @@ export const dayTours = {
                <br/> Após um longo dia de muita energia gasta, nosso guia ira te levar a uma das mais bonitas saunas da Holanda, onde você 
                irá tirar todas as tensões construídas ao longo da viagem com uma deliciosa massagem relaxante e um saboroso jantar.
                <br/> Quando estiverem satisfeitos, nosso motorista estará te esperando do lado de fora da Sauna pra te levar de volta ao seu hotel. </span>,
-  image: test,
+  image: parkPage,
   services: [
     {
       title: whatIsIncluded,

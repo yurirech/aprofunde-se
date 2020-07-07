@@ -53,3 +53,7 @@ export const Overlay = styled.div`
   bottom: 0;
   z-index: 1
 `;
+
+export const ImageWrapper = styled.div`
+  
+`;

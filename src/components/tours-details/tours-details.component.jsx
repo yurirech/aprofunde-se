@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FlexContainerExtended, ImageWrapper, Paragraph, 
           Title, LinkDayToursBackButton, DayToursBackButton} from './tours-details.styles';
 import { FlexContainer, Image } from '../../_styles';
+import SliderNoArrows from '../SharedComponents/slider-no-arrows/slider-no-arrows.component';
 
 
 
@@ -23,9 +24,19 @@ const ToursDetails = ({title, subtitle, description, image, direction, ...otherP
       { subtitle ? <label>{subtitle}</label> : null }
       <Paragraph {...otherProps}>{description}</Paragraph>
     </FlexContainerExtended>
-    <ImageWrapper {...otherProps}>
-      <Image bg={image} ></Image>
-    </ImageWrapper>
+
+     {
+       subtitle ? 
+        <ImageWrapper {...otherProps}>
+          <Image bg={image} ></Image>
+        </ImageWrapper> 
+        :
+        <ImageWrapper {...otherProps}>
+          <SliderNoArrows />
+        </ImageWrapper>
+     }
+    
+   
   </FlexContainer>
 );
 

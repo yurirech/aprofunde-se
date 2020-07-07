@@ -68,20 +68,19 @@ export const Paragraph = styled.p`
 
 
 export const ImageWrapper = styled.div`
-    height: ${({dayTourStyles}) => dayTourStyles ? 'auto' : '425px' };
-    min-height: ${({dayTourStyles}) => dayTourStyles ? '620px' : null }; ;
+    height: ${({dayTourStyles}) => dayTourStyles ? '620px' : '425px' };
+    min-height: ${({dayTourStyles}) => dayTourStyles ? '620px' : null };
     width: 370px;
     box-shadow: ${({dayTourStyles}) => dayTourStyles ? '14px 14px 4px 3px #6e6e6e3d'  : '-14px 14px 4px 3px #6e6e6e3d' };
     
-      /* maybe #8364dd3d */
      
 
 @media ${device.laptop} {
     height: 400px;
     min-height: unset;
-    width: 80%;
+    width: ${({dayTourStyles}) => dayTourStyles ? '100%' : '80%' };
     min-width: 310px;
     box-shadow: 0px 0px 6px 4px #6e6e6e3d;
-    margin-top: 2rem;
+    margin-top: ${({dayTourStyles}) => dayTourStyles ? null : '2rem' };;
   }  
 `;
