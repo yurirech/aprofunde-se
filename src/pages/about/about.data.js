@@ -1,8 +1,8 @@
-// import canal from '../../assets/img/about-canal.jpg'
-// import flowers from '../../assets/img/about-flowers.jpg'
-// import houses from '../../assets/img/about-houses.jpg'
-// import mills from '../../assets/img/about-mills.jpg'
-// import planes from '../../assets/img/about-planes.jpg'
+import canal from '../../assets/img/about-canal.jpg'
+import flowers from '../../assets/img/about-flowers.jpg'
+import houses from '../../assets/img/about-houses.jpg'
+import mills from '../../assets/img/about-mills.jpg'
+import planes from '../../assets/img/about-planes.jpg'
 
 export const aboutUs = {
   title: 'Conheça mais sobre nós',
@@ -17,10 +17,10 @@ export const aboutUs = {
   `,
 };
 
-// export const carouselImages = [
-//   {img: canal},
-//   {img: flowers},
-//   {img: houses},
-//   {img: mills},
-//   {img: planes}
-// ];
+export const carouselImages = [
+  {img: canal},
+  {img: flowers},
+  {img: houses},
+  {img: mills},
+  {img: planes}
+];
