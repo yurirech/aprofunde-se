@@ -43,7 +43,15 @@ const MainNavBar = ({location}) => {
                 <Link to='/packages/entregue'>Entregue-se</Link>
               </div>
             </div>
-            <Link to='/'>Inspire-se</Link>
+            <div className='dropdown'>
+            <Link to='/inspire'>Inspire-se</Link>
+              <div className='dropdown-items'>
+                <Link to='/inspire/innovate'>Inove-se</Link>
+                <Link to='/inspire/relax'>Relaxe-se</Link>
+                <Link to='/inspire/adventure'>Aventure-se</Link>
+              </div>
+            </div>
+           
             <Link to='/'>Instagram</Link>
             <Link to='/'>Contato</Link>
           </Nav>
