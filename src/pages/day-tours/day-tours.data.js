@@ -12,16 +12,48 @@ import utrech from '../../assets/img/day-tours/utrecht.jpg'
 import zaanseSchans from '../../assets/img/day-tours/zaanse-schans.jpg'
 
 
-import delftPage from '../../assets/img/day-tour-items/delft.jpg'
-import deltaPage from '../../assets/img/day-tour-items/delta.jpg'
-import denHaagPage from '../../assets/img/day-tour-items/den-haag.jpg'
-import giethoornPage from '../../assets/img/day-tour-items/giethoorn.jpg'
-import goudaRotterdamPage from '../../assets/img/day-tour-items/gouda-rotterdam.jpg'
-import haarlemPage from '../../assets/img/day-tour-items/haarlem.jpg'
-import krollerPage from '../../assets/img/day-tour-items/kroller.jpg'
-import parkPage from '../../assets/img/day-tour-items/park.jpg'
-import utrechPage from '../../assets/img/day-tour-items/utrecht.jpg'
-import zaanseSchansPage from '../../assets/img/day-tour-items/zaanse-schans.jpg'
+import delftSliderOne from '../../assets/img/day-tour-items/delft/delft.jpg';
+import delftSliderTwo from '../../assets/img/day-tour-items/delft/delft-plates.jpg';
+import delftSliderThree from '../../assets/img/day-tour-items/delft/horticulture.jpg';
+
+import deltaSliderOne from '../../assets/img/day-tour-items/delta/delta-one.jpg';
+import deltaSliderTwo from '../../assets/img/day-tour-items/delta/delta-two.jpg';
+import deltaSliderThree from '../../assets/img/day-tour-items/delta/delta-three.jpg';
+
+import haagSliderOne from '../../assets/img/day-tour-items/den-haag/den-haag-one.jpg';
+import haagSliderTwo from '../../assets/img/day-tour-items/den-haag/den-haag-two.jpg';
+import haagSliderThree from '../../assets/img/day-tour-items/den-haag/den-haag-three.jpeg';
+
+import giethoornSliderOne from '../../assets/img/day-tour-items/giethoorn/giethoorn-one.jpg';
+import giethoornSliderTwo from '../../assets/img/day-tour-items/giethoorn/giethoorn-two.jpg';
+import giethoornSliderThree from '../../assets/img/day-tour-items/giethoorn/giethoorn-three.jpg';
+
+import goudaSliderTwo from '../../assets/img/day-tour-items/gouda/gouda-one.jpg';
+import goudaSliderOne from '../../assets/img/day-tour-items/gouda/gouda-two.jpg';
+import goudaSliderThree from '../../assets/img/day-tour-items/gouda/gouda-three.jpg';
+
+import haarlemSliderTwo from '../../assets/img/day-tour-items/haarlem/haarlem-one.jpg';
+import haarlemSliderOne from '../../assets/img/day-tour-items/haarlem/haarlem-two.jpg';
+import haarlemSliderThree from '../../assets/img/day-tour-items/haarlem/haarlem-three.jpg';
+
+
+import krollerSliderTwo from '../../assets/img/day-tour-items/kroller/kroller-one.jpg';
+import krollerSliderOne from '../../assets/img/day-tour-items/kroller/kroller-two.JPG';
+import krollerSliderThree from '../../assets/img/day-tour-items/kroller/kroller-three.jpg';
+
+
+import parkSliderTwo from '../../assets/img/day-tour-items/park/park-one.jpg';
+import parkSliderOne from '../../assets/img/day-tour-items/park/park-two.jpg';
+import parkSliderThree from '../../assets/img/day-tour-items/park/park-three.jpg';
+
+import utechtSliderTwo from '../../assets/img/day-tour-items/utrecht/utrecht-one.jpg';
+import utechtSliderOne from '../../assets/img/day-tour-items/utrecht/utrecht-two.jpg';
+import utechtSliderThree from '../../assets/img/day-tour-items/utrecht/utrecht-three.jpg';
+
+import zaanseSliderTwo from '../../assets/img/day-tour-items/zaanse/zaanse-one.jpg';
+import zaanseSliderOne from '../../assets/img/day-tour-items/zaanse/zaanse-two.jpg';
+import zaanseSliderThree from '../../assets/img/day-tour-items/zaanse/zaanse-three.jpg';
+
 
 import { Link } from 'react-router-dom';
 
@@ -138,7 +170,7 @@ export const dayTours = {
   Chegando em Haarlem, voce escutará histórias e fatos locais do nosso guia, e conhecerá um museu de sua escolha - arte moderna ou clássica. Você pode escolher se quer almoçar em Haarlem ou na praia. <br/>
   Depois de pegar a bicicleta você terá a experiência local de pedalar pela cidade e ir até a praia, 20 - 30 minutos. <br/>
   Chegando lá você terá uma uma porção e uma cadeira de sol reservada em um dos melhores bares te esperando, então tudo que você tem que fazer é relaxar e deixar com a gente!</span>,
-  image: haarlemPage,
+  image: [haarlemSliderOne, haarlemSliderTwo, haarlemSliderThree],
   services: [
     {
       title: whatIsIncluded,
@@ -169,7 +201,7 @@ export const dayTours = {
   incluindo visitantes frequentes como Coco Chanel, Maria Callas, Gregory Peck, Yves Saint Laurent, and Brigitte Bardot. <br/>
   Depois passeie pelas ruas de Utrecht, alguns dizem que é como Amsterdam mas sem turista, e se apaixone pelos canais, ruas e parques da cidade 
   que voce conhecera de barco, bicicleta e a pé.</span>,
-  image: utrechPage,
+  image: [utechtSliderOne, utechtSliderTwo, utechtSliderThree],
   services: [
     {
       title: whatIsIncluded,
@@ -200,7 +232,7 @@ export const dayTours = {
   description: <span>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido pelos últimos 
                 desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma fazenda sustentáveis e 
                 descubra as novas tendências e inovações da agricultura na Holanda. </span>,
-  image: delftPage,
+  image: [delftSliderOne, delftSliderTwo, delftSliderThree],
   services: [
     {
       title: whatIsIncluded,
@@ -230,7 +262,7 @@ export const dayTours = {
   description: <span>Faça um tour na renomada faculdade de tecnologia T.U. Delft e seja surpreendido pelos últimos 
                 desenvolvimentos na área. Depois de conhecer o centro de Delft, visite uma fazenda sustentáveis e 
                 descubra as novas tendências e inovações da agricultura na Holanda. </span>,
-  image: denHaagPage,
+  image: [haagSliderOne, haagSliderTwo, haagSliderThree],
   services: [
     {
       title: whatIsIncluded,
@@ -261,7 +293,7 @@ export const dayTours = {
                produtores de queijo do país. <br/> Saindo de Gouda, almoço em Rotterdam, e um tour pela cidade mostrando as principais 
                atrações e uma visita ao museu. Vislumbre o estilo arquitetônico da cidade e no final do passeio sera dado tempo para 
                compras, porém se quiser optar por outra atividade te damos um leque de opções para escolher.</span>,
-  image: goudaRotterdamPage,
+  image: [goudaSliderTwo, goudaSliderThree, goudaSliderOne],
   services: [
     {
       title: whatIsIncluded,
@@ -291,7 +323,7 @@ export const dayTours = {
                fica localizado dentro de um belíssimo parque onde faremos um piquenique após admirarmos os maravilhosos quadros 
                e  esculturas do museu.  <br/> Em seguida iremos para Amersfoort onde você vai conhecer a cultura local e provar 
                deliciosos doces holandeses. </span>,
-  image: krollerPage,
+  image: [krollerSliderTwo, krollerSliderThree, krollerSliderOne,],
   services: [
     {
       title: whatIsIncluded,
@@ -321,7 +353,7 @@ export const dayTours = {
                Depois do passeio você vai almoçar em um charmoso restaurante para apreciar mais a cidade. Seguiremos depois 
                para o norte, para conhecermos as misteriosas dolmens, túmulos de pedras mais antigas que as pirâmides do Egito.
                <br/> Você vai se encantar com essa parte pouco visitada da Holanda.</span>,
-  image: giethoornPage,
+  image: [giethoornSliderOne, giethoornSliderTwo, giethoornSliderThree],
   services: [
     {
       title: whatIsIncluded,
@@ -351,7 +383,7 @@ export const dayTours = {
                a fabricação de queijos, caminhe com tamancos madeira, explore o interior de um moinho e encante-se com a natureza e as casas. 
                <br/> Na parte da tarde experimente os delicioso frutos do mar da vila dos pescadores da Holanda, Volendam, e se apaixone 
                pela arquitetura única desse lugar.</span>,
-  image: zaanseSchansPage,
+  image: [zaanseSliderOne, zaanseSliderTwo, zaanseSliderThree],
   services: [
     {
       title: whatIsIncluded,
@@ -383,7 +415,7 @@ export const dayTours = {
                <br/> Após aproveitar essa passagem hipnotizante, conheça Middelburg, uma cidade medieval pouco conhecida por turistas.
                Para terminar o dia perfeito, curta uma sauna com massagem e jantar incluso, e ao terminar o guia estará te esperando 
                do lado de fora para te levar embora.</span>,
-  image: deltaPage,
+  image: [deltaSliderOne, deltaSliderTwo, deltaSliderThree],
   services: [
     {
       title: whatIsIncluded,
@@ -422,7 +454,7 @@ export const dayTours = {
                <br/> Após um longo dia de muita energia gasta, nosso guia ira te levar a uma das mais bonitas saunas da Holanda, onde você 
                irá tirar todas as tensões construídas ao longo da viagem com uma deliciosa massagem relaxante e um saboroso jantar.
                <br/> Quando estiverem satisfeitos, nosso motorista estará te esperando do lado de fora da Sauna pra te levar de volta ao seu hotel. </span>,
-  image: parkPage,
+  image: [ parkSliderTwo, parkSliderThree, parkSliderOne],
   services: [
     {
       title: whatIsIncluded,

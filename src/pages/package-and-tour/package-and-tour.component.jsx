@@ -28,9 +28,11 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
                         title={title} 
                         description={description} 
                         subtitle={subtitle}
+                        carouselImages={image}
                         direction= {!isDayTour ? 'row-reverse' : null}
                         dayTourStyles={isDayTour ? true : false} 
                         isDayTour={isDayTour}
+                        
                         >
                         
           </TourDetails>

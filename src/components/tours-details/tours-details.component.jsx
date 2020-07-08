@@ -6,7 +6,7 @@ import { FlexContainerExtended, ImageWrapper, Paragraph,
           Title, LinkDayToursBackButton, DayToursBackButton} from './tours-details.styles';
 import { FlexContainer, Image } from '../../_styles';
 import SliderNoArrows from '../SharedComponents/slider-no-arrows/slider-no-arrows.component';
-
+import { carouselImages } from '../../pages/about/about.data';
 
 
 const ToursDetails = ({title, subtitle, description, image, direction, ...otherProps}) => (
@@ -32,7 +32,7 @@ const ToursDetails = ({title, subtitle, description, image, direction, ...otherP
         </ImageWrapper> 
         :
         <ImageWrapper {...otherProps}>
-          <SliderNoArrows />
+          <SliderNoArrows carouselImages={image} />
         </ImageWrapper>
      }
     
