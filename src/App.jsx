@@ -13,7 +13,9 @@ import {
   faLanguage,
   faGift,
   faArrowLeft,
-  faSpa
+  faSpa,
+  faLightbulb,
+  faMapSigns
 } from '@fortawesome/free-solid-svg-icons';
 
 import './App.scss';
@@ -29,7 +31,7 @@ import DayTours from './pages/day-tours/day-tours.component';
 import Inspire from './pages/inspire/inspire.component';
 
 library.add(fab, faPlane, faMapMarkedAlt, faHome, faUtensils, faBiking, 
-            faBus, faCar, faLanguage, faGift, faArrowLeft, faSpa);
+            faBus, faCar, faLanguage, faGift, faArrowLeft, faSpa, faLightbulb, faMapSigns);
 
 
 class App extends Component {

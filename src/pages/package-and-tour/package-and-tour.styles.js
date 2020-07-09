@@ -13,10 +13,6 @@ export const Content = styled.div`
 
 `;
 
-
-
-
-
 export const Spacing = styled.div`
   margin: -1rem;
   height: 0.1rem;
