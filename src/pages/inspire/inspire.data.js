@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const dropdownDisplayContent = [
    {
     title: 'Relaxe-se',
@@ -17,19 +19,19 @@ export const dropdownDisplayContent = [
     icon: 'lightbulb',
     items: ['Mini Casas',
             'Barragens',
-            'Fazendas Sustentáveis',
             'Arquitetura',
             'Universidades',
-            'Ecovila']
+            'Ecovila',
+            <span>Fazendas <br/> Sustentáveis</span>,]
   }, 
    {
     title: 'Aventure-se',
     icon: 'map-signs',
-    items: ['Paraquedismo em domas',
-            'Rapel',
-            'Bungee jumping',
-            'Esportes Aquáticos',
+    items: ['Rapel',
             'Helicóptero',
-            'Parque de diversões']
+            <span>Parque de <br/> diversões</span>,
+            <span>Esportes <br/> Aquáticos</span>,
+            <span>Parque de <br/> diversões</span>,
+            <span>Paraquedismo <br/> em domas</span>,]
   } 
 ];
