@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components/macro';
 import {paddings, fonts, device} from './_variables';
 
 export const GlobalStyle = createGlobalStyle`
@@ -32,6 +32,7 @@ export const FlexContainer = styled.div`
   @media ${device.tablet} {
     flex-direction: ${({columnMd}) => columnMd ? 'column' : null};
     align-items: ${({alignMd}) => alignMd || null };
+    margin : ${({margin}) => margin ? `9% 7%` : null };
   } 
 `;
 

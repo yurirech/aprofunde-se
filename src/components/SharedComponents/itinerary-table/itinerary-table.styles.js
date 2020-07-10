@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import {paddings, colors, device} from '../../../_variables'
 
 export const Content = styled.div`

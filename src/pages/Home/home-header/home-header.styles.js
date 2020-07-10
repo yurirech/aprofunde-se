@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import headerBackground from  '../../../assets/img/bg-main.jpg';
 import headerBackgroundMobile from  '../../../assets/img/bg-main-mobile.jpg';
 import { colors, device } from "../../../_variables";

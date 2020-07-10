@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import { Image } from '../../_styles';
 import { device } from '../../_variables';
 

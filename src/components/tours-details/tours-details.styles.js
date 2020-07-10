@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 import { CustomButton } from '../../components/SharedComponents/button/button.styles';
 import { FlexContainer } from '../../_styles';
