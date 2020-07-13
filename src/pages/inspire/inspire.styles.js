@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
-import {CustomButton} from '../../components/SharedComponents/button/button.styles';
-import { FlexContainer } from '../../_styles';
+import { CustomButton } from '../../components/SharedComponents/button/button.styles';
+import { FlexContainer, Image } from '../../_styles';
 import { colors, device } from '../../_variables';
 
 export const InspireFlexContainer = styled(FlexContainer)`
@@ -99,6 +99,45 @@ export const ImageWrapper = styled.div`
   @media ${device.tablet} {
      min-width: unset; 
     }
+`;
+
+// Card Styles 
+
+export const InspireItemHeader = styled.div`
+  text-align: left;
+`;
+
+export const InspireCard = styled.div`
+  width: 32%;
+  margin-right: .25rem;
+  margin-left: .25rem;
+  margin-bottom: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+`;
+
+export const InspireCardHeader = styled.div`
+  
+`;
+
+export const InspireImageWrapper = styled.div`
+  height: 25rem;
+`;
+
+
+export const InspireImage = styled(Image)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+`;
+
+export const InspireCardBody = styled.div`
+  padding: 4rem;
+  line-height: 1.85rem;
+  background-color: ${colors.aprofundeSeOrange};
+  height: 100%;
 `;
 
 
