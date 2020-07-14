@@ -123,14 +123,22 @@ export const InspireCardHeader = styled.div`
 
 export const InspireImageWrapper = styled.div`
   height: 25rem;
+  position: relative;
 `;
 
 
 export const InspireImage = styled(Image)`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   color: white;
+
+  h5 {
+    z-index: 10;
+    padding-bottom: 17%;
+    font-size: 1.45rem;
+    letter-spacing: .2rem;
+  }
 `;
 
 export const InspireCardBody = styled.div`
@@ -138,6 +146,11 @@ export const InspireCardBody = styled.div`
   line-height: 1.85rem;
   background-color: ${colors.aprofundeSeOrange};
   height: 100%;
+  color: white;
+`;
+
+export const InspireButton = styled.div`
+    padding: 1rem 3rem;
 `;
 
 
