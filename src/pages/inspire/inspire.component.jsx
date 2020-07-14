@@ -18,9 +18,10 @@ import {
         InspireImageWrapper,
         InspireCardBody,
         InspireItemHeader,
-        InspireImage
+        InspireImage,
+        InspireButton
         } from './inspire.styles';
-import { FlexContainer, Image } from '../../_styles';
+import { FlexContainer, Image, Overlay } from '../../_styles';
 import CentralizedSection from '../../components/SharedComponents/centrilized-section/centrilized-section.component';
 import inspireSe from '../../assets/img/inspire/inspire.jpeg'
 import Button from '../../components/SharedComponents/button/button.component';
@@ -50,6 +51,7 @@ const Inspire = ({location}) => {
                       <InspireCard key={uuid()}>
                         <InspireCardHeader>
                           <InspireImageWrapper>
+                            <Overlay opacity='.2' color='#000' height='100%'></Overlay>
                             <InspireImage bg={card.cardImage}>
                               <h5>{card.cardTitle}</h5>
                             </InspireImage>
@@ -62,7 +64,7 @@ const Inspire = ({location}) => {
                       )
                     }
                   </FlexContainer>
-                  <Button text='Contato'></Button>
+                  <InspireButton as={Button} text='Contato'></InspireButton>
               </div>
       } 
       return <div>OH NO! DAMN</div>
