@@ -17,17 +17,14 @@ const DayTours = ({location}) => {
 
   // Get packages items to show in view
  const getDayTours = (packageTour) => {
-    if(location.pathname === packageTour) {
-      let currentTour = packageTour.split('/')[2];
-      console.log(currentTour);
+  let currentTour = packageTour.split('/')[2];
+    if(dayTours[currentTour]) {  
       return (
        <PackageAndTour isDayTour 
                        tourDetails={dayTours[currentTour]} 
                        ourServices={dayTours[currentTour].services}  />
-      )
-    } else {
-      return <div>404 PAGE NOT FOUND</div>;
-    }
+      )    
+    } return <div>404 PAGE NOT FOUND</div>;
   };
   
   // Looping through cards of left column
