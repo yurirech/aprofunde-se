@@ -17,14 +17,14 @@ class Packages extends Component {
 
   // Get packages items to show in view
   getPackages(packageTour) {
-    if(this.props.location.pathname === packageTour) {
-      let currentTour = packageTour.split('/')[2];
+    let currentTour = packageTour.split('/')[2];
+    if(tourDetails[currentTour]) {
       return (
         <PackageAndTour tourDetails={tourDetails[currentTour]} 
                         ourServices={ourSevices[currentTour]} 
                         itineraryTables={itineraryTables[currentTour]} />
       );
-    }
+    } return <div>404 PAGE NOT FOUND</div>
   };
 
   render() {

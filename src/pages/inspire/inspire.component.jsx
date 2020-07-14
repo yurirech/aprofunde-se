@@ -3,22 +3,22 @@ import {v4 as uuid} from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { withRouter } from 'react-router-dom';
 
-import {dropdownDisplayContent, inspireViews, inspireViewHeader} from './inspire.data';
+import {dropdownDisplayContent, inspireViews} from './inspire.data';
 import {  
         DropdownPanel, 
-          DropdownDisplayHeader, 
-          DropdownItems, 
-          BottomButton, 
-          ImageWrapper, 
-          DropdownItemsWrapper,
-          InspireFlexContainer,
-          DropdownPanelExpanded,
-          InspireCard,
-          InspireCardHeader,
-          InspireImageWrapper,
-          InspireCardBody,
-          InspireItemHeader,
-          InspireImage
+        DropdownDisplayHeader, 
+        DropdownItems, 
+        BottomButton, 
+        ImageWrapper, 
+        DropdownItemsWrapper,
+        InspireFlexContainer,
+        DropdownPanelExpanded,
+        InspireCard,
+        InspireCardHeader,
+        InspireImageWrapper,
+        InspireCardBody,
+        InspireItemHeader,
+        InspireImage
         } from './inspire.styles';
 import { FlexContainer, Image } from '../../_styles';
 import CentralizedSection from '../../components/SharedComponents/centrilized-section/centrilized-section.component';
@@ -35,6 +35,40 @@ const Inspire = ({location}) => {
         setToggle(!toggle);
         setTitle(title = e);    
   }
+
+  const getInspireViews = (inspireView) => {
+    let currentView = inspireView.split('/')[2];
+      if(inspireViews[currentView]) {   
+        return  <div>
+                  <FlexContainer margin='4rem 20%'>
+                    <InspireItemHeader as={CentralizedSection} title={inspireViews[currentView].title} 
+                                      mainText={inspireViews[currentView].mainText} />
+                  </FlexContainer>
+                  <FlexContainer justify='space-between' wrap='wrap' margin='4rem'>
+                    {
+                      inspireViews[currentView].cards.map(card => 
+                      <InspireCard key={uuid()}>
+                        <InspireCardHeader>
+                          <InspireImageWrapper>
+                            <InspireImage bg={card.cardImage}>
+                              <h5>{card.cardTitle}</h5>
+                            </InspireImage>
+                          </InspireImageWrapper>
+                        </InspireCardHeader>
+                        <InspireCardBody>
+                          <p>{card.cardDescription}</p>
+                        </InspireCardBody>
+                      </InspireCard>             
+                      )
+                    }
+                  </FlexContainer>
+                  <Button text='Contato'></Button>
+              </div>
+      } 
+      return <div>OH NO! DAMN</div>
+  }
+
+  
 
  if(location.pathname === '/inspire') {
   return (
@@ -74,31 +108,7 @@ const Inspire = ({location}) => {
     </FlexContainer>
   );
  }
-  return  <div>
-             <FlexContainer margin='4rem 20%'>
-              <InspireItemHeader as={CentralizedSection} title={inspireViews.innovate.title} 
-                                 mainText={inspireViews.innovate.mainText} />
-            </FlexContainer>
-            <FlexContainer justify='space-between' wrap='wrap' margin='4rem'>
-            {
-              inspireViews.innovate.cards.map(card => 
-              <InspireCard>
-                <InspireCardHeader>
-                  <InspireImageWrapper>
-                    <InspireImage bg={inspireSe}>
-                      <h5>{card.cardTitle}</h5>
-                    </InspireImage>
-                  </InspireImageWrapper>
-                </InspireCardHeader>
-                <InspireCardBody>
-                  <p>{card.cardDescription}</p>
-                </InspireCardBody>
-              </InspireCard>             
-              )
-            }
-            </FlexContainer>
-              <Button text='Contato'></Button>
-          </div>
+  return  getInspireViews(location.pathname);
 } 
 
 export default withRouter(Inspire);
