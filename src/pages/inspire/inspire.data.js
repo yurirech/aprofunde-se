@@ -38,7 +38,8 @@ export const dropdownDisplayContent = [
             'Paisagens',
             'Moinhos',
             'Compras',
-            'Castelos']
+            'Castelos'],
+		 route: 'relax'
   }, 
    {
     title: 'Inove-se',
@@ -48,7 +49,8 @@ export const dropdownDisplayContent = [
             'Arquitetura',
             'Universidades',
             'Ecovila',
-            <span>Fazendas <br/> Sustentáveis</span>,]
+            <span>Fazendas <br/> Sustentáveis</span>,],
+		 route: 'innovate'
   }, 
    {
     title: 'Aventure-se',
@@ -58,7 +60,8 @@ export const dropdownDisplayContent = [
             <span>Parque de <br/> diversões</span>,
             <span>Esportes <br/> Aquáticos</span>,
             <span>Parque de <br/> diversões</span>,
-            <span>Paraquedismo <br/> em domas</span>,]
+            <span>Paraquedismo <br/> em domas</span>,],
+		 route: 'adventure'
   } 
 ];
 
