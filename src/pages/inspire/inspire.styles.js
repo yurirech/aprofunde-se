@@ -88,7 +88,7 @@ export const DropdownItems = styled.li`
 
 export const BottomButton = styled(CustomButton)`
   background-color: white;
-  color: ${colors.aprofundeSeOrange};
+  color: ${colors.aprofundeSeOrange}!important;
 `;
 
 export const ImageWrapper = styled.div`
@@ -105,6 +105,10 @@ export const ImageWrapper = styled.div`
 
 export const InspireItemHeader = styled.div`
   text-align: left;
+  
+   @media ${device.mobileL} {
+    text-align: unset;
+  }
 `;
 
 export const InspireCard = styled.div`
@@ -115,6 +119,10 @@ export const InspireCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+   
+   @media ${device.laptop} {
+    width: 100% ;
+  }
 `;
 
 export const InspireCardHeader = styled.div`
@@ -139,6 +147,13 @@ export const InspireImage = styled(Image)`
     font-size: 1.45rem;
     letter-spacing: .2rem;
   }
+  
+  @media ${device.tablet} {
+      h5 {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+  }
 `;
 
 export const InspireCardBody = styled.div`
@@ -147,6 +162,10 @@ export const InspireCardBody = styled.div`
   background-color: ${colors.aprofundeSeOrange};
   height: 100%;
   color: white;
+  
+  @media ${device.laptopM} {
+    padding: 2rem;
+  }
 `;
 
 export const InspireButton = styled.div`

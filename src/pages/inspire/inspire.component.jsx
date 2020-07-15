@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {v4 as uuid} from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { withRouter } from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 
 import {dropdownDisplayContent, inspireViews} from './inspire.data';
 import {  
@@ -30,13 +30,24 @@ const Inspire = ({location}) => {
  
   let [toggle, setToggle] = useState(false);
   let [title, setTitle] = useState();
+
+
   
    // Make relevant button expand on click
   const handleCLick = (e) => {
         setToggle(!toggle);
-        setTitle(title = e);    
+        setTitle(title = e);
   }
 
+  useEffect(() => {
+    if(!title) {
+      window.scrollTo(0, 0)
+    }
+  });
+
+
+
+  // Return chosen View
   const getInspireViews = (inspireView) => {
     let currentView = inspireView.split('/')[2];
       if(inspireViews[currentView]) {   
@@ -51,7 +62,7 @@ const Inspire = ({location}) => {
                       <InspireCard key={uuid()}>
                         <InspireCardHeader>
                           <InspireImageWrapper>
-                            <Overlay opacity='.2' color='#000' height='100%'></Overlay>
+                            <Overlay opacity='.2' color='#000' height='100%' />
                             <InspireImage bg={card.cardImage}>
                               <h5>{card.cardTitle}</h5>
                             </InspireImage>
@@ -64,7 +75,7 @@ const Inspire = ({location}) => {
                       )
                     }
                   </FlexContainer>
-                  <InspireButton as={Button} text='Contato'></InspireButton>
+                  <InspireButton as={Button} text='Contato' />
               </div>
       } 
       return <div>OH NO! DAMN</div>
@@ -92,9 +103,9 @@ const Inspire = ({location}) => {
                     <DropdownItems key={uuid()}>{items}</DropdownItems>
                     ))}
                   </DropdownItemsWrapper>
-                  <BottomButton>
+                    <BottomButton as={Link} to={`${location.pathname}/${content.route}`}>
                       Saiba Mais
-                  </BottomButton>
+                    </BottomButton>
                 </DropdownPanel>
               </DropdownDisplayHeader>
             )
