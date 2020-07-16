@@ -31,6 +31,10 @@ const Inspire = ({location}) => {
   let [toggle, setToggle] = useState(false);
   let [title, setTitle] = useState();
 
+  //Scroll to top every time the location changes
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location]); //only perform useEffect if location changes
 
   
    // Make relevant button expand on click
@@ -38,14 +42,6 @@ const Inspire = ({location}) => {
         setToggle(!toggle);
         setTitle(title = e);
   }
-
-  useEffect(() => {
-    if(!title) {
-      window.scrollTo(0, 0)
-    }
-  });
-
-
 
   // Return chosen View
   const getInspireViews = (inspireView) => {
