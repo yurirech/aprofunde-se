@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8b05b-d7ac-47e0-a443-bf4d3163f593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yurir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_variables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/inspire/inspire.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inspire/inspire.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inspire/inspire.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inspire/inspire.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inspire/inspire.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inspire/inspire.styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
