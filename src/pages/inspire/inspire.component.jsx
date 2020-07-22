@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {v4 as uuid} from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link, withRouter} from 'react-router-dom';
+import styled from "styled-components";
 
 import {dropdownDisplayContent, inspireViews} from './inspire.data';
 import {  
@@ -25,6 +26,7 @@ import { FlexContainer, Image, Overlay } from '../../_styles';
 import CentralizedSection from '../../components/SharedComponents/centrilized-section/centrilized-section.component';
 import inspireSe from '../../assets/img/inspire/inspire.jpeg'
 import Button from '../../components/SharedComponents/button/button.component';
+
 
 const Inspire = ({location}) => {
  
@@ -107,11 +109,11 @@ const Inspire = ({location}) => {
             )
           )        
         }
-        {/* Endo of mapping inspire buttons */}
+        {/* End of mapping inspire buttons */}
       </InspireFlexContainer>
       <InspireFlexContainer width='61%' minWidth='509px' margin='0 0 0 1rem'>
         <ImageWrapper>
-          <Image bg={inspireSe}></Image>
+          <Image bg={inspireSe} />
         </ImageWrapper>
       </InspireFlexContainer>
     </FlexContainer>

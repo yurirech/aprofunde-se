@@ -52,7 +52,7 @@ const MainNavBar = ({location}) => {
               </div>
             </div>
            
-            <Link to='/'>Instagram</Link>
+            <Link to='/instagram'>Instagram</Link>
             <Link to='/'>Contato</Link>
           </Nav>
           </Navbar.Collapse>

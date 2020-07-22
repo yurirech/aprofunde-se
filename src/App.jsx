@@ -29,6 +29,8 @@ import About from "./pages/about/about.component";
 import Packages from "./pages/packages/packages.component";
 import DayTours from './pages/day-tours/day-tours.component';
 import Inspire from './pages/inspire/inspire.component';
+import Instagram from "./pages/instagram/instagram.component";
+import ContactUs from "./pages/contac-us/contact-us.component";
 
 library.add(fab, faPlane, faMapMarkedAlt, faHome, faUtensils, faBiking, 
             faBus, faCar, faLanguage, faGift, faArrowLeft, faSpa, faLightbulb, faMapSigns);
@@ -47,6 +49,8 @@ class App extends Component {
           <Route path='/packages' component={Packages} />
           <Route path='/day-tours' component={DayTours} />
           <Route path='/inspire' component={Inspire} />
+          <Route path='/instagram' component={Instagram} />
+          <Route path='/contact-us' component={ContactUs} />
           </Switch>
           <Footer onRouteChange={this.onRouteChange} />
         </div>
