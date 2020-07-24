@@ -7,8 +7,8 @@ import { Content } from './packages.styles';
 
 import {v4 as uuid} from 'uuid';
 
-import CentralizedSection from "../../components/SharedComponents/centrilized-section/centrilized-section.component";
-import ListWithIcons from "../../components/SharedComponents/list-with-icons/list-with-icons.component";
+import CentralizedSection from "../../components/shared-components/centrilized-section/centrilized-section.component";
+import ListWithIcons from "../../components/shared-components/list-with-icons/list-with-icons.component";
 import PackageAndTour from '../package-and-tour/package-and-tour.component'
 import CustomCardWithBackground from '../../components/custom-card-with-background/custom-card-with-background.component';
 

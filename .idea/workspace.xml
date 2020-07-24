@@ -20,23 +20,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8b05b-d7ac-47e0-a443-bf4d3163f593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/contac-us/contact-us.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contac-us/contact-us.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/contac-us/contact-us.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/instagram/instagram.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/instagram/instagram.styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm/ContactForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm/ContactFormStyled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/InputText/InputText.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/input-text/input-text.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/InputText/InputTextStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/input-text/input-text.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/RadioOrCheckbox/RadioOrCheckbox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/radio-checkbox/radio-checkbox.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/RadioOrCheckbox/RadioOrCheckboxStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/radio-checkbox/radio-checkbox.styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/main-navbar/main-navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SharedComponents/main-navbar/main-navbar.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/_styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPicture.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/AvatarPicture/AvatarPicture.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/AvatarPicture/AvatarPictureStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/AvatarPicture/AvatarPictureStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CarWithIconStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/CardWithIcon/CarWithIconStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/CardWithIcon/CardWithIcon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/CardWithIcon/CardWithIcon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/CarouselWithArrows/CarouselWithArrows.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/CarouselWithArrows/CarouselWithArrows.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/CarouselWithArrows/CarouselWithArrowsStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/CarouselWithArrows/CarouselWithArrowsStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/Footer/FooterStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/Footer/FooterStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/ListWithPhoto/ListWithPhoto.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/ListWithPhoto/ListWithPhoto.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/button/button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/button/button.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/button/button.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/button/button.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/centrilized-section/centrilized-section.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/centrilized-section/centrilized-section.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/centrilized-section/centrilized-section.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/centrilized-section/centrilized-section.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/input-text/input-text.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/input-text/input-text.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/input-text/input-text.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/input-text/input-text.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/itinerary-table/itinerary-table.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/itinerary-table/itinerary-table.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/itinerary-table/itinerary-table.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/itinerary-table/itinerary-table.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/list-with-icons/list-with-icons-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/list-with-icons/list-with-icons-styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/list-with-icons/list-with-icons.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/list-with-icons/list-with-icons.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/main-navbar/main-navbar.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/main-navbar/main-navbar.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/main-navbar/main-navbar.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/main-navbar/main-navbar.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/radio-checkbox/radio-checkbox.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/radio-checkbox/radio-checkbox.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/radio-checkbox/radio-checkbox.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/radio-checkbox/radio-checkbox.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SharedComponents/slider-no-arrows/slider-no-arrows.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/slider-no-arrows/slider-no-arrows.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-card-with-background/custom-card-with-background.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-card-with-background/custom-card-with-background.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dropdown-display/dropdown-display.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dropdown-display/dropdown-display.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homapage/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homapage/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tours-details/tours-details.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tours-details/tours-details.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tours-details/tours-details.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tours-details/tours-details.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/home.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/home.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contac-us/contact-us.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contac-us/contact-us.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contac-us/contact-us.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contac-us/contact-us.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/day-tours/day-tours.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/day-tours/day-tours.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/inspire/inspire.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inspire/inspire.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inspire/inspire.styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inspire/inspire.styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instagram/instagram.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instagram/instagram.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/package-and-tour/package-and-tour.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/package-and-tour/package-and-tour.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/packages/packages.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/packages/packages.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +76,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U1natchLIigFv71HQVp4TQFsMX" />
@@ -180,7 +210,11 @@
       <workItem from="1595267584407" duration="2917000" />
       <workItem from="1595357743864" duration="1944000" />
       <workItem from="1595397848425" duration="32000" />
-      <workItem from="1595439194686" duration="5988000" />
+      <workItem from="1595439194686" duration="6257000" />
+      <workItem from="1595486960588" duration="806000" />
+      <workItem from="1595523551821" duration="1204000" />
+      <workItem from="1595571602087" duration="163000" />
+      <workItem from="1595611503651" duration="3773000" />
     </task>
     <servers />
   </component>
@@ -209,10 +243,10 @@
     </state>
     <state x="465" y="-915" key="SettingsEditor/0.0.1536.824/-1920.-581.1920.1040/4.-1080.1920.1040@4.-1080.1920.1040" timestamp="1591111643154" />
     <state x="465" y="-923" key="SettingsEditor/0.0.1536.824/4.-1080.1920.1040/-1920.-581.1920.1040@4.-1080.1920.1040" timestamp="1594832468039" />
-    <state x="543" y="-1075" width="840" height="1025" key="search.everywhere.popup" timestamp="1595357908114">
-      <screen x="4" y="-1080" width="1920" height="1030" />
+    <state x="543" y="-1075" width="840" height="1034" key="search.everywhere.popup" timestamp="1595612091418">
+      <screen x="4" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="543" y="-1075" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824/4.-1080.1920.1040/-1920.-581.1920.1040@4.-1080.1920.1040" timestamp="1595267777967" />
+    <state x="543" y="-1075" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824/4.-1080.1920.1040/-1920.-581.1920.1040@4.-1080.1920.1040" timestamp="1595612091418" />
     <state x="543" y="-1075" width="840" height="1025" key="search.everywhere.popup/4.-1080.1920.1030/0.0.1536.824/-1920.-581.1920.1040@4.-1080.1920.1030" timestamp="1595357908114" />
   </component>
 </project>

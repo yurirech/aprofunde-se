@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 
-import { CustomButton } from '../../components/SharedComponents/button/button.styles';
+import { CustomButton } from '../shared-components/button/button.styles';
 import { FlexContainer } from '../../_styles';
 import { colors, device } from '../../_variables';
 

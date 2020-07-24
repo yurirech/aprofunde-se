@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import CentralizedSection from "../../components/SharedComponents/centrilized-section/centrilized-section.component";
+import CentralizedSection from "../../components/shared-components/centrilized-section/centrilized-section.component";
 import { aboutUs } from "./about.data";
 import { Content } from "./about.styles";
 
