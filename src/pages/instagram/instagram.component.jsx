@@ -1,7 +1,7 @@
 import React from "react";
 import InstagramEmbed from 'react-instagram-embed';
 import {FlexContainer} from "../../_styles";
-import CentralizedSection from "../../components/SharedComponents/centrilized-section/centrilized-section.component";
+import CentralizedSection from "../../components/shared-components/centrilized-section/centrilized-section.component";
 
 const Instagram = () => (
   <div>

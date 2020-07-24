@@ -8,7 +8,7 @@ import {FlexContainer, Overlay} from '../../_styles';
 import {colors} from '../../_variables';
 
 
-import CentralizedSection from '../../components/SharedComponents/centrilized-section/centrilized-section.component';
+import CentralizedSection from '../../components/shared-components/centrilized-section/centrilized-section.component';
 import CustomCardWithBackground from '../../components/custom-card-with-background/custom-card-with-background.component'
 import PackageAndTour from '../package-and-tour/package-and-tour.component';
 

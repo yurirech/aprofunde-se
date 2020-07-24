@@ -7,10 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     color: #0f0 !important;
     outline: solid #f00 1px !important;
   } */}
-
   h1 {
     font-family: ${fonts.caveat};
   }
+ 
 `;
 
 export const FlexContainer = styled.div`

@@ -2,15 +2,15 @@ import React, {Component} from 'react';
 import HomeHeader from "./HomeHeader/HomeHeader";
 import {Container, Col} from "react-bootstrap";
 import {dayTours, headerContent, homeTours, aboutNetherlands, tourOptions} from "./HomeContent";
-import CentralizedSection from "../../components/SharedComponents/CentrilizedSection/CentralizedSection";
+import CentralizedSection from "../shared-components/CentrilizedSection/CentralizedSection";
 import {RowStyled, ExtendedRowStyled} from "./HomeStyled";
-import CarouselWithArrows from "../../components/SharedComponents/CarouselWithArrows/CarouselWithArrows";
-import Button from "../../components/SharedComponents/button/button.component"
+import CarouselWithArrows from "../shared-components/CarouselWithArrows/CarouselWithArrows";
+import Button from "../shared-components/button/button.component"
 import { colors } from '../../_variables';
 import TourCard from './TourCard/TourCard'
 import NetherlandsMap from '../../assets/img/netherlands-map.png'
 import TourOption from '../../components/tour-option/tour-option.component';
-import AvatarPicture from '../../components/SharedComponents/AvatarPicture/AvatarPicture'
+import AvatarPicture from '../shared-components/AvatarPicture/AvatarPicture'
 import inspireSeCanal from '../../assets/img/canal-landing.jpg'
 
 

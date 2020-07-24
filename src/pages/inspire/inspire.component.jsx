@@ -23,9 +23,10 @@ import {
         InspireButton
         } from './inspire.styles';
 import { FlexContainer, Image, Overlay } from '../../_styles';
-import CentralizedSection from '../../components/SharedComponents/centrilized-section/centrilized-section.component';
+import CentralizedSection from '../../components/shared-components/centrilized-section/centrilized-section.component';
 import inspireSe from '../../assets/img/inspire/inspire.jpeg'
-import Button from '../../components/SharedComponents/button/button.component';
+import Button from '../../components/shared-components/button/button.component';
+
 
 
 const Inspire = ({location}) => {

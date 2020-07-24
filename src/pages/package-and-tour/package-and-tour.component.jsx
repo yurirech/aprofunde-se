@@ -6,10 +6,10 @@ import { Content, TourForm, Spacing } from './package-and-tour.styles';
 import { FlexContainer } from '../../_styles';
 import { numberOfPeople, serviceHours } from '../day-tours/day-tours.data';
 
-import ItineraryTable from "../../components/SharedComponents/itinerary-table/itinerary-table.component";
+import ItineraryTable from "../../components/shared-components/itinerary-table/itinerary-table.component";
 import OurServicesCard from '../../components/our-services-card/our-services-card.component';
 import TourDetails from '../../components/tours-details/tours-details.component';
-import Button from '../../components/SharedComponents/button/button.component';
+import Button from '../../components/shared-components/button/button.component';
 import CustomSelect from '../../components/custom-select/custom-select.component';
 import DayToursDatePicker from '../../components/date-picker/date-picker';
 

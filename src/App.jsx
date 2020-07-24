@@ -23,8 +23,8 @@ import './App.scss';
 import { GlobalStyle } from "./_styles";
 
 import Home from "./pages/Home/home.component";
-import Footer from "./components/SharedComponents/Footer/Footer";
-import MainNavBar from "./components/SharedComponents/main-navbar/main-navbar.component";
+import Footer from "./components/shared-components/Footer/Footer";
+import MainNavBar from "./components/shared-components/main-navbar/main-navbar.component";
 import About from "./pages/about/about.component";
 import Packages from "./pages/packages/packages.component";
 import DayTours from './pages/day-tours/day-tours.component';

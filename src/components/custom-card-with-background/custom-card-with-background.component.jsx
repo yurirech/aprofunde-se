@@ -3,7 +3,7 @@ import React from 'react';
 import {Container, ImageExtended} from './custom-card-with-background.styles'
 import {Link} from 'react-router-dom';
 
-import Button from '../SharedComponents/button/button.component';
+import Button from '../shared-components/button/button.component';
 
 const CustomCardWithBackground = (
   { contentPadding, 
