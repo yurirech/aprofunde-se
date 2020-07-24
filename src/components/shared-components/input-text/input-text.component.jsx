@@ -1,15 +1,10 @@
 import React from 'react';
 import { Form } from "react-bootstrap";
-import styled from "styled-components";
 
-const FormGroup = styled(Form.Group)`
-  
-`;
-
-const InputText = ({controlId, type, placeholder, textArea}) =>  (
-      <FormGroup controlId={controlId}>
-        <Form.Control as={textArea} rows={textArea ? '3' : null} type={type} placeholder={placeholder} />
-      </FormGroup>
+const InputText = ({controlId, type, placeholder}) =>  (
+      <Form.Group controlId={controlId}>
+        <Form.Control type={type} placeholder={placeholder} />
+      </Form.Group>
     );
 
 

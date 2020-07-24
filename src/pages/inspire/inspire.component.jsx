@@ -28,6 +28,7 @@ import inspireSe from '../../assets/img/inspire/inspire.jpeg'
 import Button from '../../components/shared-components/button/button.component';
 
 
+
 const Inspire = ({location}) => {
  
   let [toggle, setToggle] = useState(false);

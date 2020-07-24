@@ -53,7 +53,11 @@ const MainNavBar = ({location}) => {
             </div>
            
             <Link to='/instagram'>Instagram</Link>
+<<<<<<< HEAD:src/components/shared-components/main-navbar/main-navbar.component.jsx
             <Link to='/contact-us'>Contato</Link>
+=======
+            <Link to='/'>Contato</Link>
+>>>>>>> master:src/components/SharedComponents/main-navbar/main-navbar.component.jsx
           </Nav>
           </Navbar.Collapse>
         </Navbar>
