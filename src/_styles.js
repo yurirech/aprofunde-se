@@ -33,6 +33,7 @@ export const FlexContainer = styled.div`
     flex-direction: ${({columnMd}) => columnMd ? 'column' : null};
     align-items: ${({alignMd}) => alignMd || null };
     margin : ${({margin}) => margin ? `9% 7%` : null };
+    width:  ${({widthMd}) => widthMd || null };
   } 
 `;
 
