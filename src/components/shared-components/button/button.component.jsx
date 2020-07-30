@@ -2,8 +2,8 @@ import React from 'react';
 import { CustomButton } from './button.styles';
 
 
-const Button = ({text, bgColor, className, children}) => (
-                <CustomButton className={className} bgColor={bgColor}>
+const Button = ({text, bgColor, className, type, children}) => (
+                <CustomButton type={type} className={className} bgColor={bgColor}>
                   {text}
                   {children}
                 </CustomButton>
