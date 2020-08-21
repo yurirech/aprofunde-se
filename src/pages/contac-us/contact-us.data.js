@@ -17,7 +17,7 @@ export const packagesTours = [
   'Entregue-se'
 ]
 
-export const accomodation = [
+export const accommodation = [
   'Hotel 5*',
   'Hotel 4*',
   'Acomodações Especiais Únicas',

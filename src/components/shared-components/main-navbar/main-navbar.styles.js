@@ -16,7 +16,8 @@ export const Header = styled.div`
   }
 
   .navbar-nav {
-    align-items: center;
+    align-items: end;
+    margin-top: 1rem;
     a {
       padding: .25rem .75rem;
       color: ${colors.aprofundeSeBlackText};
