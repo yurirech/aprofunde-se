@@ -4,11 +4,8 @@ import {Content, FormButton, HeaderTitle, SectionTitle} from "./contact-us.style
 import {FlexContainer} from "../../_styles";
 import {dayTours, packagesTours, accommodation} from "./contact-us.data";
 
-
 import InputText from "../../components/shared-components/input-text/input-text.component";
 import RadioCheckbox from "../../components/shared-components/radio-checkbox/radio-checkbox.component";
-
-
 
 const ContactUs = () => {
   const [name, setName] = useState('');
@@ -49,6 +46,7 @@ const handleAccommodation = e => {
     setMoreInfo(e.target.moreInfo.value);
     setPackages(e.target.packages.value);
     setNumberOfTravelers(e.target.numberOfTravelers.value);
+
   }
 
   return (
@@ -118,10 +116,12 @@ const handleAccommodation = e => {
                     name='accommodations'
                     onChange={ handleAccommodation }
                   />
+
                 )
               )
             }
           </div>
+
           <InputText textArea='textarea'
                      type='text'
                      placeholder='Nos fale mais como podemos te ajudar'
