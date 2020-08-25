@@ -17,6 +17,7 @@ export const Content = styled.div`
     li {
       font-size: 1rem;
     }
+   
   }
 
   @media ${device.mobileL} {

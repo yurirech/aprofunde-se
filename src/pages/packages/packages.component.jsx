@@ -40,7 +40,8 @@ class Packages extends Component {
     // Mapping through custom card with background
     let packagesCards = packageCard.map(({...otherProps}) => (
       <CustomCardWithBackground {...otherProps} 
-                                buttonBackgroungColor='#000' 
+                                buttonBackgroungColor='#000'
+                                mobileMinWidth='320px'
                                 key={uuid()} >
         <Overlay />
       </CustomCardWithBackground>

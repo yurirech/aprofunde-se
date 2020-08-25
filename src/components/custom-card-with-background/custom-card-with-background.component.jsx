@@ -13,11 +13,12 @@ const CustomCardWithBackground = (
     route, 
     buttonBackgroungColor,
     marginBottom,
+    mobileMinWidth,
     children
   }) => (
   
   <Container marginBottom={marginBottom}>
-    <ImageExtended contentPadding={contentPadding} bg={backgroundImage} >
+    <ImageExtended mobileMinWidth={mobileMinWidth} contentPadding={contentPadding} bg={backgroundImage} >
       <div>
         {title ? <h3>{title}</h3> : null }
         <h5>{description}</h5>

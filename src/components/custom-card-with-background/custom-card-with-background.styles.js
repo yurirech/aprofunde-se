@@ -34,4 +34,8 @@ export const ImageExtended = styled(Image)`
     min-width: 320px;
     margin-bottom: 1rem;
   }
+  
+  @media ${device.mobileL} {
+    min-width: ${({mobileMinWidth}) => mobileMinWidth || '200px'};
+  }
 `;
