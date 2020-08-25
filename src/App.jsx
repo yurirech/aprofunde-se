@@ -15,7 +15,9 @@ import {
   faArrowLeft,
   faSpa,
   faLightbulb,
-  faMapSigns
+  faMapSigns,
+  faPlusCircle,
+  faMinusCircle
 } from '@fortawesome/free-solid-svg-icons';
 
 import './App.scss';
@@ -33,7 +35,8 @@ import Instagram from "./pages/instagram/instagram.component";
 import ContactUs from "./pages/contac-us/contact-us.component";
 
 library.add(fab, faPlane, faMapMarkedAlt, faHome, faUtensils, faBiking, 
-            faBus, faCar, faLanguage, faGift, faArrowLeft, faSpa, faLightbulb, faMapSigns);
+            faBus, faCar, faLanguage, faGift, faArrowLeft, faSpa, faLightbulb,
+            faMapSigns, faPlusCircle, faMinusCircle);
 
 
 class App extends Component {
