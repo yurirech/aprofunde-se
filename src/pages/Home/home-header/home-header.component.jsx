@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Title, Content, SubTitle, Overlay } from './home-header.styles'
 
   const HomeHeader = ({title, subTitle}) => {
@@ -6,7 +7,7 @@ import { Title, Content, SubTitle, Overlay } from './home-header.styles'
 
     return (
       <Content className='header'>
-        <Overlay className='overlay'></Overlay>
+        <Overlay className='overlay' />
         <Title>{ title } 
           <h5>HOLANDA</h5>
         </Title>
@@ -16,10 +17,3 @@ import { Title, Content, SubTitle, Overlay } from './home-header.styles'
   }
 
 export default HomeHeader;
-// h5:first-of-type {
-//   position: absolute;
-//   left: 43.5%;
-//   top: 49%;
-//   letter-spacing: 3px;
-//   color: #4F25D0;
-// }
