@@ -4,7 +4,7 @@ import leftArrow from '../../../assets/img/arrow-left.png'
 import {colors, device} from '../../../_variables'
 
 export const Content = styled.div`
-  padding: 0 9%;
+  padding: 0 18%;
 
 .header {
   text-align: left;

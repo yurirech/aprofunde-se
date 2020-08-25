@@ -1,6 +1,7 @@
 import React from 'react';
-import {Content} from "./CarouselWithArrowsStyled";
 import {Carousel} from "react-bootstrap";
+
+import {Content} from "./CarouselWithArrowsStyled";
 import {dayTours} from "../../../pages/Home/home.data";
 import { colors } from '../../../_variables';
 

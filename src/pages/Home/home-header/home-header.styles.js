@@ -37,10 +37,10 @@ export const Title = styled.h1`
   }
 
   @media ${device.tablet} {
-    margin-top: 45%;
+    font-size: 5rem;
   }
    
-  @media ${device.mobileL} {
+  @media (max-width: 600px) {
     text-align: center;
     margin-top: 70%;
     font-size: 4rem;
@@ -51,6 +51,10 @@ export const Title = styled.h1`
       top: 4.25rem;
       color: #a78aff;
   }
+ } 
+ 
+ @media (min-width: 426px) {
+    margin-top: 10%;
  }
 `;
 
@@ -60,8 +64,11 @@ export const SubTitle = styled.h5`
   margin-top: 1.5rem;
   line-height: 1.85rem;
   font-size: 1.25rem;
-  margin-top: 1rem;
-
+  
+  @media ${device.tablet} {
+    margin-top: 5rem
+  }
+  
   @media ${device.mobileL} {
     color: #FFFFFF;
     max-width: unset;
@@ -76,7 +83,7 @@ export const Overlay = styled.div`
   height: 100vh;
   position: absolute;
   top: 0;
-  background-color: #000000a8;
+  background-color: rgba(255,255,255,0.97);
   z-index: -1;
   display: none;
 

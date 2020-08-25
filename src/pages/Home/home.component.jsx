@@ -1,17 +1,22 @@
 import React, {Component} from 'react';
-import HomeHeader from "./home-header/home-header.component";
 import {Container, Col} from "react-bootstrap";
+
 import {dayTours, headerContent, homeTours, aboutNetherlands, tourOptions} from "./home.data";
-import CentralizedSection from "../../components/shared-components/centrilized-section/centrilized-section.component";
 import {RowStyled, ExtendedRowStyled} from "./home.styles";
+import { colors } from '../../_variables';
+
 import CarouselWithArrows from "../../components/shared-components/CarouselWithArrows/CarouselWithArrows";
 import Button from "../../components/shared-components/button/button.component"
-import { colors } from '../../_variables';
+import CentralizedSection from "../../components/shared-components/centrilized-section/centrilized-section.component";
+import HomeHeader from "./home-header/home-header.component";
 import TourCard from './tour-card/tour-card.component';
-import NetherlandsMap from '../../assets/img/netherlands-map.png'
 import TourOption from '../../components/tour-option/tour-option.component';
-import AvatarPicture from '../../components/shared-components/AvatarPicture/AvatarPicture'
+
+
+import NetherlandsMap from '../../assets/img/netherlands-map.png'
 import inspireSeCanal from '../../assets/img/canal-landing.jpg'
+import AvatarPicture from '../../components/shared-components/AvatarPicture/AvatarPicture'
+
 
 class Home extends Component {
   render() {
