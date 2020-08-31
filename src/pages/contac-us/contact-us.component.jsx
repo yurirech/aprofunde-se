@@ -30,7 +30,7 @@ const handleAccommodation = e => {
   }
 }
 
-
+  //Handle submit
   const handleSubmit = e => {
     e.preventDefault();
 
