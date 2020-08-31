@@ -1,4 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
+import emailjs from 'emailjs-com';
+import {Redirect} from 'react-router-dom'
 
 import {Content, FormButton, HeaderTitle, SectionTitle} from "./contact-us.styles";
 import {FlexContainer} from "../../_styles";
@@ -15,12 +17,7 @@ const ContactUs = () => {
   const [numberOfTravelers, setNumberOfTravelers] = useState('');
   const [dayToursGroup, setDayToursGroup] = useState([]);
   const [accommodations, setAccommodations] = useState([]);
-
-  useEffect(
-  () => {
-    console.log(packages);
-  }
-  )
+  const [isSent, setIsSent] = useState(false);
 
   const handleDayTours = e => {
   if(e.target.checked && e.target.name === 'dayTours') {
@@ -41,16 +38,45 @@ const handleAccommodation = e => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    setEmail(e.target.email.value);
-    setName(e.target.name.value);
-    setMoreInfo(e.target.moreInfo.value);
-    setPackages(e.target.packages.value);
-    setNumberOfTravelers(e.target.numberOfTravelers.value);
+
+    const template_params = {
+      "from_website_name": "yurirech.it",
+      "from_name": e.target.name.value,
+      "to_name": "Yuri",
+      "email": e.target.email.value,
+      "reply_to": e.target.email.value,
+      "day_tours": dayToursGroup,
+      "packages": e.target.packages.value,
+      "accommodations": accommodations,
+      "message_html": e.target.moreInfo.value,
+      "number_of_travelers": e.target.numberOfTravelers.value,
+    };
+
+    emailjs.send('gmail','template_pWsS8eDz', template_params, 'user_oo9bsbo183PQuyl6penUi')
+      .then((result) => {
+        if(result.status === 200) {
+          alert('Sua mensagem foi encaminhada com sucesso.');
+          setIsSent(true);
+        }
+      }, (error) => {
+        if(error) {
+          alert('There was an unexpected error, please, contact me through the social networks\' links below');
+        }
+      });
+
+    // setEmail(e.target.email.value);
+    // setName(e.target.name.value);
+    // setMoreInfo(e.target.moreInfo.value);
+    // setPackages(e.target.packages.value);
+    // setNumberOfTravelers(e.target.numberOfTravelers.value);
+
+
 
   }
 
   return (
     <Content>
+      { isSent ? <Redirect to="/" /> : null }
       <FlexContainer column margin='4rem auto' width='50%' widthMd='80%'>
         <HeaderTitle>Entre em contato</HeaderTitle>
         <form onSubmit={handleSubmit}>
@@ -112,7 +138,7 @@ const handleAccommodation = e => {
                     type='checkbox'
                     id={`accommodation-${i}`}
                     label={title}
-                    value={packages}
+                    value={title}
                     name='accommodations'
                     onChange={ handleAccommodation }
                   />
