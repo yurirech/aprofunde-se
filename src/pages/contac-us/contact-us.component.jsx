@@ -10,11 +10,6 @@ import InputText from "../../components/shared-components/input-text/input-text.
 import RadioCheckbox from "../../components/shared-components/radio-checkbox/radio-checkbox.component";
 
 const ContactUs = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [moreInfo, setMoreInfo] = useState('');
-  const [packages, setPackages] = useState('');
-  const [numberOfTravelers, setNumberOfTravelers] = useState('');
   const [dayToursGroup, setDayToursGroup] = useState([]);
   const [accommodations, setAccommodations] = useState([]);
   const [isSent, setIsSent] = useState(false);
@@ -35,7 +30,7 @@ const handleAccommodation = e => {
   }
 }
 
-
+  //Handle submit
   const handleSubmit = e => {
     e.preventDefault();
 
@@ -82,14 +77,12 @@ const handleAccommodation = e => {
         <form onSubmit={handleSubmit}>
           <InputText type='text'
                      placeholder='Nome'
-                     value={name}
                      name='name'
                      onChange={ e => e.target.value }
           />
 
           <InputText required
                      type='email'
-                     value={email}
                      name='email'
                      onChange={ e => e.target.value }
                      placeholder='Email'
@@ -152,14 +145,12 @@ const handleAccommodation = e => {
                      type='text'
                      placeholder='Nos fale mais como podemos te ajudar'
                      name='moreInfo'
-                     value={moreInfo}
                      onChange={e => e.target.value}
           />
 
          <InputText type='text'
                     name='numberOfTravelers'
                     placeholder='Quantos viajantes e quantos quartos'
-                    value={numberOfTravelers}
                     onChange={e => e.target.value}
          />
 
