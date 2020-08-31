@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ebd5c7b17b1d06038bd52d547ea4c49",
+    "revision": "12b3acac274a1edfc46d96591c57e90c",
     "url": "/aprofunde-se/index.html"
   },
   {
-    "revision": "f5f8abf7e3167ad71f73",
+    "revision": "29cb2f9b3683342be7ad",
     "url": "/aprofunde-se/static/css/2.66351642.chunk.css"
   },
   {
-    "revision": "c6d4efb8fe5cd1c87811",
+    "revision": "d1826fd35a7040d411d0",
     "url": "/aprofunde-se/static/css/main.4f55409c.chunk.css"
   },
   {
-    "revision": "f5f8abf7e3167ad71f73",
-    "url": "/aprofunde-se/static/js/2.3bd1bfdf.chunk.js"
+    "revision": "29cb2f9b3683342be7ad",
+    "url": "/aprofunde-se/static/js/2.d5673a14.chunk.js"
   },
   {
     "revision": "5fc708c15a442dc57ceb72fa4c1267cb",
-    "url": "/aprofunde-se/static/js/2.3bd1bfdf.chunk.js.LICENSE.txt"
+    "url": "/aprofunde-se/static/js/2.d5673a14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6d4efb8fe5cd1c87811",
-    "url": "/aprofunde-se/static/js/main.3d49c50b.chunk.js"
+    "revision": "d1826fd35a7040d411d0",
+    "url": "/aprofunde-se/static/js/main.b9921e96.chunk.js"
   },
   {
     "revision": "52c374fbcdbe1843b235",
