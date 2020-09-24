@@ -23,7 +23,9 @@ export const RowStyled = styled(Row)`
 
   .about-nether {
     position: relative;
-    padding: ${paddings.paddingWeb} 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 
     img {
       position: absolute;
@@ -31,6 +33,11 @@ export const RowStyled = styled(Row)`
       width: 23rem;
       opacity: .2;
       right: 1rem;
+      top: -4rem;
+    }
+    
+    h1 {
+      margin-bottom: 3rem;
     }
     
     div:first-child {
@@ -40,7 +47,7 @@ export const RowStyled = styled(Row)`
   }
 
   .tours {
-    margin-top: 3rem;
+    margin-top: 5rem;
 
     button {
       margin: 3rem 0;
@@ -48,12 +55,21 @@ export const RowStyled = styled(Row)`
   }
   
   .dayTours {
-    padding: 7% 15% !important;    
+    padding: 3% !important;    
   }
 
   .inspire-se {
-    padding: 8rem 4rem 1rem;
+    padding: 5rem 4rem 5rem;
   }
+  
+  @media ${device.tablet} {
+    .about-nether {
+      img {
+        top: 0;
+        right: 0;
+      }
+    }
+  }  
   
   @media ${device.mobileL} {
     .about-nether {

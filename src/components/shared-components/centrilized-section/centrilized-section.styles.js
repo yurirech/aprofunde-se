@@ -15,5 +15,6 @@ export const Content = styled.div`
   p {
     color: ${props => props.textColor || null } ;
     line-height: 2rem;
+    margin: 2rem 0;
   }
 `;

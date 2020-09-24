@@ -154,7 +154,7 @@ export const InspireImage = styled(Image)`
         padding-right: .5rem;
     }
   }
-`;
+ ,kbgv,kgggggggggggggggggggggg k k v`;
 
 export const InspireCardBody = styled.div`
   padding: 4rem;

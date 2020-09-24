@@ -16,6 +16,7 @@ import TourOption from '../../components/tour-option/tour-option.component';
 import NetherlandsMap from '../../assets/img/netherlands-map.png'
 import inspireSeCanal from '../../assets/img/canal-landing.jpg'
 import AvatarPicture from '../../components/shared-components/AvatarPicture/AvatarPicture'
+import {Link} from "react-router-dom";
 
 
 class Home extends Component {
@@ -28,27 +29,46 @@ class Home extends Component {
               <HomeHeader title={ headerContent.title } subTitle={ headerContent.subTitle } />
             </Col>
           </RowStyled> 
-          <ExtendedRowStyled noGutters={true}>
+          <ExtendedRowStyled style={{minHeight: '600px'}} noGutters={true}>
             <Col className='about-nether' lg={12}>
               <img src={NetherlandsMap} alt=""/>
               <CentralizedSection title='A Holanda'  textColor={colors.aprofundeSeBlackText} mainText={aboutNetherlands.text} />
             </Col>
+          </ExtendedRowStyled>
+          <ExtendedRowStyled style={{'backgroundColor': '#92929214',  marginBottom: '2rem'}} noGutters={true}>
             <Col lg={12} className='tours'>
               <CentralizedSection title={homeTours.title} mainText={homeTours.mainText} />
-              <Button text='Saiba mais' />
               <TourOption tourOptions={tourOptions} />
+              <Link to='/day-tours'>
+                <Button text='Saiba mais' />
+              </Link>
             </Col>
+          </ExtendedRowStyled>
+          <ExtendedRowStyled noGutters={true}>
             <Col lg={12} className='dayTours'>
               <CentralizedSection title={dayTours.title} mainText={dayTours.mainText} />
             </Col>
-          <Col lg={12}>
+          </ExtendedRowStyled>
+          <ExtendedRowStyled style={{marginBottom: '3rem'}} noGutters={true}>
+            <Col lg={12}>
               <CarouselWithArrows />
-          </Col>
-          <Col lg={12} className='inspire-se'>
-           <TourCard buttonText='Saiba mais' title='Inspire-se' mainText='O Aprofunde-se separou algumas ideias pra tornar sua viagem mais especial. Não importa que tipo de pessoa você é e qual sua paixão, nós vamos te ajudar a ficar extremamente satisfeito com a sua viagem. Cheque nosso Instagram para ainda mais ideias.'>
-             <AvatarPicture avatarImg={inspireSeCanal} />
-           </TourCard>
-          </Col>
+              <br/><br/><br/>
+              <Link to='/packages'>
+                <Button text='Saiba mais' />
+              </Link>
+            </Col>
+          </ExtendedRowStyled>
+          <ExtendedRowStyled style={{'backgroundColor': '#92929214'}} noGutters={true}>
+            <Col lg={12} className='inspire-se'>
+             <TourCard buttonText={null} title='Inspire-se' mainText='O Aprofunde-se separou algumas ideias pra tornar sua viagem mais especial.
+             Não importa que tipo de pessoa você é e qual sua paixão, nós vamos te ajudar a ficar extremamente satisfeito com a sua viagem.
+             Cheque nosso Instagram para ainda mais ideias.'>
+               <AvatarPicture avatarImg={inspireSeCanal} />
+             </TourCard>
+              <Link to='/inspire'>
+                <Button text='Saiba mais' />
+              </Link>
+            </Col>
           </ExtendedRowStyled>   
       </Container>
     );

@@ -5,7 +5,11 @@ export const HomeFooter = styled.div`
   
   h3 {
     font-size: 1.35rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  svg {
+  cursor: pointer;
   }
   
 `;

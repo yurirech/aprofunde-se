@@ -12,6 +12,7 @@ import TourDetails from '../../components/tours-details/tours-details.component'
 import Button from '../../components/shared-components/button/button.component';
 import CustomSelect from '../../components/custom-select/custom-select.component';
 import DayToursDatePicker from '../../components/date-picker/date-picker';
+import {Link} from "react-router-dom";
 
 
 const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...otherProps}) => {
@@ -30,7 +31,7 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
                         subtitle={subtitle}
                         carouselImages={image}
                         direction= {!isDayTour ? 'row-reverse' : null}
-                        dayTourStyles={isDayTour ? true : false} 
+                        dayTourStyles={!!isDayTour}
                         isDayTour={isDayTour}
                         
                         >
@@ -51,17 +52,14 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
             <div>
               <h2>Programação</h2>
               <ItineraryTable {...otherProps} />
-              <Button text='Entre em contato' /> 
+               <Link to='/contact-us' >
+                 <Button text='Entre em contato' />
+               </Link>
             </div> 
             : 
             <TourForm>
-              <FlexContainer column justify='center' width='490px' margin='2rem' >
-                <h2 style={{marginBottom: '3rem', marginTop: '-1.5rem', fontSize: '1.90rem'}}>Ver disponibilidade</h2>
-                {/* <DatePicker selected={date} onChange={handleChange} dateFormat="dd/MM/yyyy"/> */}
-                <DayToursDatePicker />
-                <CustomSelect options={serviceHours} />
-                <CustomSelect options={numberOfPeople} />
-                <Button text='Enviar' bgColor='#6e5f9e' />
+              <FlexContainer column justify='center' width='375px' margin='2rem' >
+                <Button text='Entrar em contato' bgColor='#6e5f9e' />
               </FlexContainer>
             </TourForm> 
           }

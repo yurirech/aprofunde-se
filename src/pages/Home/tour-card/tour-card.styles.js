@@ -26,7 +26,7 @@ export const Content = styled.div`
   p {
   font-size: 1.1vw;
   line-height: 2rem;
-  padding: 0 37%;
+  padding: 0 15%;
   max-height: 252px;
   color: ${colors.aprofundeSeBlackText};
   }

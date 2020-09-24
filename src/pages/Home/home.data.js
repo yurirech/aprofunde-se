@@ -12,7 +12,7 @@ import Giethoorn from '../../assets/img/Giethoorn.jpg';
 
 export const headerContent = {
   title: 'Aprofunde-se',
-  subTitle: 'Aprofunde a sua percepção de mundo e deixa que nós cuidamos de tudo'
+  subTitle: 'Mergulhe fundo no melhor que a Holanda tem a lhe oferecer e deixa que nós cuidamos de tudo. '
 };
 
 export const aboutNetherlands = {
