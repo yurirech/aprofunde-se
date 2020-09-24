@@ -17,7 +17,7 @@ import {
   faLightbulb,
   faMapSigns,
   faPlusCircle,
-  faMinusCircle
+  faMinusCircle,
 } from '@fortawesome/free-solid-svg-icons';
 
 import './App.scss';
@@ -25,7 +25,7 @@ import './App.scss';
 import { GlobalStyle } from "./_styles";
 
 import Home from "./pages/Home/home.component";
-import Footer from "./components/shared-components/Footer/Footer";
+import FooterComponent from "./components/shared-components/Footer/footer.component";
 import MainNavBar from "./components/shared-components/main-navbar/main-navbar.component";
 import About from "./pages/about/about.component";
 import Packages from "./pages/packages/packages.component";
@@ -55,7 +55,7 @@ class App extends Component {
           <Route path='/instagram' component={Instagram} />
           <Route path='/contact-us' component={ContactUs} />
           </Switch>
-          <Footer onRouteChange={this.onRouteChange} />
+          <FooterComponent onRouteChange={this.onRouteChange} />
         </div>
     );
   }

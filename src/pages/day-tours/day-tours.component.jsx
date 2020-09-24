@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {v4 as uuid} from 'uuid';
 import {withRouter} from 'react-router-dom';
 
@@ -14,6 +14,10 @@ import PackageAndTour from '../package-and-tour/package-and-tour.component';
 
 
 const DayTours = ({location}) => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location]); //only perform useEffect if location changes
 
   // Get packages items to show in view
  const getDayTours = (packageTour) => {

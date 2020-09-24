@@ -33,7 +33,7 @@ export const paddings = {
 }
 
 export const colors = {
-  aprofundeSeOrange: `#f4681b`,
+  aprofundeSeOrange: `#e86218`,
   aprofundeSeBlack: `#05030C`,
   aprofundeSeBlackText: `#000000cc`,
   aprofundeSePurple: `#4F25D0`
@@ -41,5 +41,5 @@ export const colors = {
 
 export const fonts = {
   caveat: `'Caveat', serif`,
-  poppins: `"Poppins", serif`,
+  poppins: `"Helvetica", serif`,
 }

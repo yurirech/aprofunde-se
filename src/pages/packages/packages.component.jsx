@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect} from 'react';
 import { withRouter } from 'react-router-dom';
 
 import {homeTours, ourSevices, tourDetails, itineraryTables, packageCard} from "./packages.data";
@@ -29,6 +29,8 @@ class Packages extends Component {
 
   render() {
     const {location} = this.props;
+    window.scrollTo(0, 0)
+
     
     // Mapping through list of icons
     let whatIsIncluded = homeTours.whatIsIncluded.map((content) =>

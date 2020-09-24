@@ -8,7 +8,8 @@ const TourCard = ({children, numberOfDays, title, mainText, buttonText}) =>
         {children}
         <h1> {title} <br/> {numberOfDays} </h1>
         <p>{mainText}</p>
-        <Button variant="outline-primary">{buttonText}</Button>
+        { buttonText ?
+          <Button variant="outline-primary">{buttonText}</Button> : null}
       </Content>
     );
 
