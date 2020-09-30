@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/aprofunde-se/static/css/main.4f55409c.chunk.css",
-    "main.js": "/aprofunde-se/static/js/main.b9921e96.chunk.js",
-    "main.js.map": "/aprofunde-se/static/js/main.b9921e96.chunk.js.map",
+    "main.css": "/aprofunde-se/static/css/main.98e799b6.chunk.css",
+    "main.js": "/aprofunde-se/static/js/main.047f20e6.chunk.js",
+    "main.js.map": "/aprofunde-se/static/js/main.047f20e6.chunk.js.map",
     "runtime-main.js": "/aprofunde-se/static/js/runtime-main.9b6942c3.js",
     "runtime-main.js.map": "/aprofunde-se/static/js/runtime-main.9b6942c3.js.map",
     "static/css/2.66351642.chunk.css": "/aprofunde-se/static/css/2.66351642.chunk.css",
-    "static/js/2.d5673a14.chunk.js": "/aprofunde-se/static/js/2.d5673a14.chunk.js",
-    "static/js/2.d5673a14.chunk.js.map": "/aprofunde-se/static/js/2.d5673a14.chunk.js.map",
+    "static/js/2.aef44893.chunk.js": "/aprofunde-se/static/js/2.aef44893.chunk.js",
+    "static/js/2.aef44893.chunk.js.map": "/aprofunde-se/static/js/2.aef44893.chunk.js.map",
     "index.html": "/aprofunde-se/index.html",
-    "precache-manifest.3e65426b3d40592ff761e0acc781615a.js": "/aprofunde-se/precache-manifest.3e65426b3d40592ff761e0acc781615a.js",
+    "precache-manifest.a9f2d5ec24ec260a5d4215928c045846.js": "/aprofunde-se/precache-manifest.a9f2d5ec24ec260a5d4215928c045846.js",
     "service-worker.js": "/aprofunde-se/service-worker.js",
     "static/css/2.66351642.chunk.css.map": "/aprofunde-se/static/css/2.66351642.chunk.css.map",
-    "static/css/main.4f55409c.chunk.css.map": "/aprofunde-se/static/css/main.4f55409c.chunk.css.map",
-    "static/js/2.d5673a14.chunk.js.LICENSE.txt": "/aprofunde-se/static/js/2.d5673a14.chunk.js.LICENSE.txt",
+    "static/css/main.98e799b6.chunk.css.map": "/aprofunde-se/static/css/main.98e799b6.chunk.css.map",
+    "static/js/2.aef44893.chunk.js.LICENSE.txt": "/aprofunde-se/static/js/2.aef44893.chunk.js.LICENSE.txt",
+    "static/media/Aprofunde-se svg 2.png": "/aprofunde-se/static/media/Aprofunde-se svg 2.d244b100.png",
     "static/media/Giethoorn.jpg": "/aprofunde-se/static/media/Giethoorn.f488e812.jpg",
     "static/media/Haarlem.jpg": "/aprofunde-se/static/media/Haarlem.06de7d1d.jpg",
     "static/media/Kroller.jpg": "/aprofunde-se/static/media/Kroller.af0ad7ca.jpg",
@@ -23,7 +24,7 @@
     "static/media/about-mills.jpg": "/aprofunde-se/static/media/about-mills.02833997.jpg",
     "static/media/about-planes.jpg": "/aprofunde-se/static/media/about-planes.84aa2cdc.jpg",
     "static/media/adventure.jpg": "/aprofunde-se/static/media/adventure.85154f6f.jpg",
-    "static/media/aprofunde-se-logo-navbar.fbca1dd4.svg": "/aprofunde-se/static/media/aprofunde-se-logo-navbar.fbca1dd4.svg",
+    "static/media/aprofunde-se-logo-mobile.png": "/aprofunde-se/static/media/aprofunde-se-logo-mobile.bb10f917.png",
     "static/media/aquatico.jpeg": "/aprofunde-se/static/media/aquatico.cee9c43d.jpeg",
     "static/media/arqui.jpg": "/aprofunde-se/static/media/arqui.4bca41a1.jpg",
     "static/media/arrow-left.png": "/aprofunde-se/static/media/arrow-left.a3c3f497.png",
@@ -102,8 +103,8 @@
   "entrypoints": [
     "static/js/runtime-main.9b6942c3.js",
     "static/css/2.66351642.chunk.css",
-    "static/js/2.d5673a14.chunk.js",
-    "static/css/main.4f55409c.chunk.css",
-    "static/js/main.b9921e96.chunk.js"
+    "static/js/2.aef44893.chunk.js",
+    "static/css/main.98e799b6.chunk.css",
+    "static/js/main.047f20e6.chunk.js"
   ]
 }

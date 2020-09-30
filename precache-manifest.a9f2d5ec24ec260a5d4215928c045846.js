@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12b3acac274a1edfc46d96591c57e90c",
+    "revision": "e0cf4cfce8fa49b285991d873bf0838e",
     "url": "/aprofunde-se/index.html"
   },
   {
-    "revision": "29cb2f9b3683342be7ad",
+    "revision": "6eb2515df4fdfa7890f2",
     "url": "/aprofunde-se/static/css/2.66351642.chunk.css"
   },
   {
-    "revision": "d1826fd35a7040d411d0",
-    "url": "/aprofunde-se/static/css/main.4f55409c.chunk.css"
+    "revision": "55ce3b889957dcfe772e",
+    "url": "/aprofunde-se/static/css/main.98e799b6.chunk.css"
   },
   {
-    "revision": "29cb2f9b3683342be7ad",
-    "url": "/aprofunde-se/static/js/2.d5673a14.chunk.js"
+    "revision": "6eb2515df4fdfa7890f2",
+    "url": "/aprofunde-se/static/js/2.aef44893.chunk.js"
   },
   {
     "revision": "5fc708c15a442dc57ceb72fa4c1267cb",
-    "url": "/aprofunde-se/static/js/2.d5673a14.chunk.js.LICENSE.txt"
+    "url": "/aprofunde-se/static/js/2.aef44893.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d1826fd35a7040d411d0",
-    "url": "/aprofunde-se/static/js/main.b9921e96.chunk.js"
+    "revision": "55ce3b889957dcfe772e",
+    "url": "/aprofunde-se/static/js/main.047f20e6.chunk.js"
   },
   {
     "revision": "52c374fbcdbe1843b235",
     "url": "/aprofunde-se/static/js/runtime-main.9b6942c3.js"
+  },
+  {
+    "revision": "d244b100ffcf6688c65f23e56b7e517a",
+    "url": "/aprofunde-se/static/media/Aprofunde-se svg 2.d244b100.png"
   },
   {
     "revision": "f488e8128791d4615ee07455d18bd510",
@@ -64,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aprofunde-se/static/media/adventure.85154f6f.jpg"
   },
   {
-    "revision": "fbca1dd489638bb233bd144575c3e141",
-    "url": "/aprofunde-se/static/media/aprofunde-se-logo-navbar.fbca1dd4.svg"
+    "revision": "bb10f9174398de2bcd1dcaddfa482bbc",
+    "url": "/aprofunde-se/static/media/aprofunde-se-logo-mobile.bb10f917.png"
   },
   {
     "revision": "cee9c43dad36fb61f871c38bbbc0ec95",
