@@ -40,7 +40,7 @@ class Home extends Component {
               <CentralizedSection title={homeTours.title} mainText={homeTours.mainText} />
               <TourOption tourOptions={tourOptions} />
               <Link to='/day-tours'>
-                <Button text='Saiba mais' />
+                <Button width='33%' text='Saiba mais' />
               </Link>
             </Col>
           </ExtendedRowStyled>
@@ -54,7 +54,7 @@ class Home extends Component {
               <CarouselWithArrows />
               <br/><br/><br/>
               <Link to='/packages'>
-                <Button text='Saiba mais' />
+                <Button width='33%' text='Saiba mais' />
               </Link>
             </Col>
           </ExtendedRowStyled>
@@ -66,7 +66,7 @@ class Home extends Component {
                <AvatarPicture avatarImg={inspireSeCanal} />
              </TourCard>
               <Link to='/inspire'>
-                <Button text='Saiba mais' />
+                <Button width='33%' text='Saiba mais' />
               </Link>
             </Col>
           </ExtendedRowStyled>   

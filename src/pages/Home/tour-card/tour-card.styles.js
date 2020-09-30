@@ -35,7 +35,7 @@ export const Content = styled.div`
     font-size: 3rem;
     line-height: 2.2rem;
     font-weight: bold;
-    font-family: ${fonts.caveat};
+    font-family: ${fonts.primaryFont};
     margin-bottom: 2.5rem;
   }
   

@@ -5,7 +5,7 @@ import { fonts, colors } from "../../../_variables";
 export const Content = styled.div`
   
   h1 {
-    font-family: ${fonts.caveat};
+    font-family: ${fonts.primaryFont};
     font-size: 4.5rem;
     font-weight: lighter;
     color: ${props => props.h1Color ||`${colors.aprofundeSeOrange}`} ;

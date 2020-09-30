@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react';
 import {Dropdown, Header} from "./main-navbar.styles";
 import {withRouter, Link} from 'react-router-dom'
 import {Nav, Navbar} from "react-bootstrap";
-import {ReactComponent as AprofundeSeLogo} from '../../../assets/icon/aprofunde-se-logo-navbar.svg';
+import aprofundeSeLogo from '../../../assets/icon/Aprofunde-se svg 2.png';
+import aprofundeSeLogoMobile from '../../../assets/img/aprofunde-se-logo-mobile.png';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const MainNavBar = ({location}) => {
@@ -22,9 +23,8 @@ const MainNavBar = ({location}) => {
           <div className='nav-header'>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Link to='/'>
-              <Navbar.Brand className='brand'>
-                <AprofundeSeLogo />
-              </Navbar.Brand>
+              <img width='20%' className='hide-sm-down logo-desktop' src={aprofundeSeLogo} alt="Aprofunde-se"/>
+              <img width='10%' className='hide-sm-up  logo-mobile' src={aprofundeSeLogoMobile} alt="Aprofunde-se"/>
             </Link>
           </div>
           <Navbar.Collapse id="basic-navbar-nav">

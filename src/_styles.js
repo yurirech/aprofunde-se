@@ -8,7 +8,25 @@ export const GlobalStyle = createGlobalStyle`
     outline: solid #f00 1px !important;
   } */}
   h1 {
-    font-family: ${fonts.caveat};
+    font-family: ${fonts.primaryFont};
+  }
+  
+  .hide-sm-up {
+    display: none;
+  }
+  
+  .hide-sm-down {
+    display: block;
+  }
+  
+  @media ${device.tablet} {
+    .hide-sm-up {
+     display: block;
+    }
+    
+    .hide-sm-down {
+     display: none;
+    }
   }
  
 `;

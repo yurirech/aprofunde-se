@@ -43,7 +43,7 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
           }
           
           <OurServicesCard
-                            isDayTour={isDayTour ? true : false}
+                            isDayTour={!!isDayTour}
                             {...otherProps}  
                           />
           
@@ -59,7 +59,9 @@ const PackageAndTour = ({tourDetails, handleChange, handleClick, isDayTour, ...o
             : 
             <TourForm>
               <FlexContainer column justify='center' width='375px' margin='2rem' >
-                <Button text='Entrar em contato' bgColor='#6e5f9e' />
+                <Link to='/contact-us'>
+                  <Button width='100%' text='Entrar em contato' bgColor='#6e5f9e' />
+                </Link>
               </FlexContainer>
             </TourForm> 
           }

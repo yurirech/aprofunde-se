@@ -7,7 +7,7 @@ class FooterComponent extends Component {
 
     return (
       <HomeFooter>
-        <h3 onClick={() => this.props.onRouteChange('worked!')}>Aprofunde-se</h3>
+        <h3>Aprofunde-se</h3>
         <a href='https://www.facebook.com/aprofundeseholanda' target='_blank' rel="noopener noreferrer">
           <FontAwesomeIcon  icon={['fab', 'facebook-f']} />
         </a>
