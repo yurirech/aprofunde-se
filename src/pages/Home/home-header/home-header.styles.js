@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 import headerBackground from  '../../../assets/img/bg-main.jpg';
 import headerBackgroundMobile from  '../../../assets/img/bg-main-mobile.jpg';
-import { colors, device } from "../../../_variables";
+import {colors, device, fonts} from "../../../_variables";
 
 export const Content = styled.div`
   background: url(${headerBackground}) no-repeat top center fixed;
@@ -23,7 +23,6 @@ export const Title = styled.h1`
   color: ${colors.aprofundeSeOrange};
   font-size: 6.5rem;
   letter-spacing: 0.05em;
-  font-weight: bold !important;
   display: inline-block;
   position: relative;
 
@@ -32,8 +31,9 @@ export const Title = styled.h1`
     right: 0;
     top: 6.25rem;
     letter-spacing: 3px;
-    color: #4F25D0;
-    font-family: poppins;
+    margin-top: .25rem;
+    color: ${colors.aprofundeSeOrange};
+    font-family: ${fonts.primaryFont};
   }
 
   @media ${device.tablet} {
@@ -43,18 +43,18 @@ export const Title = styled.h1`
   @media (max-width: 600px) {
     text-align: center;
     margin-top: 70%;
-    font-size: 4rem;
+    font-size: 3.75rem;
     width: 100%;
 
     h5 {
       right: 1.25rem;
       top: 4.25rem;
-      color: #a78aff;
+      color: ${colors.aprofundeSeOrange}
   }
  } 
  
  @media (min-width: 426px) {
-    margin-top: 10%;
+    margin-top: 4%;
  }
 `;
 

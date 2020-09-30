@@ -47,13 +47,13 @@ class App extends Component {
           <GlobalStyle />
           <MainNavBar />
           <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/packages' component={Packages} />
-          <Route path='/day-tours' component={DayTours} />
-          <Route path='/inspire' component={Inspire} />
-          <Route path='/instagram' component={Instagram} />
-          <Route path='/contact-us' component={ContactUs} />
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/packages' component={Packages} />
+            <Route path='/day-tours' component={DayTours} />
+            <Route path='/inspire' component={Inspire} />
+            <Route path='/instagram' component={Instagram} />
+            <Route path='/contact-us' component={ContactUs} />
           </Switch>
           <FooterComponent onRouteChange={this.onRouteChange} />
         </div>

@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import { colors } from '../../../_variables';
+import {colors, device} from '../../../_variables';
 
 export const CustomButton = styled.button`
   background-color: ${({bgColor}) => bgColor || colors.aprofundeSeOrange};
@@ -7,9 +7,13 @@ export const CustomButton = styled.button`
   padding: .75rem;
   color: white;
   transition: .3s;
+  width: ${({width}) => width || null};
 
   &:hover {
     opacity: .7;
-    transition: ''
+  }
+  
+  @media ${device.mobileL} {
+    width: 100%;
   }
 `;

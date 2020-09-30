@@ -5,13 +5,16 @@ export const Header = styled.div`
   position: ${props => props.headerAbsolute || 'unset' };
   z-index: 99;
   width: 100%;
-  padding: 1.25rem 1.5rem;
+  padding: .25rem 1.5rem;
 
   .nav-header {
-    a {
-      position: absolute;
-      top: -16px;
-      left: 90px;
+    
+    .logo-desktop {
+      min-width: 100px;
+    }
+    
+    .logo-mobile {
+      min-width: 40px;
     }
   }
 
@@ -36,6 +39,7 @@ export const Header = styled.div`
   display: flex;
   width: 100%;
   flex-direction: row-reverse;
+  align-items: center;
 
   a {
       left: 20px;
@@ -83,6 +87,7 @@ export const Header = styled.div`
   }
   .navbar-expand .navbar-toggler {
      display: block;
+     height: 100%;
     }
   } 
   
