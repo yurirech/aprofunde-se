@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import emailjs from 'emailjs-com';
 import {Redirect} from 'react-router-dom'
 
@@ -58,16 +58,11 @@ const handleAccommodation = e => {
           alert('There was an unexpected error, please, contact me through the social networks\' links below');
         }
       });
-
-    // setEmail(e.target.email.value);
-    // setName(e.target.name.value);
-    // setMoreInfo(e.target.moreInfo.value);
-    // setPackages(e.target.packages.value);
-    // setNumberOfTravelers(e.target.numberOfTravelers.value);
-
-
-
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  });
 
   return (
     <Content>

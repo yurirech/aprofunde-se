@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import {v4 as uuid} from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link, withRouter} from 'react-router-dom';
-import styled from "styled-components";
 
 import {dropdownDisplayContent, inspireViews} from './inspire.data';
 import {  
@@ -23,6 +22,7 @@ import {
         InspireButton
         } from './inspire.styles';
 import { FlexContainer, Image, Overlay } from '../../_styles';
+
 import CentralizedSection from '../../components/shared-components/centrilized-section/centrilized-section.component';
 import inspireSe from '../../assets/img/inspire/inspire.jpeg'
 import Button from '../../components/shared-components/button/button.component';
