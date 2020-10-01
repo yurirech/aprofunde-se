@@ -14,6 +14,6 @@ export const CustomButton = styled.button`
   }
   
   @media ${device.mobileL} {
-    width: 100%;
+    width: 70%;
   }
 `;

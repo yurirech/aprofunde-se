@@ -17,11 +17,9 @@ export const ImageHolder = styled.div`
 
 
  h4 {
-   //width: 20rem;
-   text-align: left;
-   margin-left: 2rem;
    margin-bottom: 2rem;
    margin-top: 80%;
+   text-align: center;
  }
  
  @media (max-width: 1024px) {

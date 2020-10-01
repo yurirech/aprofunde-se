@@ -73,6 +73,10 @@ export const RowStyled = styled(Row)`
   
   @media ${device.mobileL} {
     .about-nether {
+    
+    h1 {
+      margin-top: 4rem;
+    }
       img {
         top: 20%;
         right: -11%;

@@ -62,7 +62,7 @@ export const toursCard = [
   ];
 
 export const dayTours = {
-  title: 'Passeios',
+  title: 'Pacotes',
   mainText: 'Nos comprometemos em providenciar todas as informações e ferramentas necessárias para a viagem perfeita. ' +
     'Veja abaixo as ofertas de serviços, personalizadas de acordo com as necessidades de cada cliente. Fique à vontade ' +
     'para entrar em contato diretamente se tiver perguntas.',
