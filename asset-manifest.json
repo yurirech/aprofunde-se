@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/aprofunde-se/static/css/main.98e799b6.chunk.css",
-    "main.js": "/aprofunde-se/static/js/main.047f20e6.chunk.js",
-    "main.js.map": "/aprofunde-se/static/js/main.047f20e6.chunk.js.map",
+    "main.js": "/aprofunde-se/static/js/main.01aa48fe.chunk.js",
+    "main.js.map": "/aprofunde-se/static/js/main.01aa48fe.chunk.js.map",
     "runtime-main.js": "/aprofunde-se/static/js/runtime-main.9b6942c3.js",
     "runtime-main.js.map": "/aprofunde-se/static/js/runtime-main.9b6942c3.js.map",
     "static/css/2.66351642.chunk.css": "/aprofunde-se/static/css/2.66351642.chunk.css",
     "static/js/2.aef44893.chunk.js": "/aprofunde-se/static/js/2.aef44893.chunk.js",
     "static/js/2.aef44893.chunk.js.map": "/aprofunde-se/static/js/2.aef44893.chunk.js.map",
     "index.html": "/aprofunde-se/index.html",
-    "precache-manifest.a9f2d5ec24ec260a5d4215928c045846.js": "/aprofunde-se/precache-manifest.a9f2d5ec24ec260a5d4215928c045846.js",
+    "precache-manifest.acf15c427dbf51998d499ca91fa8470b.js": "/aprofunde-se/precache-manifest.acf15c427dbf51998d499ca91fa8470b.js",
     "service-worker.js": "/aprofunde-se/service-worker.js",
     "static/css/2.66351642.chunk.css.map": "/aprofunde-se/static/css/2.66351642.chunk.css.map",
     "static/css/main.98e799b6.chunk.css.map": "/aprofunde-se/static/css/main.98e799b6.chunk.css.map",
@@ -105,6 +105,6 @@
     "static/css/2.66351642.chunk.css",
     "static/js/2.aef44893.chunk.js",
     "static/css/main.98e799b6.chunk.css",
-    "static/js/main.047f20e6.chunk.js"
+    "static/js/main.01aa48fe.chunk.js"
   ]
 }
