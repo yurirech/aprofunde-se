@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f75aed10fa61a198294fd256658f156d",
+    "revision": "6a07eb7d4389610ca3321663e86d1c7a",
     "url": "/aprofunde-se/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aprofunde-se/static/css/2.66351642.chunk.css"
   },
   {
-    "revision": "c04a2ce26bc923e37b96",
+    "revision": "317d1fa256f1d2aeefeb",
     "url": "/aprofunde-se/static/css/main.98e799b6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aprofunde-se/static/js/2.aef44893.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c04a2ce26bc923e37b96",
-    "url": "/aprofunde-se/static/js/main.01aa48fe.chunk.js"
+    "revision": "317d1fa256f1d2aeefeb",
+    "url": "/aprofunde-se/static/js/main.d89b84a3.chunk.js"
   },
   {
     "revision": "52c374fbcdbe1843b235",
