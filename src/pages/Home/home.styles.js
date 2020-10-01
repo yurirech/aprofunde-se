@@ -59,7 +59,7 @@ export const RowStyled = styled(Row)`
   }
 
   .inspire-se {
-    padding: 5rem 4rem 5rem;
+    padding: 5rem 0;
   }
   
   @media ${device.tablet} {
